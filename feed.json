@@ -1,11 +1,38 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Mark Stoneman 🌐",
+	"title": "Mark Stoneman",
 	"icon": "https://micro.blog/markstoneman/avatar.jpg",
 	"home_page_url": "https://markstoneman.com/",
 	"feed_url": "https://markstoneman.com/feed.json",
 	"items": [
 		
+			{
+				"id": "http://mrstoneman.micro.blog/2024/08/11/he-turns-being.html",
+				
+				"content_html": "<blockquote>\n<p>He turns being artless into an art form; he is a Picasso of pettiness; a Shakespeare of shit. His faults are fractal: even his flaws have flaws, and so on ad infinitum. God knows there have always been stupid people in the world, and plenty of nasty people too. But rarely has stupidity been so nasty, or nastiness so stupid.</p>\n<p><!-- raw HTML omitted --><a href=\"https://londondaily.com/british-writer-pens-the-best-description-of-trump-i-ve-read\">Nate White in response to a query about &ldquo;why&hellip;some British people don&rsquo;t like Trump,&rdquo; <em>London Daily</em>, August 11, 2024.</a><!-- raw HTML omitted --></p>\n</blockquote>\n",
+				"content_text": "> He turns being artless into an art form; he is a Picasso of pettiness; a Shakespeare of shit. His faults are fractal: even his flaws have flaws, and so on ad infinitum. God knows there have always been stupid people in the world, and plenty of nasty people too. But rarely has stupidity been so nasty, or nastiness so stupid. \n> \n> <cite>[Nate White in response to a query about \"why...some British people don't like Trump,\" _London Daily_, August 11, 2024.](https://londondaily.com/british-writer-pens-the-best-description-of-trump-i-ve-read)</cite>\n",
+				"date_published": "2024-08-11T14:16:10-04:00",
+				"url": "https://markstoneman.com/2024/08/11/he-turns-being.html",
+				"tags": ["Commonplacing","Political"]
+			},
+			{
+				"id": "http://mrstoneman.micro.blog/2024/08/09/fairness-and-dignity.html",
+				"title": "Fairness and Dignity",
+				"content_html": "<p>Lawrence O’Donnell had some tough words for his media colleagues yesterday on MSNBC. Journalists pretended to ask questions at a supposed news conference, broadcast live, while Trump pretended he was answering them. Throughout the charade, they gave him and his torrent of semi-coherent lies a pass, like they always do, most fatefully in 2016. Then O&rsquo;Donnell showed a longer segment by the one candidate who actually had something to say yesterday, but whose talk had not been deemed worthy of a live broadcast on any network: Kamala Harris.</p>\n<p>The vice president spoke to the United Auto Workers in Detroit. Her message was not a simple repeat of her Philadelphia speech the day before. In this smaller, more focused setting, she talked about the importance of collective bargaining for achieving a fair result. What&rsquo;s more, she tied the term &ldquo;collective&rdquo; as used in an organized labour context to the community theme that figured so prominently in her Philadelphia speech. She linked the hard work of collective bargaining and of organizing politically to love of country, and she spoke of the dignity of labor.</p>\n<p>Fairness and dignity. That&rsquo;s a message Americans need to hear about. What they got, instead, was an impotent rehash of the same old resentments, lies, and insecurities. I&rsquo;m not much for television news and opinion, but this 25-minute video (<a href=\"https://www.youtube.com/watch?v=ZD-oTJ49nls\">available on YouTube</a>) is important. Broadcast and print media, take note. Your country deserves better.</p>\n",
+				"content_text": "\nLawrence O’Donnell had some tough words for his media colleagues yesterday on MSNBC. Journalists pretended to ask questions at a supposed news conference, broadcast live, while Trump pretended he was answering them. Throughout the charade, they gave him and his torrent of semi-coherent lies a pass, like they always do, most fatefully in 2016. Then O'Donnell showed a longer segment by the one candidate who actually had something to say yesterday, but whose talk had not been deemed worthy of a live broadcast on any network: Kamala Harris. \n\nThe vice president spoke to the United Auto Workers in Detroit. Her message was not a simple repeat of her Philadelphia speech the day before. In this smaller, more focused setting, she talked about the importance of collective bargaining for achieving a fair result. What's more, she tied the term \"collective\" as used in an organized labour context to the community theme that figured so prominently in her Philadelphia speech. She linked the hard work of collective bargaining and of organizing politically to love of country, and she spoke of the dignity of labor. \n\nFairness and dignity. That's a message Americans need to hear about. What they got, instead, was an impotent rehash of the same old resentments, lies, and insecurities. I'm not much for television news and opinion, but this 25-minute video ([available on YouTube](https://www.youtube.com/watch?v=ZD-oTJ49nls)) is important. Broadcast and print media, take note. Your country deserves better. \n",
+				"date_published": "2024-08-09T13:46:11-04:00",
+				"url": "https://markstoneman.com/2024/08/09/fairness-and-dignity.html",
+				"tags": ["Political","Broadcast \u0026 Print Media","Labor"]
+			},
+			{
+				"id": "http://mrstoneman.micro.blog/2024/08/06/negotiating-ones-murder.html",
+				"title": "Negotiating One's Own Murder (Satire)",
+				"content_html": "<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->\nHere is some satire from Ukraine on a certain 🍊 candidate&rsquo;s nonsense: &ldquo;Shot of Peace&rdquo; (cartoon in Ukrainian with English subtitles by Фріоніс), <a href=\"https://youtu.be/r5QbIbGsmf4?si=mBjeFllYFNgP3Z3s\">https://youtu.be/…</a> #СлаваУкраїні #НахуйПутіна #НахуйТрампа</p>\n",
+				"content_text": "<a href=\"https://youtu.be/r5QbIbGsmf4?si=mBjeFllYFNgP3Z3s\"><img src=\"uploads/2024/e74990c686.jpg\" alt=\"Thumbnail shot from Mastodon of video mentioned in this post. A cowering, smallish Trump is on the right, and a secret service agent wearing sunglasses and with weapon drawn fills two thirds of the frame, center and left.\" width=\"100%\"></a>\nHere is some satire from Ukraine on a certain 🍊 candidate's nonsense: \"Shot of Peace\" (cartoon in Ukrainian with English subtitles by Фріоніс), [https://youtu.be/…](https://youtu.be/r5QbIbGsmf4?si=mBjeFllYFNgP3Z3s) #СлаваУкраїні #НахуйПутіна #НахуйТрампа\n",
+				"date_published": "2024-08-06T20:02:09-04:00",
+				"url": "https://markstoneman.com/2024/08/06/negotiating-ones-murder.html",
+				"tags": ["War \u0026 Society","Videos","Political","Ukraine","Russia","Satire"]
+			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/08/05/has-password-been.html",
 				
@@ -139,7 +166,7 @@
 				"content_text": "[\"Here Come the Russians, Again\"](https://www.motherjones.com/politics/2024/05/here-come-the-russians-again/) by David Corn, _Mother Jones_, May 24, 2024.\n\n> The media has an important role to play. The more attention it can cast upon the Russian efforts, the greater the odds that a slice of the electorate will comprehend the threat and perhaps be inoculated from being unduly influenced by these operations.\n\nOf course, the media is largely failing us on this score. \n",
 				"date_published": "2024-07-17T00:50:58-04:00",
 				"url": "https://markstoneman.com/2024/07/17/here-come-the.html",
-				"tags": ["Political","Russia","Microposts","Reading","Disinformation"]
+				"tags": ["Political","Russia","Microposts","Reading","Disinformation","Broadcast \u0026 Print Media"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/07/16/trumps-secretary-of.html",
@@ -1336,7 +1363,7 @@
 				"content_text": "<div class=\"flex-container\">\n<div class=\"flex-two-column\">\n\t\t<img src=\"uploads/2024/emigration1833.jpg\" class=\"cols\" alt=\"see caption\" width=\"100%\">\n</div>\n<div class=\"flex-two-column\">\n<p>Here is a 15-panel satire by C.J. Grant, perhaps meant for working-class Britons. In it, British emigrants could get away from taxes, but expect frightening exotic animals, cannibals, isolation, poverty, and homesickness. Read the <a href=\"https://www.loc.gov/pictures/item/96509506/\">panels in high definition</a> at the Library of Congress, and check out Matthew Crowther's blog post about <a href=\"http://john-adcock.blogspot.com/2011/02/c-j-grant-political-drama.html\">the artist</a> at <em>Yesterday's Papers</em> for some publishing context.</p>\n</div>\n</div>\n",
 				"date_published": "2020-02-11T22:11:14-04:00",
 				"url": "https://markstoneman.com/2020/02/11/emigrationdetailing-the-progress.html",
-				"tags": ["History of Migration","Historical Images"]
+				"tags": ["History of Migration","Historical Images","Satire"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2020/02/11/saco-river.html",
@@ -1471,7 +1498,7 @@
 				"content_text": "<div class=\"flex-container\">\n\t<div class=\"flex-two-column\">\n\t\t<a href=\"https://markstoneman.com/uploads/2024/f763672052.jpg\"><img src=\"uploads/2024/f763672052.jpg\" alt=\"Satirical magazine cover depicting Mussolini as Caesar on a ship, his arm raised in a fascist salute, behind him are two uniformed fascists doing the same. The resemblance to US president DJT is uncanny.\"/></a>\n\t</div>\n\t<div class=\"flex-two-column text-col\">\n<p>The caption reads, \"I've decided to accept God, but he has to become Italian.\" The German here for \"accept,\" <em>\"gelten lassen,\"</em> could also be translated as \"allow.\" </p>\n<p>Source: <em>Simplicissimus</em>, May 3, 1926, <a href=\"http://www.simplicissimus.info\">http://www.simplicissimus.info</a>.</p>\n\t</div>\n</div>\n",
 				"date_published": "2017-11-11T18:05:34-04:00",
 				"url": "https://markstoneman.com/2017/11/11/emperor-mussolini.html",
-				"tags": ["Past \u0026 Present","Historical Images"]
+				"tags": ["Past \u0026 Present","Historical Images","Satire"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2017/10/13/noooo.html",
@@ -1597,7 +1624,7 @@
 				"content_text": "Blogged on <em>History of Knowledge</em> in honor of May Day: <a href=\"https://historyofknowledge.net/2017/05/01/sources-child-labor-in-the-united-states/\">\"Sources: Child Labor in the United States\"</a>\n",
 				"date_published": "2017-05-02T00:03:34-04:00",
 				"url": "https://markstoneman.com/2017/05/02/child-labor-in.html",
-				"tags": ["History of Knowledge"]
+				"tags": ["History of Knowledge","Labor"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2017/03/09/blogging.html",
@@ -2367,7 +2394,7 @@
 				"content_text": "<a href=\"https://markstoneman.com/2011/04/10/consumption-history-again/6ff185cd-2e5d-43f9-8fdf-6f5605d240d9/\"><img src=\"uploads/2024/72332b5c6d.jpg\" alt=\"Black and white photo of a strip mall in Washington, DC,  1970s or early 1980s, judging by the cars on the road.\"/></a>\n\n<p class=\"captions\">Park & Shop Shopping Center, Connecticut Ave. NW, Washington, DC, via <a href=\"http://www.loc.gov/pictures/item/dc0605.photos.029394p/\">Library of Congress</a>.</p>\n\nYesterday I asked how I could integrate the consumption history <a href=\"/2011/04/09/editing-and-consumption-history/\">I'm learning</a> into my teaching, and I pointed to a couple examples where it's already there. But I missed a glaringly obvious one: the Great War.\n\n<!--more-->\n\nConsumption is a vital part of the story in Gerald Feldman's classic <em>Army, Industry, and Labor in Germany, 1914—1918</em> (1966), insofar as the purchasing power of labor was inextricably linked to Germany's social and political stability and, therefore, the country's ability to produce sufficient armaments to continue fighting. The point is more accessible in Roger Chickering, <em>Imperial Germany and the Great War, 1914—1918</em> (1998 and 2004), which I have used in a course on the Great War and will use again next fall in one on modern Germany. There is also Belinda Davis, <em>Home Fires Burning: Food, Politics, and Everyday Life in World War I Berlin</em> (2000), which I will be using in a graduate course on war and society this summer.\n\nI also usually bring up a much earlier aspect of consumption history when I address the Enlightenment and the public sphere: coffee houses. To make this point, there is a delightful reading from before the Enlightenment on the Internet Modern History Sourcebook: \"<a href=\"http://www.fordham.edu/halsall/mod/1670coffee.html\">The First English Coffee-Houses, c. 1670—1675</a>.\"\n\nOf course, none of this is informed by a specific historiography of consumption history, but it does point out how this topic is already in my teaching. But there's a difference between including a topic and addressing it systematically. To think about war and society in Europe, I can at least draw on the periodizing nomenclature of \"cabinet war,\" \"people's war,\" and \"total war\" to help describe the level of societal involvement in interstate conflicts over the past few centuries (Stig Förster et al.). If such language and periodization exists for understanding consumption history, I have not yet learned it.\n\nPerhaps the main point is to recognize modern consumer societies as having a history in the first place, instead of taking them as a direct reflection of human nature and, hence, rendering them ahistorical, as too often happens in simplistic political rhetoric that opposes capitalism and communism—rhetoric that invariably finds its way into student spoken and written comments. I sometimes try to do this with economic thought in the early modern period, but historicizing capitalism should be a central historiographical problem for the modern era, too.\n",
 				"date_published": "2011-04-10T08:15:49-04:00",
 				"url": "https://markstoneman.com/2011/04/10/consumption-history-again.html",
-				"tags": ["War \u0026 Society","History of Consumption","Historical Images","Historical Thinking","World War I","Homefront"]
+				"tags": ["War \u0026 Society","History of Consumption","Historical Images","Historical Thinking","World War I","Homefront","Labor"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2011/04/09/editing-and-consumption.html",
