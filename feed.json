@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://mrstoneman.micro.blog/2025/08/09/i-have-enjoyed-several-family.html",
+				
+				"content_html": "<p>I have enjoyed several family visits to or from Cape Cod and Washington, DC, this summer. There will be another trip soon, when I take a kid to begin his first semester at college.</p>\n",
+				"content_text": "I have enjoyed several family visits to or from Cape Cod and Washington, DC, this summer. There will be another trip soon, when I take a kid to begin his first semester at college.\n",
+				"date_published": "2025-08-09T11:57:07-04:00",
+				"url": "https://markstoneman.com/2025/08/09/i-have-enjoyed-several-family.html",
+				"tags": ["Autobiographical"]
+			},
+			{
+				"id": "http://mrstoneman.micro.blog/2025/08/09/putin-needs-trump-trump-needs.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n<blockquote>\n<p>Putin needs Trump. Trump needs Putin. And I need a beer and a shot of Korn…</p>\n<p>&ndash; Cartoon by Beck in <a href=\"https://taz.de/\">taz.de</a>, August 9, 2025</p>\n</blockquote>\n<p><!-- raw HTML omitted -->Also available on the <a href=\"https://mastodon.social/@tazgetroete/114997301305977444\">@tazgetroete</a> Mastodon timeline with the text &ldquo;Prost!&rdquo; (Cheers!)<!-- raw HTML omitted --></p>\n",
+				"content_text": "<img src=\"uploads/2025/putin-trump-korn.jpg\" alt=\"Cartoon sketch with text in German that I’ve translated in the body of this post.\" title=\"putin-trump-korn.jpg\" width=\"100%\" />\n\n> Putin needs Trump. Trump needs Putin. And I need a beer and a shot of Korn…  \n>  \n> -- Cartoon by Beck in [taz.de](https://taz.de/), August 9, 2025  \n\n<small>Also available on the [@tazgetroete](https://mastodon.social/@tazgetroete/114997301305977444) Mastodon timeline with the text \"Prost!\" (Cheers!)</small>\n",
+				"date_published": "2025-08-09T11:08:12-04:00",
+				"url": "https://markstoneman.com/2025/08/09/putin-needs-trump-trump-needs.html",
+				"tags": ["Politics \u0026 Rule","International Relations","Cartoons"]
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2025/08/04/114623.html",
 				"title": "New Normal",
 				"content_html": "<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<p>My eyes don&rsquo;t like particulate matter from wildfire smoke, but my asthma is happy to remind me that it&rsquo;s still a thing. I used to associate such days with urban life, but no more.</p>\n<p>Meanwhile, the U.S. federal government is focused on climate change denial and a trade war with Canada. Burn, baby, burn.</p>\n",
@@ -135,7 +153,7 @@
 				"id": "http://mrstoneman.micro.blog/2025/07/01/july-is-disability-pride-month.html",
 				"title": "July is Disability Pride Month",
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<div class=\"flex-container\">\n<div class=\"flex-two-column\">\n<img <img src=\"uploads/2025/5c3353fc7b.jpg\" class=\"cols\" width=\"100%\" alt=\"Disability pride colors of red, yellow (or gold), white, blue, and green. Follow a link for a description of the design and its meaning.\">\n</div>\n<div class=\"flex-two-column text-col\">\n<p>\nTo learn more about this month, see Lola Méndez, \"<a href=\"https://www.goodhousekeeping.com/life/a43876914/disability-pride-flag/\">What Do the Colors on the Disability Pride Flag Mean?</a>,\" <em>Good Housekeeping</em>, February 17, 2025. \n</p>\n</div>\n</div>\n",
+				"content_text": "<div class=\"flex-container\">\n<div class=\"flex-two-column\">\n<img <img src=\"https://eu.uploads.micro.blog/166262/2025/5c3353fc7b.jpg\" class=\"cols\" width=\"100%\" alt=\"Disability pride colors of red, yellow (or gold), white, blue, and green. Follow a link for a description of the design and its meaning.\">\n</div>\n<div class=\"flex-two-column text-col\">\n<p>\nTo learn more about this month, see Lola Méndez, \"<a href=\"https://www.goodhousekeeping.com/life/a43876914/disability-pride-flag/\">What Do the Colors on the Disability Pride Flag Mean?</a>,\" <em>Good Housekeeping</em>, February 17, 2025. \n</p>\n</div>\n</div>\n",
 				"date_published": "2025-07-01T17:59:22-04:00",
 				"url": "https://markstoneman.com/2025/07/01/july-is-disability-pride-month.html"
 			},
