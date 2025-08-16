@@ -25,6 +25,133 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://markstoneman.com/2025/08/15/editorial-that-meeting-was-sickening.html" class="u-url"><time class="dt-published" datetime="2025-08-15 23:23:32 -0400">Aug 15, 2025</time></a>
+
+		<div class="e-content">
+			 <p>The Kyiv Independent&rsquo;s take on the <a href="https://kyivindependent.com/editorial-that-was-sickening-was-it-necessary/">&ldquo;sickening,&rdquo; &ldquo;shameful,&rdquo; and &ldquo;useless&rdquo;</a> meeting in Alaska is spot on.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://markstoneman.com/2025/08/15/when-putin-says-that-all.html" class="u-url"><time class="dt-published" datetime="2025-08-15 21:29:37 -0400">Aug 15, 2025</time></a>
+
+		<div class="e-content">
+			 <p>When Putin <a href="https://kyivindependent.com/we-didnt-get-there-trump-putin-fail-to-reach-a-deal-to-end-war-in-ukraine/" title="quoted by The Kyiv Independent">says</a> that &ldquo;all root causes of the crisis … must be eliminated,&rdquo; he is referring to his sorry-ass excuses for ordering the illegal invasion of Ukraine.</p>
+<p>His words are nothing more than empty rhetoric to justify seizing Ukrainian land, kidnapping Ukrainian children, raping and murdering Ukrainian civilians, torturing and starving Ukrainian prisoners of war, seeking the eradication of Ukraine&rsquo;s language and culture, and more.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://markstoneman.com/2025/08/15/david-ohara-blogged-his-favorite.html" class="u-url"><time class="dt-published" datetime="2025-08-15 13:38:22 -0400">Aug 15, 2025</time></a>
+
+		<div class="e-content">
+			 <p>David O&rsquo;Hara blogged his <a href="https://davoh.org/2025/08/15/favorite-bookstores.html">favorite bookstores</a>. Fantastic idea as I still tend to take them for granted.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://markstoneman.com/2025/08/14/shared-notes-additional-tiny-theme.html">Shared Notes: More Tiny Theme Tweaks</a></h1>
+		
+
+		<a href="https://markstoneman.com/2025/08/14/shared-notes-additional-tiny-theme.html" class="u-url"><time class="dt-published" datetime="2025-08-14 19:32:18 -0400">Aug 14, 2025</time></a>
+
+		<div class="e-content">
+			 <p>Issues addressed here:</p>
+<ol>
+<li>Modification of post categories on individual blog posts</li>
+<li>Modification of avatar appearance to include a background header image</li>
+<li>Host fonts locally (to do)</li>
+</ol>
+<h3 id="post-categories">Post Categories</h3>
+<p>I wanted to sort the categories after each post. Since I don&rsquo;t know the Go programming language, I turned to the LLMs on offer on DuckDuckGo.</p>
+<p>ChatGPT struggled with the problem and took me around in circles. Then I tried o4-mini, and it solved my problem on the first go.</p>
+<p>Each individual post on this blog is produced with the <code>layouts/posts/single.html</code> <a href="https://github.com/MattSLangford/Tiny-Theme-for-Micro.blog/blob/main/layouts/post/single.html">template</a>. It is possible to modify the presentation of the categories by adding a <code>layouts/partials/microhook-categories.html</code> file. But what code from the <code>single.html</code> template to include and how to sort the categories? That is the Go programming language problem that o4-mini solved for me.</p>
+<p>Then I added a # before each category term inside the link and <code>&amp;#8196;</code> (for an em space) after each term outside the link.</p>
+<p>The resulting code for the micro hook:</p>
+<pre tabindex="0"><code>{{ with .Params.categories }}
+  {{ $cats := sort . }}
+  &lt;ul class=&quot;post-tags&quot;&gt;
+    {{ range $cats }}
+      {{ $term := $.Page.Site.GetPage (printf &quot;/categories/%s&quot; (urlize .)) }}
+      &lt;li&gt;
+        &lt;a href=&quot;{{ if $term }}{{ $term.RelPermalink }}{{ else }}{{ &quot;/&quot; | relURL }}{{ end }}&quot;&gt;
+          #{{ title . }} 
+        &lt;/a&gt;
+      &lt;/li&gt;
+    {{ end }}
+  &lt;/ul&gt;
+{{ end }}
+</code></pre><h3 id="avatar-and-header-image">Avatar and Header Image</h3>
+<p>I added a header image behind the avatar that Micro.blog themes usually display. To do this, I used Tiny Theme&rsquo;s option for another micro hook: <code>layouts/partials/microhook-profile-photo.html</code>.</p>
+<p>Coming from WordPress, I never had to solve such problems from scratch, so I got a little help from the above LLMs. The microhook html:</p>
+<pre tabindex="0"><code>&lt;a href=&quot;/&quot;&gt;
+	&lt;div class=&quot;avatar-container&quot;&gt;
+		&lt;img 
+			src=&quot;https://markstoneman.com/uploads/2025/cant-happen-here-avatar.jpg&quot; 
+			alt=&quot;Mark Stoneman's Avatar&quot; 
+			class=&quot;profile_photo&quot; 
+			width=&quot;120&quot; 
+			height=&quot;120&quot;&gt;
+	&lt;/div&gt;
+&lt;/a&gt;
+</code></pre><p>The accompanying CSS, which maintains the theme&rsquo;s responsiveness is as follows:</p>
+<pre tabindex="0"><code>.avatar-container {
+    position: relative;
+    width: 100%;
+    max-width: 768px;
+    height: 172px;
+    background-image: url('/uploads/2025/book-are-weapons-header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.profile_photo {
+	border: 3px solid #555;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .avatar-container {
+        height: 140px;
+    }
+}
+</code></pre><p>I also cleaned up my custom style sheet because all the little tweaks were making it harder to read.</p>
+<h3 id="fonts">Fonts</h3>
+<p>I still want to tweak the site&rsquo;s fonts to make everything more readable. Thing is, though, not all computers have the same fonts preloaded. Many sites use style sheets that call up specific Google Fonts, which are great. Unfortunately, this practice gives Google some sort of tracking opportunity, which in turn means I would have to add a GDPR notice for European visitors.</p>
+<p>What to do? Some helpful people have pointed out that <a href="https://help.micro.blog/t/host-fonts-locally/3953">hosting fonts locally</a> on Micro.blog is quite easy. I can use Google Fonts this way legally without the tracking.</p>
+<p>Once I do this, I will need to modify the fonts section of this site&rsquo;s <a href="https://markstoneman.com/privacy-notice/">privacy notice</a>.</p>
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://markstoneman.com/2025/08/14/reliable-dc-news-in-the.html">Reliable DC News in the Face of Federal Gaslighting</a></h1>
+		
+
+		<a href="https://markstoneman.com/2025/08/14/reliable-dc-news-in-the.html" class="u-url"><time class="dt-published" datetime="2025-08-14 16:01:49 -0400">Aug 14, 2025</time></a>
+
+		<div class="e-content">
+			 <p>If you want to stay informed about the federalization of DC, 51st.news is a great source. Here&rsquo;s the latest from their local perspective: <a href="https://51st.news/trump-dc-mpd-takeover-what-to-know/">&ldquo;Trump’s D.C. ‘takeover’: What we know so far — and where we’re headed.&quot;</a>.</p>
+<p>Keep in mind that incendiary right-wing rhetoric about cities is the same everywhere, but DC is in a peculiar position. A city of some 700,000 people, it still has <a href="/2024/11/03/dc-residents-still.html">no representation</a> in Congress. Worse, Congress can interfere with its home rule.</p>
+<p>I find it hard to forgive Democrats who never made DC statehood a priority. Maybe this administration&rsquo;s actions will help focus Americans' attention on what should be a national issue. DC Statehood is overdue!</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://markstoneman.com/2025/08/13/british-officer-how-bad-is.html" class="u-url"><time class="dt-published" datetime="2025-08-13 17:14:15 -0400">Aug 13, 2025</time></a>
 
 		<div class="e-content">
@@ -4118,7 +4245,7 @@
 		<a href="https://markstoneman.com/2025/02/11/sounds-like-artillery-fire-guess.html" class="u-url"><time class="dt-published" datetime="2025-02-11 10:47:54 -0400">Feb 11, 2025</time></a>
 
 		<div class="e-content">
-			 <p>Sounds like artillery fire. Guess I&rsquo;m close to Aberdeen Proving Ground. That, or things in DC are escalating.</p>
+			 <p>Sounds like artillery fire. Guess I&rsquo;m close to Aberdeen Proving Ground. That, or things in DC are escalating. 🙃</p>
 
 		</div>
 	  </div>
@@ -8539,13 +8666,16 @@ NO KNOUTS [OR] DUNGEONS.</p>
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://markstoneman.com/2024/10/05/i-see-history.html">&#39;History of Knowledge&#39; Migration</a></h1>
+		
 
 		<a href="https://markstoneman.com/2024/10/05/i-see-history.html" class="u-url"><time class="dt-published" datetime="2024-10-05 23:30:37 -0400">Oct 5, 2024</time></a>
 
 		<div class="e-content">
-			 <p>I see <em>History of Knowledge</em> has migrated from WordPress.com to Hypotheses.org. Given all the nonsense that Automattic has been putting its clients through, I am glad. It should have a nice long life on that platform.</p>
-<p><!-- raw HTML omitted -->The current domain, historyofknowledge.net, points or forwards there, although I don&rsquo;t know if it will over the long term.<!-- raw HTML omitted --> Fortunately, the new domain pops right up on a DuckDuckGo search for &ldquo;History of Knowledge blog&rdquo; – <a href="https://historyofknowledge.hypotheses.org">https://historyofknowledge.hypotheses.org</a>.</p>
+			 <p>I see <em>History of Knowledge</em> has migrated from WordPress.com to Hypotheses.org. Given all the nonsense that Automattic has been putting its clients through, I am glad. It should have a nice long life on that platform. With its new host, it loses some of its functionality, but them&rsquo;s the breaks.</p>
+<p>One peculiarity: the Hypotheses portal doesn&rsquo;t accept custom domains. Also, the GHI gave up the historyofknowledge.net domain. Fortunately, the new domain pops right up on a DuckDuckGo search for &ldquo;History of Knowledge blog&rdquo; – <a href="https://historyofknowledge.hypotheses.org">https://historyofknowledge.hypotheses.org</a>.</p>
 <p>I see the team has also enabled comments. Given what&rsquo;s happened to Twitter, this makes a lot of sense. Of course, I&rsquo;d love to see them actually leave Xitter for Mastodon, Bluesky, or even Threads.</p>
+<p><!-- raw HTML omitted -->Aug. 14, 2025: I updated some of the information regarding the blog&rsquo;s migration.<!-- raw HTML omitted --></p>
 
 		</div>
 	  </div>
@@ -14107,7 +14237,6 @@ But honor doesn’t fear power.</p>
 			 <p>A lot of people get angry or sad or both on 9/11. Of course, the loss of life in this country was horrible, but for me that date always brings up the manner in which Bush used Americans' sentiments to go to war against a country that had nothing to do with the attack, Iraq. And in this political season, it brings to mind how McCain was <a href="https://web.archive.org/web/20080912063240/http://www.npr.org/templates/rundowns/rundown.php?prgId=13&amp;prgDate=9-4-2008">ahead of the curve</a> in calling for that war.</p>
 <p>Call these sentiments mean-spirited, if you will. How dare I politick on this day of remembrance? Fair enough, but these sentiments have been with me for many years now. They are part of my 9/11, just as are the worries about friends in New York, the story of a colleague&rsquo;s husband who missed work that day and whose general was killed in the Pentagon office my colleague&rsquo;s husband usually also occupied, the tales told by people in my building streaming in from downtown reporting alleged bombs in cars around the city, the military helicopters and jets over the skies of DC and the absence of the usual noisy commercial airliners, a child sick at home and a wife working downtown, the activation of a friend in the DC National Guard for years of active duty in this city and Afghanistan, the quiet evening streets for weeks after the attack, the sudden departure of Arab students from my building because their parents back home feared for their safety, the creation of the Department of Homeland Security, the color-coded warnings, and the never-ending rhetoric and politics of fear.</p>
 <p>Or talk about hindsight being twenty-twenty. Thing is, Bush didn&rsquo;t need hindsight. All he and his advisors needed was a sense of how countries have reacted to attacks in the past. As a historian, I claim no special insights into the future, but I frequently have a fair idea of what we should be paying attention to in the present. I&rsquo;m good at asking questions, even if my answers aren&rsquo;t always right. Here&rsquo;s what I told my shaken students in Washington, DC <a href="https://markstoneman.com/2007/09/11/six-years-ago.html">seven years ago</a>. And still we don&rsquo;t teach war and society as a fundamental aspect of the human experience in required undergraduate history courses. What a shame.</p>
-
 		</div>
 	  </div>
 	
@@ -14540,7 +14669,6 @@ U S A</p>
 			 <p>We get most of our fruit and vegetables through a local cooperative called a CSA, which stands for Community Supported Agriculture. Unlike a typical buying cooperative though, a CSA also works to support the producers of food, often one farmer. It binds producers and consumers together, so that producers know they have a certain income, and consumers get more or less food, depending on how things are going.</p>
 <p>The one to which my wife and I belong is called Spiritual Food CSA. It supports biodynamic farming, which practices more stringent standards than regular organic farming, though I don’t know all the details. The word spiritual comes in, because the CSA is organized by a local yoga ashram, for whom healthy food, a healthy earth, healthy people, and a healthy spiritual life are inseparable. At least that’s what I think it means. I don’t get into the spiritual side of things, but I like taking yoga, and the people at the Shanti Yoga Ashram are just plain good folk. If only I had time for yoga right now. My commute from Northwest DC to Fairfax, VA and my teaching schedule has been keeping me away. Must change that.</p>
 <p>Anyway, we pay one price for half a year and then pick up a share of food every week. Apples from the fall harvest had been accumulating in my fridge, as had oranges, which the CSA gets direct from Florida. Today, I decided to take action. I dug out the old juice maker and made orange juice and apple juice. I also made a large glass of apple sauce. Yum!</p>
-
 		</div>
 	  </div>
 	
@@ -14957,7 +15085,6 @@ U S A</p>
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-
 		</div>
 	  </div>
 	
