@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://mrstoneman.micro.blog/2025/08/16/news-item-sam-altman-says.html",
+				
+				"content_html": "<blockquote>\n<p>News item: Sam Altman says ChaptGPT is on Track to Out-Talk Humanity.</p>\n<p>Biologist on <a href=\"https://bsky.app/profile/carlbergstrom.com/post/3lwjfmtsvos2g\" title=\"@carlbergstrom.com\">Bluesky</a>: I’m old enough to remember when it was on pace to out-think humanity.</p>\n</blockquote>\n",
+				"content_text": "> News item: Sam Altman says ChaptGPT is on Track to Out-Talk Humanity.  \n>  \n> Biologist on [Bluesky](https://bsky.app/profile/carlbergstrom.com/post/3lwjfmtsvos2g \"@carlbergstrom.com\"): I’m old enough to remember when it was on pace to out-think humanity.\n",
+				"date_published": "2025-08-16T09:00:38-04:00",
+				"url": "https://markstoneman.com/2025/08/16/news-item-sam-altman-says.html",
+				"tags": ["LLMs"]
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2025/08/15/editorial-that-meeting-was-sickening.html",
 				
 				"content_html": "<p>The Kyiv Independent&rsquo;s take on the <a href=\"https://kyivindependent.com/editorial-that-was-sickening-was-it-necessary/\">&ldquo;sickening,&rdquo; &ldquo;shameful,&rdquo; and &ldquo;useless&rdquo;</a> meeting in Alaska is spot on.</p>\n",
@@ -310,7 +319,7 @@
 				"content_text": "If you understand Russian singing or can read German subtitles, have a listen to \"Mama, this is Ukraine\" ([youtu.be…](https://youtu.be/DFp0CbYvqKc)). It is a forbidden Russian soldier's song that pulls no punches. \n",
 				"date_published": "2025-06-26T17:13:57-04:00",
 				"url": "https://markstoneman.com/2025/06/26/if-you-understand-russian-singing.html",
-				"tags": ["WarAndSociety","Music","SoldiersAndCivilians"]
+				"tags": ["WarAndSociety","Music","SoldiersAndCivilians","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/06/22/the-question-that-has-dominated.html",
@@ -6961,7 +6970,7 @@
 				"content_text": "Here's a [Git repository](https://github.com/ai-robots-txt/ai.robots.txt) that gathers information about LLMs and offers some ways to deal with them. The only tool I know how to use is the [robot.txt](https://github.com/ai-robots-txt/ai.robots.txt/blob/main/robots.txt) file, which depends on voluntary cooperation. Speaking of, the repository contains an interesting [table of bot metrics](https://github.com/ai-robots-txt/ai.robots.txt/blob/main/table-of-bot-metrics.md), which is gathering information about the behavior of these things. For more, follow the link to the repository owner's blog post on [Cory Dransfeldt](https://coryd.dev/posts/2024/go-ahead-and-block-ai-web-crawlers/). \n",
 				"date_published": "2024-06-15T14:04:19-04:00",
 				"url": "https://markstoneman.com/2024/06/15/heres-a-git.html",
-				"tags": ["Blogging"]
+				"tags": ["Blogging","LLMs"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/06/14/tiny-theme-use.html",
@@ -6988,7 +6997,7 @@
 				"content_text": "The following post appeared in my Mastodon timeline this morning:\n\n> As of today, MacStories is disallowing all known AI crawlers, including ChatGPT and Applebot. If you want to read our site, you should use a web browser or RSS.  \n> ✌️  \n> <cite>[Federico Viticci, June 13, 2023](https://mastodon.macstories.net/@viticci/112609519691842609)</cite>\n\nThis pronouncement could, indeed, _is_ being made by countless others who run independent websites. Questions and anxiety abound, but we are nowhere close to fashioning responses adequate to the current moment. A visceral sense of violation, of wrong, is hitting many of us, who have long since had enough of Silicon Valley, Madison Avenue, and all the rest treating the traces we leave online as a natural resource to extract value from. Yesterday, the above-quoted observer on Mastodon [reported](https://mastodon.macstories.net/@viticci/112606317077490324#), \"I was grossed out when I read that Applebot scraped 'the open web' to train their AI model...\" \n<!--more-->\nMy most immediate question about his no-AIs-on-MacStories statement was _how?_ How you are working to keep [LLMs](https://en.wikipedia.org/wiki/Large_language_model) from feasting on your site? Take the robots.txt file: Are there settings that allow search engines to index pages while instructing those same search engines that their LLM activities are not welcome? How do you cover all known LLMs and related scraping activities in a meaningful way? Aren't these things and their user numbers multiplying and mutating in ways that exceed our individual tracking abilities, not to mention [the limits](https://www.searchenginecodex.com/proposing-a-new-meta-tag-for-llm-ai/ \"Dena Mason, 'Proposing A New Meta Tag For LLM/AI'\") of what a robots.txt file can hold? \n\nAlternatively, have you found a way to make copyright and licensing statements that these tools will understand and honor? I'm trying meta tags, but I think only the first of the two below is standard:\n\n`<meta name=\"author\" content=\"Mark R. Stoneman\">`  \n`<meta name=\"license\" content=\"CC BY-NC-SA 4.0\">`\n\nI'm also using semantic tags to ensure my copyright and CC BY-NC-SA 4.0 license statements in the footer are easily discoverable, but it all feels so provisional, so early-2000s-wild-west again. Only worse.\n\nMoreover, the LLM challenge reaches beyond simple illegal copying, downloading, storage, and retrieval. These LLMs are being trained on our words, trained, it almost seems, by lurking in our conversations and learning. Their value proposition is that they will build something new on the basis of what already exists. Although this feels purely extractive (like Elsevier's contribution to academic publishing), how can such direct links between our individual output and that of the LLMs be established?\n\nPerhaps we are mixing feelings and concepts in ways that do not necessarily apply to the current situation. To begin with, there is that sense of personal violation that many of us have long felt with respect to the trackers that Google and other marketing entities use without our permission. The European Union's [GDPR](https://gdpr.eu/what-is-gdpr/) is meant to address that problem for its citizenry, but the phenomenon of LLMs training on our language does not necessarily amount to an infringement of our data privacy---not if they are \"learning\" how to \"listen\" and \"talk\", but not retaining data on our personal habits for later use. At the same time, this LLM scraping feels even creepier and more extractive than what advertising trackers were doing in the pre--LLM era.\n \nI'm trying to imagine how we can regain a sense of control over the things we publish on the internet. We need practical web standards and tools that give us choices that the big LLM players are willing to respect. We need metaphors that reach beyond copyright and privacy, when necessary, but that don't lead us to anthropomorphize the LLMs and their \"learning\", thereby making the problem of so-called AI even worse. And we need jurisprudence that looks for ways to deal with our sense of violation that privacy laws and copyright alone do not seem adequate for. Meanwhile companies that use our linguistic existences to sell language-based LLM services back to us would do well to listen to their critics and adjust their activities accordingly. Wrapping up everything in pretty privacy policies and new feature hype will not be enough for them to thrive, although their deep pockets will help buy the legal frameworks they want, if we're not paying attention.\n",
 				"date_published": "2024-06-13T16:06:19-04:00",
 				"url": "https://markstoneman.com/2024/06/13/what-can-we.html",
-				"tags": ["Blogging","Copyright"]
+				"tags": ["Blogging","Copyright","LLMs"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/06/12/creepy-noises-outside.html",
