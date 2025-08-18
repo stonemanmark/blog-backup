@@ -7,6 +7,33 @@
 	"items": [
 		
 			{
+				"id": "http://mrstoneman.micro.blog/2025/08/18/i-missed-this-new-york.html",
+				
+				"content_html": "<p>I missed this New York Times report from July 16, 2025, by Shawn Hubler:</p>\n<blockquote>\n<p>The California National Guard had 72 soldiers whose enlistment was set to expire during the deployment. Of those 72, at least two have now left the Guard and 55 others have indicated that they will not extend their service, according to the office of Gov. Gavin Newsom, who is fighting Mr. Trump&rsquo;s deployment in court. That number, if troops act on it, would amount to a 21 percent retention rate, far lower than the Guard&rsquo;s typical 60 percent rate, officials said.</p>\n<p>&ldquo;Trump’s National Guard Troops Are Questioning Their Mission in L.A.&rdquo; <a href=\"https://archive.ph/9lLIt\">https://archive.ph/9lLIt</a></p>\n</blockquote>\n",
+				"content_text": "\nI missed this New York Times report from July 16, 2025, by Shawn Hubler:\n\n> The California National Guard had 72 soldiers whose enlistment was set to expire during the deployment. Of those 72, at least two have now left the Guard and 55 others have indicated that they will not extend their service, according to the office of Gov. Gavin Newsom, who is fighting Mr. Trump's deployment in court. That number, if troops act on it, would amount to a 21 percent retention rate, far lower than the Guard's typical 60 percent rate, officials said.  \n>   \n> \"Trump’s National Guard Troops Are Questioning Their Mission in L.A.\" [https://archive.ph/9lLIt](https://archive.ph/9lLIt)\n",
+				"date_published": "2025-08-18T12:00:54-04:00",
+				"url": "https://markstoneman.com/2025/08/18/i-missed-this-new-york.html",
+				"tags": ["Migration","CivilMilitaryRelations","Authoritarianism"]
+			},
+			{
+				"id": "http://mrstoneman.micro.blog/2025/08/17/this-long-bluesky-thread-offers.html",
+				
+				"content_html": "<p>Here is a long Bluesky thread by <a href=\"https://bsky.app/profile/prune602.bsky.social\">@Prune602.bsky.social</a> that offers interesting perspectives on the Alaska summit that might suggest far less cordiality from the U.S. side than seemed to others to be the case.\n<a href=\"https://bsky.app/profile/prune602.bsky.social/post/3lwk2v2igwk2u\">https://bsky.app/profile/prune602.bsky.social/post/3lwk2v2igwk2u</a> <code>#PutinsWar</code></p>\n",
+				"content_text": "Here is a long Bluesky thread by [@Prune602.bsky.social](https://bsky.app/profile/prune602.bsky.social) that offers interesting perspectives on the Alaska summit that might suggest far less cordiality from the U.S. side than seemed to others to be the case.\n[https://bsky.app/profile/prune602.bsky.social/post/3lwk2v2igwk2u](https://bsky.app/profile/prune602.bsky.social/post/3lwk2v2igwk2u) `#PutinsWar`\n",
+				"date_published": "2025-08-17T15:02:46-04:00",
+				"url": "https://markstoneman.com/2025/08/17/this-long-bluesky-thread-offers.html",
+				"tags": ["InternationalRelations","Russia"]
+			},
+			{
+				"id": "http://mrstoneman.micro.blog/2025/08/17/open-access-russia-against-ukraine.html",
+				
+				"content_html": "<p>Open Access: <em><a href=\"https://democratic-integrity.eu/russia-against-ukraine/\">Russia against Ukraine: Russian Political Mythology and the War on Ukrainian Identity</a></em> edited by Anton Shekhovtsov (Centre for Democratic Integrity, 2025).</p>\n",
+				"content_text": "\nOpen Access: _[Russia against Ukraine: Russian Political Mythology and the War on Ukrainian Identity](https://democratic-integrity.eu/russia-against-ukraine/)_ edited by Anton Shekhovtsov (Centre for Democratic Integrity, 2025).\n",
+				"date_published": "2025-08-17T11:50:07-04:00",
+				"url": "https://markstoneman.com/2025/08/17/open-access-russia-against-ukraine.html",
+				"tags": ["Books","Russia"]
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2025/08/16/news-item-sam-altman-says.html",
 				
 				"content_html": "<blockquote>\n<p>News item: Sam Altman says ChaptGPT is on Track to Out-Talk Humanity.</p>\n<p>Biologist on <a href=\"https://bsky.app/profile/carlbergstrom.com/post/3lwjfmtsvos2g\" title=\"@carlbergstrom.com\">Bluesky</a>: I’m old enough to remember when it was on pace to out-think humanity.</p>\n</blockquote>\n",
@@ -31,7 +58,7 @@
 				"content_text": "When Putin [says](https://kyivindependent.com/we-didnt-get-there-trump-putin-fail-to-reach-a-deal-to-end-war-in-ukraine/ \"quoted by The Kyiv Independent\") that \"all root causes of the crisis … must be eliminated,\" he is referring to his sorry-ass excuses for ordering the illegal invasion of Ukraine. \n\nHis words are nothing more than empty rhetoric to justify seizing Ukrainian land, kidnapping Ukrainian children, raping and murdering Ukrainian civilians, torturing and starving Ukrainian prisoners of war, seeking the eradication of Ukraine's language and culture, and more.\n",
 				"date_published": "2025-08-15T21:29:37-04:00",
 				"url": "https://markstoneman.com/2025/08/15/when-putin-says-that-all.html",
-				"tags": ["Atrocities","LanguageMatters"]
+				"tags": ["Atrocities","LanguageMatters","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/08/15/david-ohara-blogged-his-favorite.html",
@@ -45,8 +72,8 @@
 			{
 				"id": "http://mrstoneman.micro.blog/2025/08/14/shared-notes-additional-tiny-theme.html",
 				"title": "Shared Notes: More Tiny Theme Tweaks",
-				"content_html": "<p>Issues addressed here:</p>\n<ol>\n<li>Modification of post categories on individual blog posts</li>\n<li>Modification of avatar appearance to include a background header image</li>\n<li>Host fonts locally (to do)</li>\n</ol>\n<h3 id=\"post-categories\">Post Categories</h3>\n<p>I wanted to sort the categories after each post. Since I don&rsquo;t know the Go programming language, I turned to the LLMs on offer on DuckDuckGo.</p>\n<p>ChatGPT struggled with the problem and took me around in circles. Then I tried o4-mini, and it solved my problem on the first go.</p>\n<p>Each individual post on this blog is produced with the <code>layouts/posts/single.html</code> <a href=\"https://github.com/MattSLangford/Tiny-Theme-for-Micro.blog/blob/main/layouts/post/single.html\">template</a>. It is possible to modify the presentation of the categories by adding a <code>layouts/partials/microhook-categories.html</code> file. But what code from the <code>single.html</code> template to include and how to sort the categories? That is the Go programming language problem that o4-mini solved for me.</p>\n<p>Then I added a # before each category term inside the link and <code>&amp;#8196;</code> (for an em space) after each term outside the link.</p>\n<p>The resulting code for the micro hook:</p>\n<pre tabindex=\"0\"><code>{{ with .Params.categories }}\n  {{ $cats := sort . }}\n  &lt;ul class=&quot;post-tags&quot;&gt;\n    {{ range $cats }}\n      {{ $term := $.Page.Site.GetPage (printf &quot;/categories/%s&quot; (urlize .)) }}\n      &lt;li&gt;\n        &lt;a href=&quot;{{ if $term }}{{ $term.RelPermalink }}{{ else }}{{ &quot;/&quot; | relURL }}{{ end }}&quot;&gt;\n          #{{ title . }} \n        &lt;/a&gt;\n      &lt;/li&gt;\n    {{ end }}\n  &lt;/ul&gt;\n{{ end }}\n</code></pre><h3 id=\"avatar-and-header-image\">Avatar and Header Image</h3>\n<p>I added a header image behind the avatar that Micro.blog themes usually display. To do this, I used Tiny Theme&rsquo;s option for another micro hook: <code>layouts/partials/microhook-profile-photo.html</code>.</p>\n<p>Coming from WordPress, I never had to solve such problems from scratch, so I got a little help from the above LLMs. The microhook html:</p>\n<pre tabindex=\"0\"><code>&lt;a href=&quot;/&quot;&gt;\n\t&lt;div class=&quot;avatar-container&quot;&gt;\n\t\t&lt;img \n\t\t\tsrc=&quot;https://markstoneman.com/uploads/2025/cant-happen-here-avatar.jpg&quot; \n\t\t\talt=&quot;Mark Stoneman's Avatar&quot; \n\t\t\tclass=&quot;profile_photo&quot; \n\t\t\twidth=&quot;120&quot; \n\t\t\theight=&quot;120&quot;&gt;\n\t&lt;/div&gt;\n&lt;/a&gt;\n</code></pre><p>The accompanying CSS, which maintains the theme&rsquo;s responsiveness is as follows:</p>\n<pre tabindex=\"0\"><code>.avatar-container {\n    position: relative;\n    width: 100%;\n    max-width: 768px;\n    height: 172px;\n    background-image: url('/uploads/2025/book-are-weapons-header.jpg');\n    background-size: cover;\n    background-position: center;\n}\n\n.profile_photo {\n\tborder: 3px solid #555;\n    position: absolute;\n    bottom: -10px;\n    left: 10px;\n    z-index: 1;\n}\n\n@media (max-width: 768px) {\n    .avatar-container {\n        height: 140px;\n    }\n}\n</code></pre><p>I also cleaned up my custom style sheet because all the little tweaks were making it harder to read.</p>\n<h3 id=\"fonts\">Fonts</h3>\n<p>I still want to tweak the site&rsquo;s fonts to make everything more readable. Thing is, though, not all computers have the same fonts preloaded. Many sites use style sheets that call up specific Google Fonts, which are great. Unfortunately, this practice gives Google some sort of tracking opportunity, which in turn means I would have to add a GDPR notice for European visitors.</p>\n<p>What to do? Some helpful people have pointed out that <a href=\"https://help.micro.blog/t/host-fonts-locally/3953\">hosting fonts locally</a> on Micro.blog is quite easy. I can use Google Fonts this way legally without the tracking.</p>\n<p>Once I do this, I will need to modify the fonts section of this site&rsquo;s <a href=\"https://markstoneman.com/privacy-notice/\">privacy notice</a>.</p>",
-				"content_text": "Issues addressed here:\n\n1. Modification of post categories on individual blog posts\n2. Modification of avatar appearance to include a background header image\n3. Host fonts locally (to do)\n\n<!--more-->\n\n### Post Categories\n\nI wanted to sort the categories after each post. Since I don't know the Go programming language, I turned to the LLMs on offer on DuckDuckGo. \n\nChatGPT struggled with the problem and took me around in circles. Then I tried o4-mini, and it solved my problem on the first go. \n\nEach individual post on this blog is produced with the `layouts/posts/single.html` [template](https://github.com/MattSLangford/Tiny-Theme-for-Micro.blog/blob/main/layouts/post/single.html). It is possible to modify the presentation of the categories by adding a `layouts/partials/microhook-categories.html` file. But what code from the `single.html` template to include and how to sort the categories? That is the Go programming language problem that o4-mini solved for me.\n\nThen I added a # before each category term inside the link and `&#8196;` (for an em space) after each term outside the link. \n\nThe resulting code for the micro hook:\n\n```\n{{ with .Params.categories }}\n  {{ $cats := sort . }}\n  <ul class=\"post-tags\">\n    {{ range $cats }}\n      {{ $term := $.Page.Site.GetPage (printf \"/categories/%s\" (urlize .)) }}\n      <li>\n        <a href=\"{{ if $term }}{{ $term.RelPermalink }}{{ else }}{{ \"/\" | relURL }}{{ end }}\">\n          #{{ title . }} \n        </a>\n      </li>\n    {{ end }}\n  </ul>\n{{ end }}\n```\n\n### Avatar and Header Image\n\nI added a header image behind the avatar that Micro.blog themes usually display. To do this, I used Tiny Theme's option for another micro hook: `layouts/partials/microhook-profile-photo.html`.\n\nComing from WordPress, I never had to solve such problems from scratch, so I got a little help from the above LLMs. The microhook html:\n\n```\n<a href=\"/\">\n\t<div class=\"avatar-container\">\n\t\t<img \n\t\t\tsrc=\"https://markstoneman.com/uploads/2025/cant-happen-here-avatar.jpg\" \n\t\t\talt=\"Mark Stoneman's Avatar\" \n\t\t\tclass=\"profile_photo\" \n\t\t\twidth=\"120\" \n\t\t\theight=\"120\">\n\t</div>\n</a>\n```\n\nThe accompanying CSS, which maintains the theme's responsiveness is as follows:\n\n```\n.avatar-container {\n    position: relative;\n    width: 100%;\n    max-width: 768px;\n    height: 172px;\n    background-image: url('/uploads/2025/book-are-weapons-header.jpg');\n    background-size: cover;\n    background-position: center;\n}\n\n.profile_photo {\n\tborder: 3px solid #555;\n    position: absolute;\n    bottom: -10px;\n    left: 10px;\n    z-index: 1;\n}\n\n@media (max-width: 768px) {\n    .avatar-container {\n        height: 140px;\n    }\n}\n```\n\nI also cleaned up my custom style sheet because all the little tweaks were making it harder to read.\n\n\n### Fonts\n\nI still want to tweak the site's fonts to make everything more readable. Thing is, though, not all computers have the same fonts preloaded. Many sites use style sheets that call up specific Google Fonts, which are great. Unfortunately, this practice gives Google some sort of tracking opportunity, which in turn means I would have to add a GDPR notice for European visitors. \n\nWhat to do? Some helpful people have pointed out that [hosting fonts locally](https://help.micro.blog/t/host-fonts-locally/3953) on Micro.blog is quite easy. I can use Google Fonts this way legally without the tracking.\n\nOnce I do this, I will need to modify the fonts section of this site's [privacy notice](https://markstoneman.com/privacy-notice/).\n",
+				"content_html": "<p>Issues addressed here:</p>\n<ol>\n<li>Modification of post categories on individual blog posts</li>\n<li>Modification of avatar appearance to include a background header image</li>\n<li>Host fonts locally (to do)</li>\n</ol>\n<h3 id=\"post-categories\">Post Categories</h3>\n<p>I wanted to sort the categories after each post. Since I don&rsquo;t know the Go programming language, I turned to the LLMs on offer on DuckDuckGo.</p>\n<p>ChatGPT struggled with the problem and took me around in circles. Then I tried o4-mini, and it solved my problem on the first go.</p>\n<p>Each individual post on this blog is produced with the <code>layouts/posts/single.html</code> <a href=\"https://github.com/MattSLangford/Tiny-Theme-for-Micro.blog/blob/main/layouts/post/single.html\">template</a>. It is possible to modify the presentation of the categories by adding a <code>layouts/partials/microhook-categories.html</code> file. But what code from the <code>single.html</code> template to include and how to sort the categories? That is the Go programming language problem that o4-mini solved for me.</p>\n<p>Then I added a # before each category term inside the link and <code>&amp;#8196;</code> (for an em space) after each term outside the link.</p>\n<p>The resulting code for the micro hook:</p>\n<pre tabindex=\"0\"><code>{{ with .Params.categories }}\n  {{ $cats := sort . }}\n  &lt;ul class=&quot;post-tags&quot;&gt;\n    {{ range $cats }}\n      {{ $term := $.Page.Site.GetPage (printf &quot;/categories/%s&quot; (urlize .)) }}\n      &lt;li&gt;\n        &lt;a href=&quot;{{ if $term }}{{ $term.RelPermalink }}{{ else }}{{ &quot;/&quot; | relURL }}{{ end }}&quot;&gt;\n          #{{ title . }} \n        &lt;/a&gt;\n      &lt;/li&gt;\n    {{ end }}\n  &lt;/ul&gt;\n{{ end }}\n</code></pre><h3 id=\"avatar-and-header-image\">Avatar and Header Image</h3>\n<p>I added a header image behind the avatar that Micro.blog themes usually display. To do this, I used Tiny Theme&rsquo;s option for another micro hook: <code>layouts/partials/microhook-profile-photo.html</code>.</p>\n<p>Coming from WordPress, I never had to solve such problems from scratch, so I got a little help from the above LLMs. The microhook html:</p>\n<pre tabindex=\"0\"><code>&lt;a href=&quot;/&quot;&gt;\n\t&lt;div class=&quot;avatar-container&quot;&gt;\n\t\t&lt;img \n\t\t\tsrc=&quot;https://eu.uploads.micro.blog/166262/2025/cant-happen-here-avatar.jpg&quot; \n\t\t\talt=&quot;Mark Stoneman's Avatar&quot; \n\t\t\tclass=&quot;profile_photo&quot; \n\t\t\twidth=&quot;120&quot; \n\t\t\theight=&quot;120&quot;&gt;\n\t&lt;/div&gt;\n&lt;/a&gt;\n</code></pre><p>The accompanying CSS, which maintains the theme&rsquo;s responsiveness is as follows:</p>\n<pre tabindex=\"0\"><code>.avatar-container {\n    position: relative;\n    width: 100%;\n    max-width: 768px;\n    height: 172px;\n    background-image: url('/uploads/2025/book-are-weapons-header.jpg');\n    background-size: cover;\n    background-position: center;\n}\n\n.profile_photo {\n\tborder: 3px solid #555;\n    position: absolute;\n    bottom: -10px;\n    left: 10px;\n    z-index: 1;\n}\n\n@media (max-width: 768px) {\n    .avatar-container {\n        height: 140px;\n    }\n}\n</code></pre><p>I also cleaned up my custom style sheet because all the little tweaks were making it harder to read.</p>\n<h3 id=\"fonts\">Fonts</h3>\n<p>I still want to tweak the site&rsquo;s fonts to make everything more readable. Thing is, though, not all computers have the same fonts preloaded. Many sites use style sheets that call up specific Google Fonts, which are great. Unfortunately, this practice gives Google some sort of tracking opportunity, which in turn means I would have to add a GDPR notice for European visitors.</p>\n<p>What to do? Some helpful people have pointed out that <a href=\"https://help.micro.blog/t/host-fonts-locally/3953\">hosting fonts locally</a> on Micro.blog is quite easy. I can use Google Fonts this way legally without the tracking.</p>\n<p>Once I do this, I will need to modify the fonts section of this site&rsquo;s <a href=\"https://markstoneman.com/privacy-notice/\">privacy notice</a>.</p>",
+				"content_text": "Issues addressed here:\n\n1. Modification of post categories on individual blog posts\n2. Modification of avatar appearance to include a background header image\n3. Host fonts locally (to do)\n\n<!--more-->\n\n### Post Categories\n\nI wanted to sort the categories after each post. Since I don't know the Go programming language, I turned to the LLMs on offer on DuckDuckGo. \n\nChatGPT struggled with the problem and took me around in circles. Then I tried o4-mini, and it solved my problem on the first go. \n\nEach individual post on this blog is produced with the `layouts/posts/single.html` [template](https://github.com/MattSLangford/Tiny-Theme-for-Micro.blog/blob/main/layouts/post/single.html). It is possible to modify the presentation of the categories by adding a `layouts/partials/microhook-categories.html` file. But what code from the `single.html` template to include and how to sort the categories? That is the Go programming language problem that o4-mini solved for me.\n\nThen I added a # before each category term inside the link and `&#8196;` (for an em space) after each term outside the link. \n\nThe resulting code for the micro hook:\n\n```\n{{ with .Params.categories }}\n  {{ $cats := sort . }}\n  <ul class=\"post-tags\">\n    {{ range $cats }}\n      {{ $term := $.Page.Site.GetPage (printf \"/categories/%s\" (urlize .)) }}\n      <li>\n        <a href=\"{{ if $term }}{{ $term.RelPermalink }}{{ else }}{{ \"/\" | relURL }}{{ end }}\">\n          #{{ title . }} \n        </a>\n      </li>\n    {{ end }}\n  </ul>\n{{ end }}\n```\n\n### Avatar and Header Image\n\nI added a header image behind the avatar that Micro.blog themes usually display. To do this, I used Tiny Theme's option for another micro hook: `layouts/partials/microhook-profile-photo.html`.\n\nComing from WordPress, I never had to solve such problems from scratch, so I got a little help from the above LLMs. The microhook html:\n\n```\n<a href=\"/\">\n\t<div class=\"avatar-container\">\n\t\t<img \n\t\t\tsrc=\"https://eu.uploads.micro.blog/166262/2025/cant-happen-here-avatar.jpg\" \n\t\t\talt=\"Mark Stoneman's Avatar\" \n\t\t\tclass=\"profile_photo\" \n\t\t\twidth=\"120\" \n\t\t\theight=\"120\">\n\t</div>\n</a>\n```\n\nThe accompanying CSS, which maintains the theme's responsiveness is as follows:\n\n```\n.avatar-container {\n    position: relative;\n    width: 100%;\n    max-width: 768px;\n    height: 172px;\n    background-image: url('/uploads/2025/book-are-weapons-header.jpg');\n    background-size: cover;\n    background-position: center;\n}\n\n.profile_photo {\n\tborder: 3px solid #555;\n    position: absolute;\n    bottom: -10px;\n    left: 10px;\n    z-index: 1;\n}\n\n@media (max-width: 768px) {\n    .avatar-container {\n        height: 140px;\n    }\n}\n```\n\nI also cleaned up my custom style sheet because all the little tweaks were making it harder to read.\n\n\n### Fonts\n\nI still want to tweak the site's fonts to make everything more readable. Thing is, though, not all computers have the same fonts preloaded. Many sites use style sheets that call up specific Google Fonts, which are great. Unfortunately, this practice gives Google some sort of tracking opportunity, which in turn means I would have to add a GDPR notice for European visitors. \n\nWhat to do? Some helpful people have pointed out that [hosting fonts locally](https://help.micro.blog/t/host-fonts-locally/3953) on Micro.blog is quite easy. I can use Google Fonts this way legally without the tracking.\n\nOnce I do this, I will need to modify the fonts section of this site's [privacy notice](https://markstoneman.com/privacy-notice/).\n",
 				"date_published": "2025-08-14T19:32:18-04:00",
 				"url": "https://markstoneman.com/2025/08/14/shared-notes-additional-tiny-theme.html",
 				"tags": ["SharedNotes","MicroBlog","LLMs"]
@@ -103,7 +130,7 @@
 				"content_text": "Sergei Loznitsa's 2014 documentary [\"Maidan: Uprising in Ukraine\"](https://www.kanopy.com/en/conway/video/5459659) is available on Kanopy. By now, I know the story of Ukraine's Revolution of Dignity from other material I've read, watched, and listened to since February 2014, but this film was still a worthwhile experience for me. \n\nInstead of summarizing and analyzing events, it lets them unfold in front of a series of seemingly stationary cameras, with longer intervals from each perspective. This approach permitted me to experience the crowds and the individuals who comprised them viscerally. It made the power of contemporary Ukrainian patriotism palpable. \n\nThis force is not an ethnic solidarity but a civic one. It continues to frustrate Putin's murderous ambitions, while demanding democratic accountability from Ukrainians' political leadership. It is what attracts so many foreigners to its cause.\n",
 				"date_published": "2025-08-11T20:37:23-04:00",
 				"url": "https://markstoneman.com/2025/08/11/maidan-uprising-in-ukraine-documentary.html",
-				"tags": ["WarAndSociety","PatriotismAndNationalism","Movies","Revolution"]
+				"tags": ["WarAndSociety","Citizenship","PatriotismAndNationalism","Movies","Revolution","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/08/11/shared-notes-new-summary-option.html",
@@ -193,7 +220,7 @@
 				"content_text": "Finished reading Victoria Amelina, _[ Looking at Women Looking at War: A War and Justice Diary_](https://micro.blog/books/9781250367693)_ (St. Martin's Press, 2025). The author was killed before she could complete it, but it is still an important little book. It provides insights into Ukrainian cultural and psychological responses to the war, links between past and present generations of Ukrainian cultural producers, and efforts to record war crimes for future accountability. It offers ruminations not only on legal accountability but also on the relationship between memory, narrative, and justice. In this way, her thoughts are about Ukraine, but also about people more generally.\n\n",
 				"date_published": "2025-07-20T23:06:15-04:00",
 				"url": "https://markstoneman.com/2025/07/20/finished-reading-victoria-amelina-looking.html",
-				"tags": ["WarAndSociety","PastAndPresent","Atrocities","Books","Justice"]
+				"tags": ["WarAndSociety","PastAndPresent","Atrocities","Books","Justice","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/07/16/past-and-present-the-first.html",
@@ -346,7 +373,7 @@
 				"content_text": "Disgusting:\n\n> I've said it before, Russians and Ukrainians are one people. In this sense, all of Ukraine is ours. There's an old rule that wherever a Russian soldier sets foot, that's ours.…  \n>   \n> <cite>-- Vladimir Putin, June 20, 2025</cite>\n\nVia [Meduza](https://meduza.io/en/news/2025/06/20/wherever-a-russian-soldier-sets-foot-that-s-ours-vladimir-putin-declares) and [The Kyiv Independent](https://kyivindependent.com/all-of-ukraine-is-ours/).\n\n \n",
 				"date_published": "2025-06-21T00:27:03-04:00",
 				"url": "https://markstoneman.com/2025/06/21/disgusting-ive-said-it-before.html",
-				"tags": ["WarAndSociety","InternationalRelations"]
+				"tags": ["WarAndSociety","InternationalRelations","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/06/17/i-never-thought-id-be.html",
@@ -418,7 +445,7 @@
 				"content_text": "> Putin has correctly surmised that lies unite rather than divide Russia’s political class. The greater and the more obvious the lie, the more his subjects demonstrate their loyalty by accepting it, and the more they participate in the great sacral mystery of Kremlin power.  \n>   \n> <cite>-- Charles Clover, quoted in Timothy Snyder, _The Road to Unfreedom_, chap 5</cite>\n",
 				"date_published": "2025-06-12T11:10:37-04:00",
 				"url": "https://markstoneman.com/2025/06/12/putin-has-correctly-surmised-that.html",
-				"tags": ["InformationDisorder","Propaganda","Authoritarianism"]
+				"tags": ["InformationDisorder","Propaganda","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/06/12/no-war-was-taking-place.html",
@@ -427,7 +454,7 @@
 				"content_text": "> No war was taking place, and it[^1] was thoroughly justified.  \n>  \n> <cite>-- Timothy Snyder, _The Road to Unfreedom_, chap. 5, regarding Russian propaganda in 2014.</cite>\n\n[^1]: The pronoun \"it\" refers to \"the war.\"\n",
 				"date_published": "2025-06-12T10:59:18-04:00",
 				"url": "https://markstoneman.com/2025/06/12/no-war-was-taking-place.html",
-				"tags": ["WarAndSociety","InformationDisorder","Propaganda"]
+				"tags": ["WarAndSociety","InformationDisorder","Propaganda","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/06/11/using-or-threatening-to-use.html",
@@ -472,7 +499,7 @@
 				"content_text": "Interesting BBC World Service documentary about denunciations in today's Russia: [Informers: Hunting the Enemy Within](https://www.bbc.co.uk/iplayer/episode/m002dm93/eye-investigations-informers-hunting-the-enemy-within) (22 min).\n",
 				"date_published": "2025-06-02T16:13:25-04:00",
 				"url": "https://markstoneman.com/2025/06/02/interesting-bbc-world-service-documentary.html",
-				"tags": ["SocialMedia","Authoritarianism"]
+				"tags": ["SocialMedia","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/05/31/watched-two-satires-the-most.html",
@@ -490,7 +517,7 @@
 				"content_text": "[\"Russia has dragged occupied Ukraine far below North Korea and other 'worst of the worst' – Freedom House\"](https://khpg.org/en/1608814686) by Halya Coynash, May 30, 2025, for the Kharkiv Human Rights Protection Group. \n\nFor more, see Freedom House's [2025 World Report](https://freedomhouse.org/report/freedom-world) or its section on Ukraine's [Russian-occupied territories](https://freedomhouse.org/country/russian-occupied-territories-ukraine/freedom-world/2025). \n",
 				"date_published": "2025-05-30T00:15:47-04:00",
 				"url": "https://markstoneman.com/2025/05/30/russia-has-dragged-occupied-ukraine.html",
-				"tags": ["WarAndSociety","HumanRights","PoliticsAndRule","Authoritarianism"]
+				"tags": ["WarAndSociety","HumanRights","PoliticsAndRule","Authoritarianism","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/05/29/in-no-god-but-theirs.html",
@@ -499,7 +526,7 @@
 				"content_text": "In \"[No God but Theirs](https://youtu.be/zb7Tc58zLjU)\" (63 min.), _The Kyiv Independent_'s War Crimes Investigations Unit looks at the persecution of Ukrainian Christians in occupied Melitopol. It suggests important links between communities of faith and civil society that Russian fascists find threatening. 🇺🇦\n",
 				"date_published": "2025-05-29T11:57:26-04:00",
 				"url": "https://markstoneman.com/2025/05/29/in-no-god-but-theirs.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","Religion"]
+				"tags": ["WarAndSociety","PoliticsAndRule","Religion","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/05/28/one-way-to-support-freedom.html",
@@ -544,7 +571,7 @@
 				"content_text": "Julia Davis, \"[Russia to Ukraine: \"You want a Ceasefire and I Want You Dead'](https://cepa.org/article/russia-to-ukraine-you-want-a-ceasefire-and-i-want-you-dead/)\" at CEPA, May 21, 2025 – \n\n> The Kremlin’s propagandists are in a joyous mood as they anticipate US disengagement from the Ukraine conflict.\n\nDavis's insights come from her study and translation of prominent Russian-language talk shows.\n\n> As always, the most accurate assessment of the mood in the Kremlin came not from its robotic public statements, but from its highly-paid propagandists in the TV studios. Since they are regularly briefed by the Kremlin’s handlers on what they can and can’t say, their scripted narratives and carefully crafted discussions offer the best window into the regime’s views and aims.\n> \n> This was also true after the May 19 telephone conversation between Putin and US President Donald J. Trump about a possible peace deal in Ukraine.…\n\nRead the whole piece for her latest snapshot of where Kremlin minds are at. \n\nCheck out her YouTube channel, [Russian Media Monitor](https://www.youtube.com/@russianmediamonitor), to experience clips of the scripted talk shows firsthand—with English subtitles.\n\n",
 				"date_published": "2025-05-24T11:38:33-04:00",
 				"url": "https://markstoneman.com/2025/05/24/julia-davis-russia-to-ukraine.html",
-				"tags": ["WarAndSociety","InternationalRelations","InformationDisorder"]
+				"tags": ["WarAndSociety","InternationalRelations","InformationDisorder","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/05/23/ive-made-a-good-start.html",
@@ -706,7 +733,7 @@
 				"content_text": "Timothy Snyder summing up Russia's relationship to NATO from 1999 to 2010: \n\n> The eastward enlargement of NATO in 1999 was not presented by Putin as a threat. Instead, he tried to recruit the United States or NATO to cooperate with Russia to address what he saw as common security problems. After the United States was attacked by Islamist terrorists in 2001, Putin offered to cooperate with NATO in territories that bordered Russia. Putin did not present the EU enlargement of 2004 as a threat. On the contrary, he spoke favorably that year of future EU membership for Ukraine. In 2008, Putin attended the NATO summit in Bucharest. In 2009, Medvedev allowed American aircraft to fly over Russia to supply troops in Afghanistan. In 2010, Russia’s ambassador to NATO, the radical nationalist Dmitry Rogozin, expressed his concern that NATO would leave Afghanistan. Rogozin complained of NATO’s lack of fighting spirit, its “mood of capitulation.” He wanted NATO troops at Russia’s border.\n\nSource: Snyder, _The Road to Unfreedom: Russia, Europe, America_ (Tim Duggan Books, 2018), chap. 3.\n\n",
 				"date_published": "2025-05-07T16:47:13-04:00",
 				"url": "https://markstoneman.com/2025/05/07/timothy-snyder-summing-up-russias.html",
-				"tags": ["WarAndSociety","InternationalRelations"]
+				"tags": ["WarAndSociety","InternationalRelations","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/05/07/nothing-but-the-truth-sony.html",
@@ -769,7 +796,7 @@
 				"content_text": "A 25-minute report by DW on the old Zaporozhets automobile, which still enjoys fans today: \"Putin loved this car. Now it drives Ukraine’s resistance,\" [youtu.be…](https://youtu.be/_sBuCJgM28E). 🇺🇦\n",
 				"date_published": "2025-05-03T20:33:05-04:00",
 				"url": "https://markstoneman.com/2025/05/03/a-minute-report-by-dw.html",
-				"tags": ["PastAndPresent"]
+				"tags": ["PastAndPresent","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/05/03/anders-puck-nielsen-offers-clear.html",
@@ -985,7 +1012,7 @@
 				"content_text": "The pro-Kremlin media personality Tigran Keosayan has been in [a coma](https://www.themoscowtimes.com/2025/01/09/rt-chief-simonyan-says-husband-in-coma-after-undergoing-clinical-death-a87538) since late December. Recently, his grief-stricken wife, RT chief Margarita Simonyan, pondered going to front, if he dies ([youtu.be…](https://youtu.be/q4QMSVaXA2g)). I've never heard Simonyan say anything that wasn't calculated, so this line made me scratch my head a little. Simonyan is still all-in on the \"special military operation,\" of course, but it is strange to hear her death wish expressed this way. \n\nDon't her words come close to admitting what Putin's soldiers need when headed to the front? I'm thinking of the Russian \"meat assaults\" and their use of soldiers to fire at their own, should they dare not advance or even retreat. Still, Simonyan's words lean on such a common literary trope that they needn't be seen as destabilizing. If there is one thing about Simonyan we can still be sure of, she is an expert [information warrior](https://novayagazeta.eu/articles/2023/10/11/mastering-margarita-en).\n\n",
 				"date_published": "2025-04-22T15:52:11-04:00",
 				"url": "https://markstoneman.com/2025/04/22/margarita-simonyans-death-wish.html",
-				"tags": ["WarAndSociety","InformationDisorder","Authoritarianism"]
+				"tags": ["WarAndSociety","InformationDisorder","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/04/21/a-prophetic-comedy-for-these.html",
@@ -1030,7 +1057,7 @@
 				"content_text": "In a 14-minute explainer, Anders Puck Nielsen discusses how \"NATO has missed the drone revolution\" [youtu.be…](https://youtu.be/gZL1KzV54Cw). The R word is thrown around far too easily in military studies, just as it is in tech; however, Nielsen's argument is no mere cliché. Drones don't just supplement other military hardware. In the large quantities in which they now appear, they change the very nature of battle. Wars of movement are once again giving way to wars of attrition, albeit in new ways. \n\nSee also the short piece by Valerii Zaluzhnyi that Nielsen talks about in his video: \"How drones, data, and AI transformed our military—and why the US must follow suit,\" [defenseone.com…](https://www.defenseone.com/ideas/2025/04/how-drones-data-and-ai-transformed-our-militaryand-why-us-must-follow-suit/404444/).\n\nIt seems western armies cannot afford any arrogance vis-à-vis Ukraine. They need to learn from that countryʼs armed forces, just as the latter will continue to benefit from our armaments.\n\n",
 				"date_published": "2025-04-19T21:08:53-04:00",
 				"url": "https://markstoneman.com/2025/04/19/in-a-minute-explainer-anders.html",
-				"tags": ["WarAndSociety"]
+				"tags": ["WarAndSociety","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/04/19/no-protest-for-me-today.html",
@@ -1084,7 +1111,7 @@
 				"content_text": "\nEchoes of Abu Ghraib and inspiration for more prison porn by Kristi Noem: \"Russian Police Caught Beating, Humiliating Migrants in Footage of a Raid,\" Radio Free Europe/Radio Librty, [youtu.be…](https://youtu.be/IWUau5EY9Uo). This treatment also demonstrates an understanding of Russia's economic limitations as keen as Trump's.\n",
 				"date_published": "2025-04-16T10:56:21-04:00",
 				"url": "https://markstoneman.com/2025/04/16/echoes-of-abu-ghraib-and.html",
-				"tags": ["WarAndSociety","Migration","HumanRights","Authoritarianism"]
+				"tags": ["WarAndSociety","Migration","HumanRights","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/04/16/starting-to-get-my-local.html",
@@ -1156,7 +1183,7 @@
 				"content_text": "I'm in the second of two miniseries called \"A Young Doctor's Notebook and Other Stories\" (Sky Arts, 2012-13). It is based on work by Mikhail Bulgakov and is set mainly in rural Russia in 1917–18, with flashforwards to 1934–35. \n\nOr is it set in Moscow in 1934–35 with flashbacks? Either way, Jon Hamm plays the lead in the 1930s and Daniel Radcliffe plays the same character in the 1910s. Hamm's character is also present in the 1910s as a kind of morphine-induced hallucination who talks to his younger self. \n\nI'm enjoying this dark comedy, but be advised that it has drug addiction, gore, and other bodily fluids. The Hobbesian characterization of life as nasty, brutish, and short applies.\n",
 				"date_published": "2025-04-13T21:35:29-04:00",
 				"url": "https://markstoneman.com/2025/04/13/im-in-the-second-of.html",
-				"tags": ["Television"]
+				"tags": ["Television","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/04/12/reading-dr-suess-with-facetime.html",
@@ -1273,7 +1300,7 @@
 				"content_text": "Watched a post–Cold War episode to the Harry Palmer films, \"Bullet to Beijing\" (1995). Michael Caine, the lead in the 1960s films, plays an agent pushed into early retirement who freelances for a Russian oligarch-mobster. It was interesting to revisit the period's pop cultural images of Russia.\n",
 				"date_published": "2025-04-07T22:35:51-04:00",
 				"url": "https://markstoneman.com/2025/04/07/watched-a-postcold-war-episode.html",
-				"tags": ["Movies"]
+				"tags": ["Movies","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/04/07/this-evening-i-saw-secret.html",
@@ -1462,7 +1489,7 @@
 				"content_text": "> We Germans refuse to believe that people want to be free.… All we're good at is killing, killing, killing! We've strewn all of Europe with corpses, and from their graves rises up an unquenchable hatred. Hatred… hatred everywhere! That hatred will devour us. \n\nThese words are the subtitle translations of lines spoken in the famous early postwar film, \"Rome Open City,\" dir. Roberto Rossellini (Italy, 1945). They issue from the mouth of a drunk German officer to his Gestapo commander, who was sure he could make a staunch Italian partisan talk that same night.\n\nThe scene reminds me of assertions by Niccolo Machiavelli in _The Prince_ (1532): It is better to be feared than loved because fear is something the ruler can control. But the ruler should avoid awaking the hatred of his subjects because that emotion could prove fatal to him (chaps. 17 and 19). \n\nFor Machiavelli, hatred resulted from a ruler taking the property and women of his subjects. For the drunk officer in \"Rome Open City,\" the German masters' attacks on honor, dignity, and human life inspired deep hatred, but the Gestapo officer denied that emotion's power. \n\nIn our own time, Putin seems to appreciate the personal danger that he is in. He likely doesn't blame himself for this circumstance, but he knows that his system of rule will continue to demand political assassinations, the ruthless suppression of free speech, and predatory corruption. \n\nHis war against Ukraine helps him legitimize his tyranny inside Russia, but he seems incapable of grasping that he will never bend Ukraine itself to his will. No matter how much property he destroys, no matter how many bodies and lives he disfigures or ends, Ukrainians refuse to surrender their personhood, nationhood, and dignity. If anything, Putin has turned this European neighbor into a formidable enemy. The hatred he fuels as he robs Ukrainians of their children and other loved ones cannot be overstated. \n\n",
 				"date_published": "2025-03-31T00:08:57-04:00",
 				"url": "https://markstoneman.com/2025/03/31/killing-and-fueling-hatred.html",
-				"tags": ["WarAndSociety","PastAndPresent","PoliticsAndRule","Movies","Authoritarianism"]
+				"tags": ["WarAndSociety","PastAndPresent","PoliticsAndRule","Movies","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/30/i-enjoy-the-short-cartoons.html",
@@ -1471,7 +1498,7 @@
 				"content_text": "I enjoy the short cartoons that @Freeonis makes about Russia's war against Ukraine. The latest, \"The Art of Ceasefire,\" is no exception. [youtu.be…](https://youtu.be/U7orPslIf9Q) 🇺🇦  \n\n<a href=\"https://eu.uploads.micro.blog/166262/2025/img-0828.jpeg\"><img src=\"https://eu.uploads.micro.blog/166262/2025/img-0828.jpeg\" width=\"100%\" alt=\"Animation screenshot shows Trump with arms out talking about his genius. He is wearing a Burger King crown.\"></a>\n",
 				"date_published": "2025-03-30T14:43:34-04:00",
 				"url": "https://markstoneman.com/2025/03/30/i-enjoy-the-short-cartoons.html",
-				"tags": ["WarAndSociety","InternationalRelations","Cartoons"]
+				"tags": ["WarAndSociety","InternationalRelations","Cartoons","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/30/there-will-be-a-nationwide.html",
@@ -1498,7 +1525,7 @@
 				"content_text": "It did not hurt my feelings to see reports of a Putin limo going up in flames. I also enjoyed seeing how scared the president is of his own honor guard. See commentary on Silicon Bites #119, March 29, 2025. [youtu.be…](https://youtu.be/84x5Jmuc7W0) (6 min.)\n\n<small>#ПутінХуйло #RussiaIsATerroristState</small>\n",
 				"date_published": "2025-03-29T19:33:14-04:00",
 				"url": "https://markstoneman.com/2025/03/29/it-did-not-hurt-my.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","Authoritarianism"]
+				"tags": ["WarAndSociety","PoliticsAndRule","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/27/operator-starsky-starskyuabskysocial-talks-with.html",
@@ -1507,7 +1534,7 @@
 				"content_text": "Operator Starsky ([@starskyua.bsky.social](https://bsky.app/profile/starskyua.bsky.social)) talks with Ben Hodges about the current strategic situation in and around Ukraine. [youtu.be…](https://youtu.be/80yaW9MDuhQ) (19.5 min.) 🇺🇦  \n\n<small>#СлаваУкраїні #RussiaIsATerroristState #ПутінХуйло</small>\n",
 				"date_published": "2025-03-27T15:39:11-04:00",
 				"url": "https://markstoneman.com/2025/03/27/operator-starsky-starskyuabskysocial-talks-with.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","EconomyAndTrade"]
+				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","EconomyAndTrade","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/26/democracy-failed-in-europe-in.html",
@@ -1534,7 +1561,7 @@
 				"content_text": "Committing war crimes against Ukrainian POWs trains perpetrators to abuse their fellow citizens in custody back in the motherland. See \"How Russian prison officers are ‘honing their cruelty’ on Ukrainian POWs,\" [meduza.io/en…](https://meduza.io/en/feature/2025/03/26/mom-you-have-no-idea-what-they-re-doing-to-me/). 🇷🇺\n",
 				"date_published": "2025-03-26T13:25:23-04:00",
 				"url": "https://markstoneman.com/2025/03/26/committing-war-crimes-against-ukrainian.html",
-				"tags": ["WarAndSociety","Atrocities","Authoritarianism"]
+				"tags": ["WarAndSociety","Atrocities","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/26/microblogs-european-server-option.html",
@@ -1768,7 +1795,7 @@
 				"content_text": "\nThe 30-day partial cease fire that Putin and Trump agreed to is a one-sided joke. \n\n- [\"Trump-Putin call: Russia agrees to 30-day pause of energy infrastructure strikes.\"](https://kyivindependent.com/trump-putin-call-russia-agrees-to-30-day-pause-of-energy-infrastructure-strikes/) (Kyiv Independent)\n\nRussia probably needs relief from strikes on its energy infrastructure more than Ukraine does because the former depends on energy to finance its war. Ukraine, at least, has made it through another winter, when attacks on its energy infrastructure hurt the worst. Moreover, its air defenses seem to be more effective than Russia's.\n\nThe real kicker, though, are the accompanying demands and threats, which continue to assert Russia's maximalist aim of destroying Ukrainian sovereignty by demanding it do nothing to improve its defense posture. Meanwhile, the White House and Kremlin \"agreed to set up Russian and American expert groups to 'resolve the war bilaterally,'\" i.e., without Ukraine or the rest of Europe. Of course, the Kremlin issued yet another tired threat of \"escalation.\"\n\n- [Kremlin demands halt to foreign military aid, intelligence to Ukraine as condition for avoiding war escalation.](https://kyivindependent.com/kremlin-demands-to-stop-supplying-military-intelligence-aid-to-ukraine-announces-new-prisoner-swap/) (Kyiv Independent)\n\nWill the White House side with Russia again, despite the Kremlin playing Trump for a fool? It wouldn't surprise me, given that Trump has no advisors who will tell him what he needs to hear. I hope I'm wrong.\n",
 				"date_published": "2025-03-18T15:43:29-04:00",
 				"url": "https://markstoneman.com/2025/03/18/putin-playing-trump-for-a.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","Authoritarianism"]
+				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/18/the-rivers-are-full-to.html",
@@ -2008,10 +2035,10 @@
 				"id": "http://mrstoneman.micro.blog/2025/03/10/ukraine-has-been-proving-the.html",
 				
 				"content_html": "<p>Ukraine has been proving the value of U.S. arms these past three years. Now Trump is using Ukraine to demonstrate the achilles heel of high-end American arms. Their effective use depends on the U.S. political system, which is proving vulnerable to malign domestic and foreign actors.</p>\n",
-				"content_text": "Ukraine has been proving the value of U.S. arms these past three years. Now Trump is using Ukraine to demonstrate the achilles heel of high-end American arms. Their effective use depends on the U.S. political system, which is proving vulnerable to malign domestic and foreign actors. \r\n",
+				"content_text": "Ukraine has been proving the value of U.S. arms these past three years. Now Trump is using Ukraine to demonstrate the achilles heel of high-end American arms. Their effective use depends on the U.S. political system, which is proving vulnerable to malign domestic and foreign actors. \n",
 				"date_published": "2025-03-10T12:04:30-04:00",
 				"url": "https://markstoneman.com/2025/03/10/ukraine-has-been-proving-the.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","EconomyAndTrade"]
+				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","EconomyAndTrade","Authoritarianism","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/10/this-is-bad-us-to.html",
@@ -2081,9 +2108,9 @@
 				
 				"content_html": "<p>Apropos of Russia&rsquo;s meat assaults, which throw their soldiers' lives callously away:</p>\n<blockquote>\n<p>In the town of Polyarnye Zori in Russia&rsquo;s Murmansk region, members of the country&rsquo;s ruling United Russia party marked International Women&rsquo;s Day by giving flowers and meat grinders to the mothers of soldiers killed in the war against Ukraine.</p>\n</blockquote>\n<p>Story via <em>Meduza</em>: &ldquo;United Russia party gifts meat grinders to dead soldiers’ mothers,&rdquo; <a href=\"https://meduza.io/en/feature/2025/03/07/russia-s-ruling-party-gifts-actual-meat-grinders-to-mothers-of-soldiers-killed-in-ukraine\">meduza.io/en…</a>.</p>\n",
 				"content_text": "Apropos of Russia's meat assaults, which throw their soldiers' lives callously away:\n\n> In the town of Polyarnye Zori in Russia's Murmansk region, members of the country's ruling United Russia party marked International Women's Day by giving flowers and meat grinders to the mothers of soldiers killed in the war against Ukraine.  \n   \nStory via _Meduza_: \"United Russia party gifts meat grinders to dead soldiers’ mothers,\" [meduza.io/en…](https://meduza.io/en/feature/2025/03/07/russia-s-ruling-party-gifts-actual-meat-grinders-to-mothers-of-soldiers-killed-in-ukraine). \n",
-				"date_published": "2025-03-07T22:33:14-04:00",
+				"date_published": "2025-03-07T23:33:00-04:00",
 				"url": "https://markstoneman.com/2025/03/07/apropos-of-russias-meat-assaults.html",
-				"tags": ["WarAndSociety","WomensHistory","Authoritarianism"]
+				"tags": ["WarAndSociety","WomensHistory","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/07/a-new-era-for-women.html",
@@ -2140,22 +2167,22 @@
 				"tags": ["PoliticsAndRule","Leadership","InternationalRelations","Television"]
 			},
 			{
-				"id": "http://mrstoneman.micro.blog/2025/03/04/conscription-industrial-mobilization-and-the.html",
+				"id": "http://mrstoneman.micro.blog/2025/03/05/conscription-industrial-mobilization-and-the.html",
 				"title": "Conscription, Industrial Mobilization, and the Russo-Ukrainian War",
 				"content_html": "<p>Russia&rsquo;s war against Ukraine has been marked by an effort to avoid universal (manhood) conscription. It is the regime&rsquo;s war, so to speak (a &ldquo;special military operation&rdquo;), not a people&rsquo;s war.</p>\n<p>On the other side, Ukraine uses conscription because it is indeed a national or people&rsquo;s war for them. It is a fight for their very survival. Russia is even treating each and every Ukrainian as a &ldquo;legitimate&rdquo; target. But even Ukraine has avoided calling up younger men. It seems they lack the political consensus to do so.</p>\n<p>I thought about this again when Vance made his historically ignorant accusation in the White House that Ukraine&rsquo;s military manpower situation was so bad that they had to force men into the army. It&rsquo;s as if Vance had never heard of the draft in the United States. Or he doesn&rsquo;t know that &ldquo;conscription&rdquo; means &ldquo;draft&rdquo; in modern U.S. military history. Regardless, conscription is what countries do when they believe the national stakes are extremely high. If Vance had read any histories of war over the past couple centuries, he would know this.</p>\n<p>One notable exception to conscription in national or total wars: Britain tried to fight the First World War with only volunteers, and they succeeded up to a point. By 1916, however, they had to institute conscription as well (&ldquo;Military Service&rdquo;). Little wonder. That war in particular had a ravenous appetite for men.</p>\n<p>I&rsquo;ve been thinking about the issue of conscription for another reason. Western leaders have spent the first three years of the Russo-Ukrainian War trying to prevent average citizens from feeling any pain. They&rsquo;ve avoided spending the money necessary to mobilize our defense industries sufficiently to support a Ukrainian victory and form a credible deterrent to Russia (and China).</p>\n<p>This avoidance points to one or all of the following developments in democracies and authoritarian kleptocracies alike:</p>\n<ol>\n<li>The relationship between nation states and their peoples has changed substantially. Are people less patriotic? Maybe they are less willing to follow their leaders&rsquo;s calls to war?</li>\n<li>Do nation states care more about consent than they used to? Or have they grown more timid? Perhaps they are acting on an everyday awareness of popular opinion gleaned from social media, for example.</li>\n<li>Are contemporary leaders more likely to follow popular opinion than lead it? Even Putin and Trump are hardly leading, unless one thinks gaslighting their nations and the world counts.</li>\n</ol>\n<p>I have no answer here. It just feels like the post–Cold War era of increasingly volunteer armies and neoliberal economic policies is being challenged by the demands of Mars and his acolytes, even if few have come to accept the consequences of this shift.</p>\n",
 				"content_text": "Russia's war against Ukraine has been marked by an effort to avoid universal (manhood) conscription. It is the regime's war, so to speak (a \"special military operation\"), not a people's war. \n\nOn the other side, Ukraine uses conscription because it is indeed a national or people's war for them. It is a fight for their very survival. Russia is even treating each and every Ukrainian as a \"legitimate\" target. But even Ukraine has avoided calling up younger men. It seems they lack the political consensus to do so.\n\nI thought about this again when Vance made his historically ignorant accusation in the White House that Ukraine's military manpower situation was so bad that they had to force men into the army. It's as if Vance had never heard of the draft in the United States. Or he doesn't know that \"conscription\" means \"draft\" in modern U.S. military history. Regardless, conscription is what countries do when they believe the national stakes are extremely high. If Vance had read any histories of war over the past couple centuries, he would know this. \n\nOne notable exception to conscription in national or total wars: Britain tried to fight the First World War with only volunteers, and they succeeded up to a point. By 1916, however, they had to institute conscription as well (\"Military Service\"). Little wonder. That war in particular had a ravenous appetite for men.\n\nI've been thinking about the issue of conscription for another reason. Western leaders have spent the first three years of the Russo-Ukrainian War trying to prevent average citizens from feeling any pain. They've avoided spending the money necessary to mobilize our defense industries sufficiently to support a Ukrainian victory and form a credible deterrent to Russia (and China).\n\nThis avoidance points to one or all of the following developments in democracies and authoritarian kleptocracies alike:\n\n1. The relationship between nation states and their peoples has changed substantially. Are people less patriotic? Maybe they are less willing to follow their leaders's calls to war?\n2. Do nation states care more about consent than they used to? Or have they grown more timid? Perhaps they are acting on an everyday awareness of popular opinion gleaned from social media, for example.\n3. Are contemporary leaders more likely to follow popular opinion than lead it? Even Putin and Trump are hardly leading, unless one thinks gaslighting their nations and the world counts.\n\nI have no answer here. It just feels like the post–Cold War era of increasingly volunteer armies and neoliberal economic policies is being challenged by the demands of Mars and his acolytes, even if few have come to accept the consequences of this shift.\n\n\n",
-				"date_published": "2025-03-04T23:41:38-04:00",
-				"url": "https://markstoneman.com/2025/03/04/conscription-industrial-mobilization-and-the.html",
-				"tags": ["WarAndSociety","PastAndPresent","PoliticsAndRule","Leadership","Conscription","EconomyAndTrade"]
+				"date_published": "2025-03-05T00:41:00-04:00",
+				"url": "https://markstoneman.com/2025/03/05/conscription-industrial-mobilization-and-the.html",
+				"tags": ["WarAndSociety","PastAndPresent","PoliticsAndRule","Leadership","Conscription","EconomyAndTrade","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/04/knockout-blow-to-the-russian.html",
 				"title": "Knock-Out Blow to the Russian Bear: Postcard from 1904–05",
 				"content_html": "<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n<h3 id=\"your-size-and-weight-dont-count-in-my-style-of-wrestling\">&ldquo;Your size and weight don&rsquo;t count in my style of wrestling.&rdquo;</h3>\n<p>This was the last in a series of six postcards that marked the Russo-Japanese War (1904–05).<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup> I chose it because its caption speaks to Russia&rsquo;s current war against Ukraine. The Russian Bear&rsquo;s smaller opponent says, &ldquo;Your size and weight don&rsquo;t count in my style of wrestling.&rdquo; Unlike today, Japan, not Russia, began this war with a surprise attack. Still, observers assumed the Russian Bear would prevail. It did not, and the Tsar faced revolution at home. The bigger the beast, the harder the fall.</p>\n<p>The war in Ukraine is different, but there, too, Russia is running up against the limits of its strength. It is facing economic collapse and worse. Rather strangely, the new-old U.S. president wants to throw his weight behind the corrupt old Russian Bear. Doing so will cost more Ukrainian lives and the United States its reputation and influence. But Ukraine will come up with new ways to stop Russia. Meanwhile, the political cartoonists will continue to do their thing, if not on postcards.</p>\n<section class=\"footnotes\" role=\"doc-endnotes\">\n<hr>\n<ol>\n<li id=\"fn:1\" role=\"doc-endnote\">\n<p>Written in ink partly over the English caption are some words in French I can&rsquo;t quite make out. Source: The Newberry Library, John I. Monroe collection of artist-signed postcards, <a href=\"https://collections.newberry.org/asset-management/2KXJ8ZS64D8UI\">https://collections.newberry.org/asset-management/2KXJ8ZS64D8UI</a>.&#160;<a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n</ol>\n</section>\n",
 				"content_text": "<a href=\"https://eu.uploads.micro.blog/166262/2025/img-0780.jpeg\"><img src=\"https://eu.uploads.micro.blog/166262/2025/img-0780.jpeg\" width=\"100%\" alt=\"Man in a red Japanese outfit talking to the Russian Bear in green army trousers and brown army boots as he sits on the ground and holds his head. Stars over his head indicate the hits he took. There is ocean behind them and then the sun, indicating the far east. On the horizon, four warships have been blown into the sky.\"></a>\n\n### \"Your size and weight don't count in my style of wrestling.\"\n\nThis was the last in a series of six postcards that marked the Russo-Japanese War (1904–05).[^1] I chose it because its caption speaks to Russia's current war against Ukraine. The Russian Bear's smaller opponent says, \"Your size and weight don't count in my style of wrestling.\" Unlike today, Japan, not Russia, began this war with a surprise attack. Still, observers assumed the Russian Bear would prevail. It did not, and the Tsar faced revolution at home. The bigger the beast, the harder the fall.\n\nThe war in Ukraine is different, but there, too, Russia is running up against the limits of its strength. It is facing economic collapse and worse. Rather strangely, the new-old U.S. president wants to throw his weight behind the corrupt old Russian Bear. Doing so will cost more Ukrainian lives and the United States its reputation and influence. But Ukraine will come up with new ways to stop Russia. Meanwhile, the political cartoonists will continue to do their thing, if not on postcards.\n\n[^1]: Written in ink partly over the English caption are some words in French I can't quite make out. Source: The Newberry Library, John I. Monroe collection of artist-signed postcards, [https://collections.newberry.org/asset-management/2KXJ8ZS64D8UI](https://collections.newberry.org/asset-management/2KXJ8ZS64D8UI).\n",
-				"date_published": "2025-03-04T16:55:25-04:00",
+				"date_published": "2025-03-04T17:55:00-04:00",
 				"url": "https://markstoneman.com/2025/03/04/knockout-blow-to-the-russian.html",
-				"tags": ["WarAndSociety","PastAndPresent","Cartoons","Postcards"]
+				"tags": ["WarAndSociety","PastAndPresent","Cartoons","Postcards","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/04/as-our-government-ramps-up.html",
@@ -2243,9 +2270,9 @@
 				
 				"content_html": "<p>The <em>Kyiv Independent</em>&rsquo;s Anna Belokur packs a lot into one of the best comments I&rsquo;ve seen  about the Trump-Vance debacle during Zelensky&rsquo;s visit this past Friday (Feb. 28). See the first eight minutes of &ldquo;Ukraine this Week,&rdquo; <a href=\"https://youtu.be/CfbkVE43Kdc\">youtu.be…</a>. 🇺🇦🇺🇸</p>\n",
 				"content_text": "The _Kyiv Independent_'s Anna Belokur packs a lot into one of the best comments I've seen  about the Trump-Vance debacle during Zelensky's visit this past Friday (Feb. 28). See the first eight minutes of \"Ukraine this Week,\" [youtu.be…](https://youtu.be/CfbkVE43Kdc). 🇺🇦🇺🇸\n",
-				"date_published": "2025-03-02T14:41:42-04:00",
+				"date_published": "2025-03-02T15:41:00-04:00",
 				"url": "https://markstoneman.com/2025/03/02/the-kyiv-independents-anna-belokur.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","GenderAndSexuality","InformationDisorder"]
+				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","GenderAndSexuality","InformationDisorder","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/03/01/watched-il-conformista-the-conformist.html",
@@ -2270,9 +2297,9 @@
 				
 				"content_html": "<p>If we as U.S. citizens find the resolve to oppose Orange Oaf&rsquo;s foreign policy, especially with regard to Ukraine and Russia, we will help not only Ukraine against tyrants but ourselves as well. This is a transnational, existential fight for freedom and human rights. 🇺🇦🗽</p>\n",
 				"content_text": "If we as U.S. citizens find the resolve to oppose Orange Oaf's foreign policy, especially with regard to Ukraine and Russia, we will help not only Ukraine against tyrants but ourselves as well. This is a transnational, existential fight for freedom and human rights. 🇺🇦🗽\n",
-				"date_published": "2025-02-28T21:51:19-04:00",
+				"date_published": "2025-02-28T22:51:00-04:00",
 				"url": "https://markstoneman.com/2025/02/28/if-we-as-us-citizens.html",
-				"tags": ["WarAndSociety","HumanRights","PoliticsAndRule","Citizenship","InternationalRelations","Authoritarianism"]
+				"tags": ["WarAndSociety","HumanRights","PoliticsAndRule","Citizenship","InternationalRelations","Authoritarianism","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/28/i-see-why-orange-oaf.html",
@@ -2342,9 +2369,9 @@
 				
 				"content_html": "<p>🇺🇦 Excellent development: &ldquo;Ukraine Is Jamming Russian Glide Bombs All Along The Front Line, Erasing One Of Russia’s Main Battlefield Advantages&rdquo; by David Axe, Forbes, February 26, 2025. <a href=\"https://www.forbes.com/sites/davidaxe/2025/02/26/ukraine-is-jamming-russian-glide-bombs-all-along-the-front-line-erasing-one-of-russias-main-battlefield-advantages/\">www.forbes.com…</a>. &ldquo;It now takes up to 16 glide bombs to hit one target.&rdquo;</p>\n",
 				"content_text": "\n\n🇺🇦 Excellent development: \"Ukraine Is Jamming Russian Glide Bombs All Along The Front Line, Erasing One Of Russia’s Main Battlefield Advantages\" by David Axe, Forbes, February 26, 2025. [www.forbes.com…](https://www.forbes.com/sites/davidaxe/2025/02/26/ukraine-is-jamming-russian-glide-bombs-all-along-the-front-line-erasing-one-of-russias-main-battlefield-advantages/). \"It now takes up to 16 glide bombs to hit one target.\"\n\n",
-				"date_published": "2025-02-27T03:03:25-04:00",
+				"date_published": "2025-02-27T04:03:00-04:00",
 				"url": "https://markstoneman.com/2025/02/27/excellent-development-ukraine-is-jamming.html",
-				"tags": ["WarAndSociety"]
+				"tags": ["WarAndSociety","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/26/watched-pimpernel-smith-dir-leslie.html",
@@ -2459,9 +2486,9 @@
 				
 				"content_html": "<!-- raw HTML omitted -->\n<p>A message to Putin from my car&rsquo;s rear  end. The same goes for his White House asset. <!-- raw HTML omitted -->#RussiaIsATerroristState #SupportUkraine #SupportHumanRights<!-- raw HTML omitted --></p>\n",
 				"content_text": "<img src=\"https://eu.uploads.micro.blog/166262/2024/img-0244.jpeg\" width=\"100%\" alt=\"Bumper sticker with Ukrainian blue and yellow with the words, in Ukrainian, that mean, 'Putin go fuck yourself.'\">  \n\nA message to Putin from my car's rear  end. The same goes for his White House asset. <small>#RussiaIsATerroristState #SupportUkraine #SupportHumanRights</small>\n",
-				"date_published": "2025-02-24T21:38:28-04:00",
+				"date_published": "2025-02-24T22:38:00-04:00",
 				"url": "https://markstoneman.com/2025/02/24/a-message-to-putin-from.html",
-				"tags": ["WarAndSociety","HumanRights","PoliticsAndRule","Atrocities"]
+				"tags": ["WarAndSociety","HumanRights","PoliticsAndRule","Atrocities","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/24/spirituals-by-lillien-richter-for.html",
@@ -2540,18 +2567,18 @@
 				
 				"content_html": "<p>One of my go-to mental, musical, and emotional escapes these past few years has been &ldquo;The Voice of Ukraine&rdquo; on YouTube. Suck it, tyrants. 🎵🇺🇦</p>\n",
 				"content_text": "One of my go-to mental, musical, and emotional escapes these past few years has been \"The Voice of Ukraine\" on YouTube. Suck it, tyrants. 🎵🇺🇦\n",
-				"date_published": "2025-02-22T22:32:00-04:00",
+				"date_published": "2025-02-22T23:32:00-04:00",
 				"url": "https://markstoneman.com/2025/02/22/one-of-my-goto-mental.html",
-				"tags": ["Music","LanguageLearning","Television"]
+				"tags": ["Music","LanguageLearning","Television","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/22/first-day-of-russias-invasion.html",
 				
 				"content_html": "<p>&ldquo;First day of Russia&rsquo;s invasion of Ukraine captured in images,&rdquo; AP News, February 22, 2025, <a href=\"https://apnews.com/article/russia-ukraine-war-invasion-photos-c29de69eb68a2bf3a7bcafb2b01a4d8a\">apnews.com…</a>.🇺🇦 <!-- raw HTML omitted -->#RussiaIsATerroristState<!-- raw HTML omitted --></p>\n",
-				"content_text": "\"First day of Russia's invasion of Ukraine captured in images,\" AP News, February 22, 2025, [apnews.com…](https://apnews.com/article/russia-ukraine-war-invasion-photos-c29de69eb68a2bf3a7bcafb2b01a4d8a).🇺🇦&ensp;<small>\\#RussiaIsATerroristState</small>\n",
-				"date_published": "2025-02-22T22:23:33-04:00",
+				"content_text": "\"First day of Russia's invasion of Ukraine captured in images,\" AP News, February 22, 2025, [apnews.com…](https://apnews.com/article/russia-ukraine-war-invasion-photos-c29de69eb68a2bf3a7bcafb2b01a4d8a).🇺🇦 <small>\\#RussiaIsATerroristState</small>\n",
+				"date_published": "2025-02-22T23:23:00-04:00",
 				"url": "https://markstoneman.com/2025/02/22/first-day-of-russias-invasion.html",
-				"tags": ["WarAndSociety"]
+				"tags": ["WarAndSociety","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/22/from-maine-governor-mills-statement.html",
@@ -2593,19 +2620,19 @@
 				"id": "http://mrstoneman.micro.blog/2025/02/21/anyone-in-the-current-us.html",
 				
 				"content_html": "<p>Anyone in the current U.S. administration who thinks Ukraine will accede to their weird demands has not been paying attention.🇺🇦 \n<!-- raw HTML omitted -->#RussiaIsATerroristState #ПутінІдиНаХуй<!-- raw HTML omitted --></p>\n",
-				"content_text": "Anyone in the current U.S. administration who thinks Ukraine will accede to their weird demands has not been paying attention.🇺🇦&ensp;\n<small>\\#RussiaIsATerroristState #ПутінІдиНаХуй</small>\n",
-				"date_published": "2025-02-21T10:34:13-04:00",
+				"content_text": "Anyone in the current U.S. administration who thinks Ukraine will accede to their weird demands has not been paying attention.🇺🇦 \n<small>\\#RussiaIsATerroristState #ПутінІдиНаХуй</small>\n",
+				"date_published": "2025-02-21T11:34:00-04:00",
 				"url": "https://markstoneman.com/2025/02/21/anyone-in-the-current-us.html",
-				"tags": ["WarAndSociety"]
+				"tags": ["WarAndSociety","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/20/operator-starsky-takes-time-out.html",
 				
 				"content_html": "<p>Operator Starsky takes time out to fact-check the recent stupefying utterances on Ukraine by the U.S. president because friends don&rsquo;t let friends drown in bullshit. <a href=\"https://youtu.be/NxprEPFJXVY\">youtu.be…</a> 🇺🇦 \n<!-- raw HTML omitted -->#RussiaIsATerroristState<!-- raw HTML omitted --></p>\n",
 				"content_text": "Operator Starsky takes time out to fact-check the recent stupefying utterances on Ukraine by the U.S. president because friends don't let friends drown in bullshit. [youtu.be…](https://youtu.be/NxprEPFJXVY) 🇺🇦 \n<small>\\#RussiaIsATerroristState</small>\n",
-				"date_published": "2025-02-20T17:30:55-04:00",
+				"date_published": "2025-02-20T18:30:00-04:00",
 				"url": "https://markstoneman.com/2025/02/20/operator-starsky-takes-time-out.html",
-				"tags": ["WarAndSociety","InformationDisorder"]
+				"tags": ["WarAndSociety","InformationDisorder","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/20/the-us-federal-government-has.html",
@@ -2626,6 +2653,15 @@
 				"tags": ["PoliticsAndRule","InternationalRelations","GenderAndSexuality","Authoritarianism"]
 			},
 			{
+				"id": "http://mrstoneman.micro.blog/2025/02/18/the-usrussia-talks-in-saudi.html",
+				
+				"content_html": "<p>The U.S.–Russia talks in Saudi Arabia have proven once again that Ukraine is ground zero for the war against democracy. Unfortunately, the U.S. doesn&rsquo;t give a rat&rsquo;s ass about democracy—or ethnic cleansing or genocide. We&rsquo;ve done evil before, but never so openly, stridently, or proudly.</p>\n",
+				"content_text": "The U.S.–Russia talks in Saudi Arabia have proven once again that Ukraine is ground zero for the war against democracy. Unfortunately, the U.S. doesn't give a rat's ass about democracy—or ethnic cleansing or genocide. We've done evil before, but never so openly, stridently, or proudly.\n",
+				"date_published": "2025-02-18T21:11:00-04:00",
+				"url": "https://markstoneman.com/2025/02/18/the-usrussia-talks-in-saudi.html",
+				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","Russia","Ukraine"]
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2025/02/18/a-bit-of-war-history.html",
 				"title": "'A Bit of War History' – Three Paintings by Thomas Waterman Wood (1865–66)",
 				"content_html": "<!-- raw HTML omitted -->\n<p>The word &ldquo;contraband&rdquo; referred to an enslaved person who had escaped. Given that the term usually indicated illegally imported or exported goods, its dehumanizing quality in the context of someone who has escaped bondage is palpable. Here, however, it stands in contrast to the painting, which shows a man, not a chattel or a caricature.<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup></p>\n<p>The other two paintings see the same figure transformed into a soldier and a veteran. Both of these images underlined the figure&rsquo;s manhood. With time, in fact, military service came to be associated with masculinity and citizenship in an age of people&rsquo;s wars fought in North America and Europe.<sup id=\"fnref:2\"><a href=\"#fn:2\" class=\"footnote-ref\" role=\"doc-noteref\">2</a></sup></p>\n<p>From this point of view, the paintings represent a message not only of self-emancipation through military service but of modern masculine citizenship shortly before the nineteenth amendment was ratified. In the West, this image of manhood and military service reached its high point in World Wars One and Two.</p>\n<section class=\"footnotes\" role=\"doc-endnotes\">\n<hr>\n<ol>\n<li id=\"fn:1\" role=\"doc-endnote\">\n<p>Digital images via The Met, objects <a href=\"https://www.metmuseum.org/art/collection/search/13345\">84.12a</a>, <a href=\"https://www.metmuseum.org/art/collection/search/13346\">84.12b</a>, and <a href=\"https://www.metmuseum.org/art/collection/search/13344\">84.12c</a>.&#160;<a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n<li id=\"fn:2\" role=\"doc-endnote\">\n<p>Mark Stoneman, &ldquo;<a href=\"https://markstoneman.com/2017/06/23/war-gender-and.html\">War, Gender, and Nation in 19th-Century Europe: A Preliminary Sketch</a>,&rdquo; blog, June 23, 2017.&#160;<a href=\"#fnref:2\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n</ol>\n</section>\n",
@@ -2633,15 +2669,6 @@
 				"date_published": "2025-02-18T21:01:31-04:00",
 				"url": "https://markstoneman.com/2025/02/18/a-bit-of-war-history.html",
 				"tags": ["WarAndSociety","Citizenship","BlackHistory","GenderAndSexuality"]
-			},
-			{
-				"id": "http://mrstoneman.micro.blog/2025/02/18/the-usrussia-talks-in-saudi.html",
-				
-				"content_html": "<p>The U.S.–Russia talks in Saudi Arabia have proven once again that Ukraine is ground zero for the war against democracy. Unfortunately, the U.S. doesn&rsquo;t give a rat&rsquo;s ass about democracy—or ethnic cleansing or genocide. We&rsquo;ve done evil before, but never so openly, stridently, or proudly.</p>\n",
-				"content_text": "The U.S.–Russia talks in Saudi Arabia have proven once again that Ukraine is ground zero for the war against democracy. Unfortunately, the U.S. doesn't give a rat's ass about democracy—or ethnic cleansing or genocide. We've done evil before, but never so openly, stridently, or proudly.\n",
-				"date_published": "2025-02-18T20:11:41-04:00",
-				"url": "https://markstoneman.com/2025/02/18/the-usrussia-talks-in-saudi.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/18/the-pope-is-ill-who.html",
@@ -2702,9 +2729,9 @@
 				
 				"content_html": "<p>On one of my long drives last week, I heard Timothy Snyder talk about freedom in a helpful way in the &ldquo;Explaining Ukraine&rdquo; podcast. Far from being an absence of various restrictions, it is a thing we actively cultivate in our own everyday life practices. <a href=\"https://ukraineworld.org/en/podcasts/ep-344\">&ldquo;Why is freedom not a given but a task?&quot;</a></p>\n",
 				"content_text": "On one of my long drives last week, I heard Timothy Snyder talk about freedom in a helpful way in the \"Explaining Ukraine\" podcast. Far from being an absence of various restrictions, it is a thing we actively cultivate in our own everyday life practices. [\"Why is freedom not a given but a task?\"](https://ukraineworld.org/en/podcasts/ep-344)\n",
-				"date_published": "2025-02-16T12:58:16-04:00",
+				"date_published": "2025-02-16T13:58:00-04:00",
 				"url": "https://markstoneman.com/2025/02/16/on-one-of-my-long.html",
-				"tags": ["PoliticsAndRule","Authoritarianism"]
+				"tags": ["PoliticsAndRule","Authoritarianism","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/16/a-deluge-of-stupid-is.html",
@@ -2792,9 +2819,9 @@
 				
 				"content_html": "<p>Despite Russia&rsquo;s unrelenting propaganda, Ukraine is not a U.S. client state, and NATO is not a U.S. client organization, not even when the current U.S. administration talks as if they were.</p>\n",
 				"content_text": "Despite Russia's unrelenting propaganda, Ukraine is not a U.S. client state, and NATO is not a U.S. client organization, not even when the current U.S. administration talks as if they were.\n",
-				"date_published": "2025-02-13T14:35:06-04:00",
+				"date_published": "2025-02-13T15:35:00-04:00",
 				"url": "https://markstoneman.com/2025/02/13/despite-russias-unrelenting-propaganda-ukraine.html",
-				"tags": ["InternationalRelations"]
+				"tags": ["InternationalRelations","Television","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/02/13/let-the-great-eugenicist-experiment.html",
@@ -3809,9 +3836,9 @@
 				
 				"content_html": "<p>I watched the Ukrainian movie &ldquo;Sniper: The White Raven,&rdquo; dir. Maryan Bushan (Ukraine, 2022), which was filmed before Russia&rsquo;s full-scale invasion. The protagonist comes to this work after Putin&rsquo;s little green men invade his country and murder his family. The film offers a moving counterpoint to the dark comedy, &ldquo;Donbass,&rdquo; dir. Sergei Loznitsa (Ukraine, 2018). The latter presents glimpses of life in territory controlled by Russia, mixing local politics, disinformation, and violence in ways that blur the boundary between reality and alternative factuality. 🇺🇦</p>\n",
 				"content_text": "I watched the Ukrainian movie \"Sniper: The White Raven,\" dir. Maryan Bushan (Ukraine, 2022), which was filmed before Russia's full-scale invasion. The protagonist comes to this work after Putin's little green men invade his country and murder his family. The film offers a moving counterpoint to the dark comedy, \"Donbass,\" dir. Sergei Loznitsa (Ukraine, 2018). The latter presents glimpses of life in territory controlled by Russia, mixing local politics, disinformation, and violence in ways that blur the boundary between reality and alternative factuality. 🇺🇦\n",
-				"date_published": "2025-01-10T12:17:16-04:00",
+				"date_published": "2025-01-10T13:17:00-04:00",
 				"url": "https://markstoneman.com/2025/01/10/i-watched-the-ukrainian-movie.html",
-				"tags": ["WarAndSociety","SoldiersAndCivilians","Movies","InformationDisorder","Propaganda"]
+				"tags": ["WarAndSociety","SoldiersAndCivilians","Movies","InformationDisorder","Propaganda","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2025/01/09/to-the-man-on-the.html",
@@ -4111,13 +4138,13 @@
 				"tags": ["Miscellany"]
 			},
 			{
-				"id": "http://mrstoneman.micro.blog/2024/12/22/russia-is-executing.html",
+				"id": "http://mrstoneman.micro.blog/2024/12/22/russia-is-executing-more-and.html",
 				
 				"content_html": "<p>&ldquo;Russia is executing more and more Ukrainian prisoners of war&rdquo; (December 21, 2024), <a href=\"https://www.bbc.com/news/articles/c7ve11lr247o\">www.bbc.com…</a></p>\n",
 				"content_text": "\"Russia is executing more and more Ukrainian prisoners of war\" (December 21, 2024), [www.bbc.com…](https://www.bbc.com/news/articles/c7ve11lr247o)\n",
-				"date_published": "2024-12-22T11:36:25-04:00",
-				"url": "https://markstoneman.com/2024/12/22/russia-is-executing.html",
-				"tags": ["WarAndSociety","Atrocities"]
+				"date_published": "2024-12-22T12:36:00-04:00",
+				"url": "https://markstoneman.com/2024/12/22/russia-is-executing-more-and.html",
+				"tags": ["WarAndSociety","Atrocities","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/12/21/comedian-josh-johnson.html",
@@ -4156,6 +4183,15 @@
 				"tags": ["Consumption","Radio","BlackHistory","OldPhotos"]
 			},
 			{
+				"id": "http://mrstoneman.micro.blog/2024/12/17/did-the-ukrainians-russian-relatives.html",
+				
+				"content_html": "<blockquote>\n<p>Did the [Ukrainians'] Russian relatives really &ldquo;believe&rdquo; [that the Bucha atrocity was fake]? That’s the wrong question. We are not talking about a situation where people weigh evidence and come to a conclusion but rather one where people no longer seem interested in discovering the truth or even consider the truth as having considerable worth.… Polls in Russia concluded that Putin’s supporters thought that &ldquo;the government is right, solely because it is the government and it has power.&rdquo; Truth was not a value in itself; it was a subset of power.</p>\n<p><!-- raw HTML omitted -->&ndash; Peter Pomerantsev, <em>How to Win an Information War: The Propagandist Who Outwitted Hitler</em> (PublicAffairs 2024), chap. 4<!-- raw HTML omitted --></p>\n</blockquote>\n",
+				"content_text": "> Did the [Ukrainians'] Russian relatives really \"believe\" [that the Bucha atrocity was fake]? That’s the wrong question. We are not talking about a situation where people weigh evidence and come to a conclusion but rather one where people no longer seem interested in discovering the truth or even consider the truth as having considerable worth.… Polls in Russia concluded that Putin’s supporters thought that \"the government is right, solely because it is the government and it has power.\" Truth was not a value in itself; it was a subset of power.  \n>   \n> <cite>-- Peter Pomerantsev, _How to Win an Information War: The Propagandist Who Outwitted Hitler_ (PublicAffairs 2024), chap. 4</cite>\n",
+				"date_published": "2024-12-17T04:38:00-04:00",
+				"url": "https://markstoneman.com/2024/12/17/did-the-ukrainians-russian-relatives.html",
+				"tags": ["WarAndSociety","InformationDisorder","Propaganda","Ukraine"]
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2024/12/17/we-sometimes-describe.html",
 				
 				"content_html": "<blockquote>\n<p>We sometimes describe aggressors as &ldquo;brainwashed&rdquo; by propaganda that dehumanizes their victims, so much so they are &ldquo;hypnotized&rdquo; into committing atrocities. But what if the &ldquo;dehumanising&rdquo; propaganda rather legitimizes cruelty, makes it ordinary, and the aggressor sees the victims' humanity all too clearly?</p>\n<p>&ndash; <!-- raw HTML omitted -->Peter Pomerantsev, <em>How to Win an Information War: The Propagandist Who Outwitted Hitler</em> (PublicAffairs 2024), chap. 4.<!-- raw HTML omitted --></p>\n</blockquote>\n",
@@ -4163,15 +4199,6 @@
 				"date_published": "2024-12-17T04:02:59-04:00",
 				"url": "https://markstoneman.com/2024/12/17/we-sometimes-describe.html",
 				"tags": ["WarAndSociety","Atrocities","Propaganda"]
-			},
-			{
-				"id": "http://mrstoneman.micro.blog/2024/12/17/did-the-ukrainians.html",
-				
-				"content_html": "<blockquote>\n<p>Did the [Ukrainians'] Russian relatives really &ldquo;believe&rdquo; [that the Bucha atrocity was fake]? That’s the wrong question. We are not talking about a situation where people weigh evidence and come to a conclusion but rather one where people no longer seem interested in discovering the truth or even consider the truth as having considerable worth.… Polls in Russia concluded that Putin’s supporters thought that &ldquo;the government is right, solely because it is the government and it has power.&rdquo; Truth was not a value in itself; it was a subset of power.</p>\n<p><!-- raw HTML omitted -->&ndash; Peter Pomerantsev, <em>How to Win an Information War: The Propagandist Who Outwitted Hitler</em> (PublicAffairs 2024), chap. 4<!-- raw HTML omitted --></p>\n</blockquote>\n",
-				"content_text": "> Did the [Ukrainians'] Russian relatives really \"believe\" [that the Bucha atrocity was fake]? That’s the wrong question. We are not talking about a situation where people weigh evidence and come to a conclusion but rather one where people no longer seem interested in discovering the truth or even consider the truth as having considerable worth.… Polls in Russia concluded that Putin’s supporters thought that \"the government is right, solely because it is the government and it has power.\" Truth was not a value in itself; it was a subset of power.  \n>   \n> <cite>-- Peter Pomerantsev, _How to Win an Information War: The Propagandist Who Outwitted Hitler_ (PublicAffairs 2024), chap. 4</cite>\n",
-				"date_published": "2024-12-17T03:38:27-04:00",
-				"url": "https://markstoneman.com/2024/12/17/did-the-ukrainians.html",
-				"tags": ["WarAndSociety","InformationDisorder","Propaganda"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/12/15/i-enjoyed-another.html",
@@ -4264,13 +4291,13 @@
 				"tags": ["PoliticsAndRule","GenderAndSexuality","Authoritarianism"]
 			},
 			{
-				"id": "http://mrstoneman.micro.blog/2024/12/08/podcast-timothy-snyder.html",
+				"id": "http://mrstoneman.micro.blog/2024/12/08/timothy-snyder-in-kharkiv-a.html",
 				
 				"content_html": "<p><a href=\"https://ukraineworld.org/en/podcasts/ep-340\">&ldquo;Timothy Snyder in Kharkiv: A Conversation about Freedom &ndash; with Volodymyr Yermolenko&rdquo;</a> (Explaining Ukraine / UkraineWorld) 54 min.</p>\n",
 				"content_text": "[\"Timothy Snyder in Kharkiv: A Conversation about Freedom -- with Volodymyr Yermolenko\"](https://ukraineworld.org/en/podcasts/ep-340) (Explaining Ukraine / UkraineWorld) 54 min.\n",
-				"date_published": "2024-12-08T18:38:33-04:00",
-				"url": "https://markstoneman.com/2024/12/08/podcast-timothy-snyder.html",
-				"tags": ["PoliticsAndRule","Authoritarianism"]
+				"date_published": "2024-12-08T19:38:00-04:00",
+				"url": "https://markstoneman.com/2024/12/08/timothy-snyder-in-kharkiv-a.html",
+				"tags": ["PoliticsAndRule","Authoritarianism","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/12/08/we-often-wonder.html",
@@ -4642,13 +4669,22 @@
 				"tags": ["PoliticsAndRule","FascismAndNazism"]
 			},
 			{
-				"id": "http://mrstoneman.micro.blog/2024/11/21/here-is-a.html",
+				"id": "http://mrstoneman.micro.blog/2024/11/21/an-old-putin-meme-weaponizing.html",
 				"title": "An Old Putin Meme – 'Weaponizing Ridicule'",
 				"content_html": "<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n<p>Here is a once popular meme in Russia that the thin-skinned Putin banned, thereby making it more popular (artist unknown). This is one of the examples that J. Michael Waller offers in <a href=\"https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/September-October-2017/Waller-Weaponizing-Ridicule/\">&ldquo;Weaponizing Ridicule&rdquo;</a> (Military Review, Sept.&ndash;Oct. 2017). His findings, it seems to me, are relevant to how we could deal with the big orange lump.</p>\n",
 				"content_text": "<a href=\"https://eu.uploads.micro.blog/166262/2024/img-0499.jpeg\"><img src=\"https://eu.uploads.micro.blog/166262/2024/img-0499.jpeg\" width=\"600\" alt=\"Once popular meme of Putin that shows his face made up like a drag queens with bright red lipstick, dark eyeshadow, blue eyelids, exaggerated eyelashes, and yellow highlights in his hair, including yellow covering his bald spot. His shirt collar under the suit is dark from the shadow of his face, with some rainbow stripes to match the rainbow flag behind him.\"></a>\n\nHere is a once popular meme in Russia that the thin-skinned Putin banned, thereby making it more popular (artist unknown). This is one of the examples that J. Michael Waller offers in [\"Weaponizing Ridicule\"](https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/September-October-2017/Waller-Weaponizing-Ridicule/) (Military Review, Sept.--Oct. 2017). His findings, it seems to me, are relevant to how we could deal with the big orange lump.\n",
-				"date_published": "2024-11-21T14:15:16-04:00",
-				"url": "https://markstoneman.com/2024/11/21/here-is-a.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","SocialMedia","GenderAndSexuality","Authoritarianism"]
+				"date_published": "2024-11-21T15:15:00-04:00",
+				"url": "https://markstoneman.com/2024/11/21/an-old-putin-meme-weaponizing.html",
+				"tags": ["WarAndSociety","PoliticsAndRule","SocialMedia","GenderAndSexuality","Authoritarianism","Russia"]
+			},
+			{
+				"id": "http://mrstoneman.micro.blog/2024/11/20/how-russian-forces-hunted-people.html",
+				
+				"content_html": "<p>🇺🇦 &ldquo;<a href=\"https://youtu.be/RNXh1GAFrT4\">How Russian Forces Hunted People in The Bucha Massacre</a>,&rdquo; Radio Free Europe/Radio Liberty, YouTube, Nov 19, 2024 (29 min)&mdash;compelling reporting based on a thorough look at diverse sources.</p>\n<blockquote>\n<p>This is the exclusive story of Oleksiy Pobihay, a Ukrainian territorial defense fighter whose body was discovered at the site of an abandoned Russian military headquarters in Bucha. With his hands bound and a bullet wound in his head, Pobihay was among hundreds murdered during the Bucha massacre. This atrocity, which unfolded during the Russian military occupation in April 2022, has become emblematic of the war and the brutal killings perpetrated by Russian forces.</p>\n<p>Through phone intercepts, previously unpublished videos, documents, and witness statements,  ‪@RadioSvobodaUkraine‬  has pieced together the chilling story of what happened in Bucha.</p>\n</blockquote>\n",
+				"content_text": "🇺🇦 \"[How Russian Forces Hunted People in The Bucha Massacre](https://youtu.be/RNXh1GAFrT4),\" Radio Free Europe/Radio Liberty, YouTube, Nov 19, 2024 (29 min)---compelling reporting based on a thorough look at diverse sources.\n\n> This is the exclusive story of Oleksiy Pobihay, a Ukrainian territorial defense fighter whose body was discovered at the site of an abandoned Russian military headquarters in Bucha. With his hands bound and a bullet wound in his head, Pobihay was among hundreds murdered during the Bucha massacre. This atrocity, which unfolded during the Russian military occupation in April 2022, has become emblematic of the war and the brutal killings perpetrated by Russian forces.\n> \n> Through phone intercepts, previously unpublished videos, documents, and witness statements,  ‪@RadioSvobodaUkraine‬  has pieced together the chilling story of what happened in Bucha. \n",
+				"date_published": "2024-11-20T18:59:00-04:00",
+				"url": "https://markstoneman.com/2024/11/20/how-russian-forces-hunted-people.html",
+				"tags": ["WarAndSociety","Atrocities","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/11/20/house-speaker-mike.html",
@@ -4658,15 +4694,6 @@
 				"date_published": "2024-11-20T18:31:40-04:00",
 				"url": "https://markstoneman.com/2024/11/20/house-speaker-mike.html",
 				"tags": ["FascismAndNazism"]
-			},
-			{
-				"id": "http://mrstoneman.micro.blog/2024/11/20/how-russian-forces.html",
-				
-				"content_html": "<p>🇺🇦 &ldquo;<a href=\"https://youtu.be/RNXh1GAFrT4\">How Russian Forces Hunted People in The Bucha Massacre</a>,&rdquo; Radio Free Europe/Radio Liberty, YouTube, Nov 19, 2024 (29 min)&mdash;compelling reporting based on a thorough look at diverse sources.</p>\n<blockquote>\n<p>This is the exclusive story of Oleksiy Pobihay, a Ukrainian territorial defense fighter whose body was discovered at the site of an abandoned Russian military headquarters in Bucha. With his hands bound and a bullet wound in his head, Pobihay was among hundreds murdered during the Bucha massacre. This atrocity, which unfolded during the Russian military occupation in April 2022, has become emblematic of the war and the brutal killings perpetrated by Russian forces.</p>\n<p>Through phone intercepts, previously unpublished videos, documents, and witness statements,  ‪@RadioSvobodaUkraine‬  has pieced together the chilling story of what happened in Bucha.</p>\n</blockquote>\n",
-				"content_text": "🇺🇦 \"[How Russian Forces Hunted People in The Bucha Massacre](https://youtu.be/RNXh1GAFrT4),\" Radio Free Europe/Radio Liberty, YouTube, Nov 19, 2024 (29 min)---compelling reporting based on a thorough look at diverse sources.\n\n> This is the exclusive story of Oleksiy Pobihay, a Ukrainian territorial defense fighter whose body was discovered at the site of an abandoned Russian military headquarters in Bucha. With his hands bound and a bullet wound in his head, Pobihay was among hundreds murdered during the Bucha massacre. This atrocity, which unfolded during the Russian military occupation in April 2022, has become emblematic of the war and the brutal killings perpetrated by Russian forces.\n> \n> Through phone intercepts, previously unpublished videos, documents, and witness statements,  ‪@RadioSvobodaUkraine‬  has pieced together the chilling story of what happened in Bucha. \n",
-				"date_published": "2024-11-20T17:59:02-04:00",
-				"url": "https://markstoneman.com/2024/11/20/how-russian-forces.html",
-				"tags": ["WarAndSociety","Atrocities"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/11/20/from-the-church.html",
@@ -4822,13 +4849,13 @@
 				"tags": ["SocialMedia","Blogging"]
 			},
 			{
-				"id": "http://mrstoneman.micro.blog/2024/11/17/one-against-all.html",
+				"id": "http://mrstoneman.micro.blog/2024/11/17/one-against-all-animation-by.html",
 				
 				"content_html": "<p>&ldquo;One Against All&rdquo; (animation) by Фріоніс with English subtitles (2:20), <a href=\"https://youtu.be/8LXEG1mhgXI\">youtu.be/8LXEG1mhg&hellip;</a> 🇺🇦</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "\"One Against All\" (animation) by Фріоніс with English subtitles (2:20), [youtu.be/8LXEG1mhg...](https://youtu.be/8LXEG1mhgXI) 🇺🇦  \n\n<img src=\"https://eu.uploads.micro.blog/166262/2024/537c488e-79fd-4f34-a9ed-f80e29be0002.jpeg\" width=\"600\" height=\"337\" alt=\"One small soldier on the left, standing on a map of Ukraine, facing Putin and the leaders of North Korea, China, and Iran on a tank.\">\n\n",
-				"date_published": "2024-11-17T10:33:11-04:00",
-				"url": "https://markstoneman.com/2024/11/17/one-against-all.html",
-				"tags": ["WarAndSociety"]
+				"content_text": "\"One Against All\" (animation) by Фріоніс with English subtitles (2:20), [youtu.be/8LXEG1mhg...](https://youtu.be/8LXEG1mhgXI) 🇺🇦\n\n<img src=\"https://eu.uploads.micro.blog/166262/2024/537c488e-79fd-4f34-a9ed-f80e29be0002.jpeg\" alt=\"One small soldier on the left, standing on a map of Ukraine, facing Putin and the leaders of North Korea, China, and Iran on a tank.\">\n",
+				"date_published": "2024-11-17T11:33:00-04:00",
+				"url": "https://markstoneman.com/2024/11/17/one-against-all-animation-by.html",
+				"tags": ["WarAndSociety","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/11/16/mt-cranmore-from.html",
@@ -4867,13 +4894,13 @@
 				"tags": ["Miscellany"]
 			},
 			{
-				"id": "http://mrstoneman.micro.blog/2024/11/15/informative-piece-from.html",
+				"id": "http://mrstoneman.micro.blog/2024/11/15/informative-piece-reported-from-ukraine.html",
 				
 				"content_html": "<p>Informative piece, reported from Ukraine: <a href=\"https://www.bostonglobe.com/2024/11/08/opinion/donald-trump-ukraine/\">&ldquo;A war-weary Ukraine warily eyes a Trump presidency&rdquo;</a> by Fabrice Deprez, The Boston Globe, November 8, 2024.</p>\n",
 				"content_text": "Informative piece, reported from Ukraine: [\"A war-weary Ukraine warily eyes a Trump presidency\"](https://www.bostonglobe.com/2024/11/08/opinion/donald-trump-ukraine/) by Fabrice Deprez, The Boston Globe, November 8, 2024.\n",
-				"date_published": "2024-11-15T13:33:23-04:00",
-				"url": "https://markstoneman.com/2024/11/15/informative-piece-from.html",
-				"tags": ["WarAndSociety"]
+				"date_published": "2024-11-15T14:33:00-04:00",
+				"url": "https://markstoneman.com/2024/11/15/informative-piece-reported-from-ukraine.html",
+				"tags": ["WarAndSociety","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/11/14/the-principle-that.html",
@@ -5128,13 +5155,13 @@
 				"tags": ["NewsMedia"]
 			},
 			{
-				"id": "http://mrstoneman.micro.blog/2024/11/08/does-putin-understand.html",
+				"id": "http://mrstoneman.micro.blog/2024/11/08/does-putin-understand-the-united.html",
 				"title": "Does Putin understand the United States? I'm inclined to think not, even if he's got Trump as a person pretty well sized up.",
 				"content_html": "<p>I can&rsquo;t help but think that the Kremlin once again misunderstands the situation, as they did in February 2022. Sure, the next U.S. president likes rubbing elbows with &ldquo;tough guy&rdquo; dictators, and the guardrails of expertise and institutions mean nothing to him; nevertheless, he won&rsquo;t be completely free to do as he pleases. Think of the old guard Republicans who know what&rsquo;s at stake in Europe. Enough of them were able to convince the guy in Mar-a-Lago to tell Mike Johnson to finally approve funds for Ukraine earlier this year. More importantly, even if his supporters are gung-ho America Firsters, they feel threatened by China, Putin&rsquo;s close ally. If they haven&rsquo;t put two and two together about the global ramifications of Russia&rsquo;s invasion of Ukraine, their obsession with tariffs has everything to do with China, Russia&rsquo;s closest supporter.</p>\n<p>In fact, will the jumping, hooting, squealing Mr. Cybertruck&rsquo;s interests in China throw a spanner in his current machinations to treat our government like an extension of his personal business interests? Mr. Orange-in-a-Suit&rsquo;s supporters are expecting action on China, and their guy with the tie needs their adulation&mdash;not to mention their votes in the 2026 midterms. Besides, how open will his oil guys be to welcoming Russia back to legitimate global oil and natural gas markets while prices are low? I can&rsquo;t claim to know all the variables, and I know the occupant of the White House matters a great deal. Still, as unpredictable, unscrupulous, inhumane, and disloyal as Mr. Bad Hairpiece is, he will not be operating in a vacuum free from the influence of powerful players calling in their chits.</p>\n<p>Be that as it may, there can be no doubt that the Russian terrorist-in-chief and his security apparatus have already proven how blinkered they were about Ukraine, not to mention the unity NATO has projected. It is equally nonsensical for the Kremlin to think of NATO as a collection of American-led satellite states, pace Russia&rsquo;s rabid propagandists Margarita Simonyan and Vladimir Soloviev. Why should the Kremlin understand the United States any better, if it can&rsquo;t even acknowledge Ukrainian agency? And just how well would the next U.S. president respond to threats, when Putin realizes that flattery won&rsquo;t get him what he wants in Ukraine.</p>\n",
 				"content_text": "I can't help but think that the Kremlin once again misunderstands the situation, as they did in February 2022. Sure, the next U.S. president likes rubbing elbows with \"tough guy\" dictators, and the guardrails of expertise and institutions mean nothing to him; nevertheless, he won't be completely free to do as he pleases. Think of the old guard Republicans who know what's at stake in Europe. Enough of them were able to convince the guy in Mar-a-Lago to tell Mike Johnson to finally approve funds for Ukraine earlier this year. More importantly, even if his supporters are gung-ho America Firsters, they feel threatened by China, Putin's close ally. If they haven't put two and two together about the global ramifications of Russia's invasion of Ukraine, their obsession with tariffs has everything to do with China, Russia's closest supporter.\n\nIn fact, will the jumping, hooting, squealing Mr. Cybertruck's interests in China throw a spanner in his current machinations to treat our government like an extension of his personal business interests? Mr. Orange-in-a-Suit's supporters are expecting action on China, and their guy with the tie needs their adulation---not to mention their votes in the 2026 midterms. Besides, how open will his oil guys be to welcoming Russia back to legitimate global oil and natural gas markets while prices are low? I can't claim to know all the variables, and I know the occupant of the White House matters a great deal. Still, as unpredictable, unscrupulous, inhumane, and disloyal as Mr. Bad Hairpiece is, he will not be operating in a vacuum free from the influence of powerful players calling in their chits.\n\nBe that as it may, there can be no doubt that the Russian terrorist-in-chief and his security apparatus have already proven how blinkered they were about Ukraine, not to mention the unity NATO has projected. It is equally nonsensical for the Kremlin to think of NATO as a collection of American-led satellite states, pace Russia's rabid propagandists Margarita Simonyan and Vladimir Soloviev. Why should the Kremlin understand the United States any better, if it can't even acknowledge Ukrainian agency? And just how well would the next U.S. president respond to threats, when Putin realizes that flattery won't get him what he wants in Ukraine.\n",
-				"date_published": "2024-11-08T05:10:08-04:00",
-				"url": "https://markstoneman.com/2024/11/08/does-putin-understand.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations"]
+				"date_published": "2024-11-08T06:10:00-04:00",
+				"url": "https://markstoneman.com/2024/11/08/does-putin-understand-the-united.html",
+				"tags": ["WarAndSociety","PoliticsAndRule","InternationalRelations","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/11/08/imagining-one.html",
@@ -5602,7 +5629,7 @@
 				"content_text": "> Russia is intent on eradicating the Ukrainian language and all aspects of Ukrainian identity, with young Ukrainians a particular target.\n> \n> <cite>-- [Halya Coynash](https://khpg.org/en/1608814097 \"'Russification at any cost in occupied Ukraine with children even physically punished for speaking Ukrainian,' Human Rights in Ukraine\")</cite>\n",
 				"date_published": "2024-10-28T21:27:53-04:00",
 				"url": "https://markstoneman.com/2024/10/28/russia-is-intent.html",
-				"tags": ["WarAndSociety","HumanRights","Atrocities","Children"]
+				"tags": ["WarAndSociety","HumanRights","Atrocities","Children","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/10/28/it-hurts-to.html",
@@ -6025,7 +6052,7 @@
 				"content_text": "> The Russian parliament is discussing a law to ban so-called \"propaganda of childlessness\" with fines up to $4,300 for individuals. Will that help to solve the country's demographic crisis?\n> \n> <cite><a href=\"https://www.dw.com/en/whats-behind-russias-plan-to-ban-child-free-ideology/a-7032406\">\"What's behind Russia's plan to ban 'child-free' ideology?,\" DW, Sept. 28, 2024.</a></cite>\n\nIt's almost as if they were pandering to Vance – or drinking from the same batch of Kool-Aid.\n\n",
 				"date_published": "2024-09-28T10:11:32-04:00",
 				"url": "https://markstoneman.com/2024/09/28/russia-muzzles-childless.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","FascismAndNazism"]
+				"tags": ["WarAndSociety","PoliticsAndRule","FascismAndNazism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/09/27/there-is-a.html",
@@ -6097,7 +6124,7 @@
 				"content_text": "Russia lets African migrant laborers enter on tourist visas. From there, they can look for work, but sign a contract that lands them on the front lines in Donbas. <em>The Kyiv Independent</em> has excerpted interviews with two African POWs held by Ukraine. <a href=\"https://youtu.be/PM9DnRxxWC0\">https://youtu.be/PM9DnRxxWC0</a> <i class=\"fa-brands fa-youtube\"></i> (12 min)\n",
 				"date_published": "2024-09-20T17:50:09-04:00",
 				"url": "https://markstoneman.com/2024/09/20/russia-lets-african.html",
-				"tags": ["WarAndSociety","Migration","Labor"]
+				"tags": ["WarAndSociety","Migration","Labor","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/09/19/a-german-hashtag.html",
@@ -6214,7 +6241,7 @@
 				"content_text": "I really enjoyed Peter Pomerantsev, _[This Is Not Propaganda: Adventures in the War against Reality](https://micro.blog/books/9780571338658)_ (2019). He pursues his subject across much of the globe, seeking out people who have shaped fractured information spaces in pursuit of their activist or political consulting goals. And he historicizes the development of contemporary information wars and ideological confusion by relating these phenomena to developments during and since the late Cold War. \n\nHe lends coherence to the sprawling tale by jumping around places and phenomena in an impressionistic style, using his father's literary and radio biography as a reference point. The father was investigated by the KGB, which led to his family's exile from the Soviet Union. The son later worked in Russian television for nearly a decade, gaining an insider's view of Putin's Russia that turned out to be more broadly relevant than he had initially realized (Pomerantsev, _[Nothing Is True and Everything Is Possible](https://micro.blog/books/9781610394567)_ [2014]).\n",
 				"date_published": "2024-09-02T13:59:03-04:00",
 				"url": "https://markstoneman.com/2024/09/02/i-really-enjoyed.html",
-				"tags": ["WarAndSociety","KnowledgeHistory","PoliticsAndRule","SocialMedia","ReadingNotes","FascismAndNazism","Books","InformationDisorder","Propaganda"]
+				"tags": ["WarAndSociety","KnowledgeHistory","PoliticsAndRule","SocialMedia","ReadingNotes","FascismAndNazism","Books","InformationDisorder","Propaganda","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/09/01/it-was-their.html",
@@ -6265,10 +6292,10 @@
 				"id": "http://mrstoneman.micro.blog/2024/08/27/russia-has-been.html",
 				
 				"content_html": "<p>Russia has been testing drones and training their pilots with attacks on Ukrainian civilians in Beryslav (Kherson Oblast). Good investigative reporting by DW Documentary. <!-- raw HTML omitted --><a href=\"https://youtu.be/kuTo94TnMPo\">https://youtu.be/kuTo94TnMPo</a><!-- raw HTML omitted --> <!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "Russia has been testing drones and training their pilots with attacks on Ukrainian civilians in Beryslav (Kherson Oblast). Good investigative reporting by DW Documentary. <a href=\"https://youtu.be/kuTo94TnMPo\">https://youtu.be/kuTo94TnMPo</a> <i class=\"fa-brands fa-youtube\"></i> \n",
+				"content_text": "Russia has been testing drones and training their pilots with attacks on Ukrainian civilians in Beryslav (Kherson Oblast). Good investigative reporting by DW Documentary. <a href=\"https://youtu.be/kuTo94TnMPo\">https://youtu.be/kuTo94TnMPo</a> <i class=\"fa-brands fa-youtube\"></i>\n",
 				"date_published": "2024-08-27T01:47:58-04:00",
 				"url": "https://markstoneman.com/2024/08/27/russia-has-been.html",
-				"tags": ["WarAndSociety","Atrocities"]
+				"tags": ["WarAndSociety","Atrocities","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/08/26/hot-tip-we.html",
@@ -6286,7 +6313,7 @@
 				"content_text": "With its massive air attack today, Russia offers still more convincing arguments for lifting restrictions on Ukraine's use of Western-provided missiles. It's high time we attended to Russia's actions instead of its bluster. \n",
 				"date_published": "2024-08-26T10:18:06-04:00",
 				"url": "https://markstoneman.com/2024/08/26/with-its-massive.html",
-				"tags": ["WarAndSociety","PoliticsAndRule","Atrocities"]
+				"tags": ["WarAndSociety","PoliticsAndRule","Atrocities","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/08/24/i-am-happy.html",
@@ -6367,7 +6394,7 @@
 				"content_text": "Michael Bohnert, an engineer at Rand Corporation, shares some useful insights about electronic warfare in the August 16, 2024 episode of the podcast [Ukraine the Latest](https://shows.acast.com/ukraine-the-latest). He discusses this topic in connection with Ukraine's Kursk incursion and describes the difficult choices that Russia's political and military leadership face in the coming months from the standpoint of electronic warfare.\n\nAlso, Anders Puck Nielsen, a military analyst in Denmark, released a helpful 15-minute video on YouTube today about where he thinks Russia's leadership is in [responding to Ukraine's incursion](https://www.youtube.com/watch?v=u_80rUKItGc). Acknowledging complexity, he nonetheless keeps his viewers' eyes on two fundamental issues for Russia, namely, space and manpower, and he underlines the critical domestic political entanglements that the manpower question has.\n\nBoth of these contributions offer useful perspectives on Ukraine's shakeup of a common impression that the conflict was supposedly frozen. Of course, there are many more aspects of this story, but I highlight these contributions because I haven't seen them in other news stories so far.\n\n<img src=\"https://eu.uploads.micro.blog/166262/2024/august-2024-kursk-oblast-incursion.svg.png\" width=\"600\" height=\"423\" alt=\"August 2024 Kursk Oblast incursion\">\n\nMap of [the incursion in early August](https://commons.wikimedia.org/wiki/File:August_2024_Kursk_Oblast_incursion.svg), uploaded to Wikimedia Commons on August 8, 2024 by Ecrusized in varying sizes and languages.  License: [CC0](https://creativecommons.org/public-domain/cc0/) (no rights reserved). \n",
 				"date_published": "2024-08-19T17:09:37-04:00",
 				"url": "https://markstoneman.com/2024/08/19/recommendations-for-insight.html",
-				"tags": ["WarAndSociety"]
+				"tags": ["WarAndSociety","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/08/16/today-we-have.html",
@@ -6394,7 +6421,7 @@
 				"content_text": "The Centre for Eastern Studies (OSW) in Warsaw has put out two interesting reports on YouTube that analyze Russia's initially incoherent propaganda response to Ukraine's Kursk incursion and how this propaganda interacts with ordinary Russians' reactions.\n1. [Russian media on Ukraine's invasion of Kursk](https://www.youtube.com/watch?v=2xOVjb3id-Y)\n2. [How did Russian society react to the Ukrainian attack?](https://www.youtube.com/watch?v=a1mvUe6whHA&t=613s)\n",
 				"date_published": "2024-08-13T13:47:20-04:00",
 				"url": "https://markstoneman.com/2024/08/13/the-centre-for.html",
-				"tags": ["WarAndSociety","InformationDisorder","Propaganda"]
+				"tags": ["WarAndSociety","InformationDisorder","Propaganda","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/08/12/maybe-rightwingers-are.html",
@@ -6412,7 +6439,7 @@
 				"content_text": "In _This is Not Propaganda_ (end of part 2), Peter Pomerantsev writes of his Russian family, based in Kyiv, becoming stateless in the late 1970s. The KGB had accused his father, Igor, of \"circulating defamatory fabrications, regular listening to hostile broadcasts and contacts with foreigners.\" They recommended he emigrate.\n\n> In many ways Igor was lucky. He had the semblance of choice. The [KGB] major had made it clear that if he stayed, he would have the full seven years in prison and five exiled in the Soviet provinces to face. If he had been a Ukrainian-language poet, [Pomerantsev continues, Igor] would have been locked up immediately. Repression in Ukraine focused on exterminating any signs of independent Ukrainian culture outside the cultural crèche of state-sanctioned Soviet 'Ukrainianness'. But Igor wrote in Russian, the language of the coloniser.\n",
 				"date_published": "2024-08-11T14:25:13-04:00",
 				"url": "https://markstoneman.com/2024/08/11/in-this-is.html",
-				"tags": ["PoliticsAndRule","PatriotismAndNationalism","LanguageMatters"]
+				"tags": ["PoliticsAndRule","PatriotismAndNationalism","LanguageMatters","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/08/11/he-turns-being.html",
@@ -6466,7 +6493,7 @@
 				"content_text": "There are two documentary films streaming on Paramount+ right now that I find inspiring and motivating: \"Superpower\" (2023), directed by Sean Penn and Aaron Kaufman; and \"Kiss the Future\" (2024), directed by Nenad Cicin-Sain. The first centers on Ukraine and Volodymyr Zelinsky in Russia's current war against Ukraine, and the second goes back to the Siege of Sarajevo (1992–96). \n\nA theme common to each film is ordinary citizens standing up to genocidal aggressors. There is also the relationship between popular culture and politics in war, including the role of international celebrity. In the first movie, an entertainer-turned-president must lead a country in war, supported by a self-mobilizing citizenry. Moreover, one of the directors is himself an entertainer. In the second movie, inhabitants of a city under constant fire find a way to get by and even thrive with punk rock and dance. They are later joined on TV and then in person by the band U2.\n",
 				"date_published": "2024-08-05T13:54:36-04:00",
 				"url": "https://markstoneman.com/2024/08/05/there-are-two.html",
-				"tags": ["WarAndSociety","PastAndPresent","Movies"]
+				"tags": ["WarAndSociety","PastAndPresent","Movies","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/07/31/here-is-a.html",
@@ -6511,7 +6538,7 @@
 				"content_text": "Good on Ukraine for using a little leverage against the Putin lackey Viktor Orban. It was high time. Details of the spat are in this short _Politico_ piece: \n[\"EU 'ready' to negotiate as Hungary-Ukraine oil row boils over\"](https://www.politico.eu/article/european-union-hungary-ukraine-oil-lukoil-russia-war-slovakia/).\n",
 				"date_published": "2024-07-23T19:13:22-04:00",
 				"url": "https://markstoneman.com/2024/07/23/good-on-ukraine.html",
-				"tags": ["WarAndSociety","PoliticsAndRule"]
+				"tags": ["WarAndSociety","PoliticsAndRule","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/07/22/interesting-notes-on.html",
@@ -6565,7 +6592,7 @@
 				"content_text": "> The Kremlin switches messages at will to its advantage, climbing inside everything: European right-wing nationalists are seduced with an anti-EU message; the Far Left is co-opted with tales of fighting US hegemony; US religious conservatives are convinced by the Kremlin’s fight against homosexuality. And the result is an array of voices, working away at global audiences from different angles, producing a cumulative echo chamber of Kremlin support, all broadcast on RT.\n> \n> <cite>Peter Pomerantsev, _Nothing Is True and Everything Is Possible: The Surreal Heart of the New Russia_ (New York: PublicAffairs, 2014), act 3, last section.</cite>\n",
 				"date_published": "2024-07-18T00:59:52-04:00",
 				"url": "https://markstoneman.com/2024/07/18/the-kremlin-switches.html",
-				"tags": ["WarAndSociety","FascismAndNazism","InformationDisorder"]
+				"tags": ["WarAndSociety","FascismAndNazism","InformationDisorder","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/07/17/here-come-the.html",
@@ -6619,16 +6646,16 @@
 				"content_text": "\n\"Forms of Delirium\" is the third act of Peter Pomerantsev, _Nothing Is True and Everything Is Possible: The Surreal Heart of the New Russia_ (New York: PublicAffairs, 2014). Now deep in the section titled \"A Brief History of Sects in Post-Soviet Russia,\" it dawns on me that this material provides useful context for the bizarre, messianic, wartime rhetoric I've heard come out of Russian propagandist Vladimir Solovyov's mouth in the [television clips](https://m.youtube.com/@russianmediamonitor \"Russian Media Monitor on YouTube\") that Julia Davis translates for English-speaking audiences. \n\nThis is not to say that Solovyov necessarily believes all the poison he spews. The first act of the same book, \"Reality Show Russia,\" provides plenty of background on that subject, even if it is based on prewar Russia. Still, the combination of mysticism, religion, ethnic Russian nationalism, and ostensibly anti-imperialist imperialism dripping from parts of the final act of this excellent book offers at least some reason for not dismissing a talking head like Solovyov out of hand. He may use the privilege of the fool to say extreme things, but he knows his words are landing.\n",
 				"date_published": "2024-07-10T23:46:55-04:00",
 				"url": "https://markstoneman.com/2024/07/10/delirious-television-propaganda.html",
-				"tags": ["WarAndSociety","ReadingNotes","PatriotismAndNationalism","Religion","InformationDisorder","Propaganda"]
+				"tags": ["WarAndSociety","ReadingNotes","PatriotismAndNationalism","Religion","InformationDisorder","Propaganda","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/07/10/russian-hybrid-warfare.html",
 				"title": "Russian Hybrid Warfare",
-				"content_html": "<p><!-- raw HTML omitted -->&ldquo;How disinformation from a Russian AI spam farm ended up on top of Google search results&rdquo;<!-- raw HTML omitted --> by David Gilbert, Wired.com, via ArsTechnica, July 10, 2024.<!-- raw HTML omitted --></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "<a href=\"https://arstechnica.com/ai/2024/07/how-disinformation-from-a-russian-ai-spam-farm-ended-up-on-top-of-google-search-results/\">\"How disinformation from a Russian AI spam farm ended up on top of Google search results\"</a> by David Gilbert, Wired.com, via ArsTechnica, July 10, 2024.</p>\n<blockquote> In the space of 24 hours, a piece of Russian disinformation about Ukrainian president Volodymyr Zelensky’s wife buying a Bugatti car with American aid money traveled at warp speed across the internet. Though it originated from an unknown French website, it quickly became a trending topic on X and the top result on Google. . . .</blockquote>\n",
+				"content_html": "<p><!-- raw HTML omitted -->&ldquo;How disinformation from a Russian AI spam farm ended up on top of Google search results&rdquo;<!-- raw HTML omitted --> by David Gilbert, Wired.com, via ArsTechnica, July 10, 2024.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "<a href=\"https://arstechnica.com/ai/2024/07/how-disinformation-from-a-russian-ai-spam-farm-ended-up-on-top-of-google-search-results/\">\"How disinformation from a Russian AI spam farm ended up on top of Google search results\"</a> by David Gilbert, Wired.com, via ArsTechnica, July 10, 2024.\n<blockquote> In the space of 24 hours, a piece of Russian disinformation about Ukrainian president Volodymyr Zelensky’s wife buying a Bugatti car with American aid money traveled at warp speed across the internet. Though it originated from an unknown French website, it quickly became a trending topic on X and the top result on Google. . . .</blockquote>\n",
 				"date_published": "2024-07-10T21:36:57-04:00",
 				"url": "https://markstoneman.com/2024/07/10/russian-hybrid-warfare.html",
-				"tags": ["WarAndSociety","InformationDisorder"]
+				"tags": ["WarAndSociety","InformationDisorder","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/07/10/according-to-the.html",
@@ -6637,7 +6664,7 @@
 				"content_text": "According to the _Frankfurter Rundschau_ today, Russian food producers are adding banned \"meat glue\" (transglutaminase) to products to increase their volume in the face of the inflation that Putin's illegal war is bringing them. \nHT [@GianlucaColani@bildung.social](https://bildung.social/@GiColani/112763999189678677)\n",
 				"date_published": "2024-07-10T16:28:20-04:00",
 				"url": "https://markstoneman.com/2024/07/10/according-to-the.html",
-				"tags": ["WarAndSociety","Food"]
+				"tags": ["WarAndSociety","Food","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/07/10/we-believe-russia.html",
@@ -6889,7 +6916,7 @@
 				"content_text": "I just saw images in _The Telegraph_ of [emaciated Ukrainian POWs](https://archive.ph/N30QQ) recently traded back from Russia. These stark images were taken after the men had regained some 10 kilograms of their lost weight. If you look closely, you'll actually see life in the photographed eyes. How did the same eyes and severely weakened bodies look before the exchange?\n\nStarved and no contact with the International Red Cross---I'm trying to grasp what this intentionally extreme mistreatment means. After all, the Ukrainians are holding Russians. As far as I know, food as such is not in short supply in Russia. Was this the result of extreme mistreatment in one location? Or was it more widespread, systematic? Was it about torture with specific mission-related objectives? Was it zeal, resentment, sadism, corruption, indifference? Will this have any impact on Russian POWs in Ukraine? Or will Ukraine's leadership continue striving to keep the higher ground? \n",
 				"date_published": "2024-06-19T01:50:26-04:00",
 				"url": "https://markstoneman.com/2024/06/19/images-of-returned.html",
-				"tags": ["WarAndSociety","Atrocities"]
+				"tags": ["WarAndSociety","Atrocities","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/06/18/reading-netanyahus-clusterfuck.html",
@@ -6925,7 +6952,7 @@
 				"content_text": "<p class=\"hanging\"><i class=\"fa-solid fa-book-open-reader\"></i> <a href=\"https://globalrightscompliance.com/2024/06/13/new-report-deliberate-pattern-of-starvation-tactics-against-ukrainian-civilians-by-russian-forces-in-siege-of-mariupol-city/\">\"New Report: 'Deliberate Pattern' of Starvation Tactics against Ukrainian Civilians by Russian Forces in Siege of Mariupol City\"</a> by Global Rights Compliance, June 13, 2024. (Summary in Ukrainian followed by English)</p>\n<p class=\"hanging\"><i class=\"fa-solid fa-book-open-reader\"></i> <a href=\"https://globalrightscompliance.com/wp-content/uploads/2024/06/20240612-Mariupol-ReportENG.pdf\">Full report in English (PDF)</a> — <em>\"The Hope Left Us\": Russia’s Siege, Starvation, and Capture of Mariupol City</em></p>\n<p class=\"hanging\"><i class=\"fa-solid fa-book-open-reader\"></i> <a href=\"https://globalrightscompliance.com/wp-content/uploads/2024/06/20240612-Mariupol-Report-UKR-.pdf\">Full report in Ukrainian (PDF)</a> — <em>\"Надія залишила нас\": Облога, моріння голодом і захоплення Маріуполя Росією</em></p>\n\nI still need to process this report, but its outline already lines up with the reporting presented in the prize-winning Frontline/AP documentary, \"20 Days in Mariupol\" ([available in full on the Internet Archive](https://archive.org/details/youtube-gvAyykRvPBo)). Its chapters include:\n\n<!--more-->\n\n- \"Attacks on Objects Indispensable to the Survival (OIS) of the Civilian Population\";\n- \"Denial of Humanitarian Aid\";\n- \"Denial of Humanitarian Evacuations and Filtration\"; and\n- \"Arrest and Persecution of Humanitarian Volunteers.\"\n\nAt the very least, Russia's systematic actions make one thing even more abundantly clear: Russia's invasion never had anything even remotely to do with \"protecting\" Russian speakers.\n\nI'm also trying to grasp what Russia's actions mean to Ukrainians already keenly aware of Stalin's instrumentalization of hunger and famine against them.\n\nFinally, it is interesting to see this report come out at a time when Israel's government has been deliberately starving Palestinians in Gaza. There are many past precedents for applying such methods in war, but the international humanitarian movement and international humanitarian law have been making significant strides. Public denials of starvation charges by perpetrators only underline their awareness of this reality.\n",
 				"date_published": "2024-06-16T20:59:58-04:00",
 				"url": "https://markstoneman.com/2024/06/16/reading-evidence-of.html",
-				"tags": ["WarAndSociety","HumanRights","ReadingNotes","Atrocities"]
+				"tags": ["WarAndSociety","HumanRights","ReadingNotes","Atrocities","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2024/06/16/historian-daniel-bellingradt.html",
@@ -7281,11 +7308,11 @@
 			{
 				"id": "http://mrstoneman.micro.blog/2023/08/28/ukrainian-media-at.html",
 				"title": "Ukrainian Media at War",
-				"content_html": "<p>In the past, I rarely watched YouTube, but the <!-- raw HTML omitted -->bird site&rsquo;s corruption<!-- raw HTML omitted --> has seen me on YouTube much more often, as I search for content about Ukraine. Recently I found a good Ukrainian-made series about how Ukrainians in various kinds of media have adapted to Russia&rsquo;s full-scale invasion. There are 10 episodes, not counting a 3-minute trailer. All but the last are about 15 minutes long, and the final one is 25 minutes. (I&rsquo;ve seen half of them so far.) The series is largely in Ukrainian with English subtitles, and partly in English with Ukrainian subtitles, depending on who is speaking. The titles on YouTube are in Ukrainian, but there&rsquo;s a playlist that has them all in the correct order. Besides, you don&rsquo;t need to know the Cyrillic alphabet to read the episode numbers (єпізод 1, 2, 3 …) of <!-- raw HTML omitted -->&ldquo;Media at War&rdquo; (Медіа на війні)<!-- raw HTML omitted --> and to watch Ukrainians speak for themselves.<!-- raw HTML omitted --></p>\n",
-				"content_text": "In the past, I rarely watched YouTube, but the <a title=\"Bye Bye Birdie\" href=\"https://markstoneman.com/2022/12/04/bye-bye-birdie/\">bird site's corruption</a> has seen me on YouTube much more often, as I search for content about Ukraine. Recently I found a good Ukrainian-made series about how Ukrainians in various kinds of media have adapted to Russia's full-scale invasion. There are 10 episodes, not counting a 3-minute trailer. All but the last are about 15 minutes long, and the final one is 25 minutes. (I've seen half of them so far.) The series is largely in Ukrainian with English subtitles, and partly in English with Ukrainian subtitles, depending on who is speaking. The titles on YouTube are in Ukrainian, but there's a playlist that has them all in the correct order. Besides, you don't need to know the Cyrillic alphabet to read the episode numbers (єпізод 1, 2, 3 …) of <a href=\"https://youtube.com/playlist?list=PL1PP_OaYvIQW7NZgkC-UKXBDAqaR5zeV6&si=Zv-maz1DI6_i1wo9\">\"Media at War\" (Медіа на війні)</a> and to watch Ukrainians speak for themselves.</p>\n",
+				"content_html": "<p>In the past, I rarely watched YouTube, but the <!-- raw HTML omitted -->bird site&rsquo;s corruption<!-- raw HTML omitted --> has seen me on YouTube much more often, as I search for content about Ukraine. Recently I found a good Ukrainian-made series about how Ukrainians in various kinds of media have adapted to Russia&rsquo;s full-scale invasion. There are 10 episodes, not counting a 3-minute trailer. All but the last are about 15 minutes long, and the final one is 25 minutes. (I&rsquo;ve seen half of them so far.) The series is largely in Ukrainian with English subtitles, and partly in English with Ukrainian subtitles, depending on who is speaking. The titles on YouTube are in Ukrainian, but there&rsquo;s a playlist that has them all in the correct order. Besides, you don&rsquo;t need to know the Cyrillic alphabet to read the episode numbers (єпізод 1, 2, 3 …) of <!-- raw HTML omitted -->&ldquo;Media at War&rdquo; (Медіа на війні)<!-- raw HTML omitted --> and to watch Ukrainians speak for themselves.</p>\n",
+				"content_text": "In the past, I rarely watched YouTube, but the <a title=\"Bye Bye Birdie\" href=\"https://markstoneman.com/2022/12/04/bye-bye-birdie/\">bird site's corruption</a> has seen me on YouTube much more often, as I search for content about Ukraine. Recently I found a good Ukrainian-made series about how Ukrainians in various kinds of media have adapted to Russia's full-scale invasion. There are 10 episodes, not counting a 3-minute trailer. All but the last are about 15 minutes long, and the final one is 25 minutes. (I've seen half of them so far.) The series is largely in Ukrainian with English subtitles, and partly in English with Ukrainian subtitles, depending on who is speaking. The titles on YouTube are in Ukrainian, but there's a playlist that has them all in the correct order. Besides, you don't need to know the Cyrillic alphabet to read the episode numbers (єпізод 1, 2, 3 …) of <a href=\"https://youtube.com/playlist?list=PL1PP_OaYvIQW7NZgkC-UKXBDAqaR5zeV6&si=Zv-maz1DI6_i1wo9\">\"Media at War\" (Медіа на війні)</a> and to watch Ukrainians speak for themselves.\n",
 				"date_published": "2023-08-28T22:15:06-04:00",
 				"url": "https://markstoneman.com/2023/08/28/ukrainian-media-at.html",
-				"tags": ["WarAndSociety","SocialMedia"]
+				"tags": ["WarAndSociety","SocialMedia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2023/08/25/sign-of-life.html",
@@ -7309,10 +7336,10 @@
 				"id": "http://mrstoneman.micro.blog/2023/01/06/links-russoukrainian-war.html",
 				"title": "Links: Russo-Ukrainian War",
 				"content_html": "<p>Here are some worthwhile articles related to Russia&rsquo;s invasion of Ukraine. No paywalls – all links lead to freely available texts.</p>\n<p><!-- raw HTML omitted -->Under Cover of War: The Kremlin&rsquo;s Fascist Project<!-- raw HTML omitted -->&quot; by Nancy Ries, <!-- raw HTML omitted -->Today&rsquo;s Totalitarianism<!-- raw HTML omitted -->, August 2022.</p>\n<blockquote>\n<p>The war is a profound turning point, ending any pretense of “soft” authoritarianism with its modicum of space for resistance. The Kremlin’s fascist project may not succeed in the end, but it is crucial to see its effects within Russia as a fundamental component of the 2022 attack on Ukraine…. The Kremlin structures its war-making machine in ways that deliberately produce atrocity…. [And on TV, there is] a &ldquo;pedagogy&rdquo; of exterminist consciousness and practice, a key tool of the fascist project unfolding within and beyond Russia.</p>\n</blockquote>\n<p><!-- raw HTML omitted -->In Ukraine, I saw the greatest threat to the Russian world isn’t the west – it’s Putin&quot;<!-- raw HTML omitted --> by Timothy Garton Ash, <!-- raw HTML omitted -->The Guardian<!-- raw HTML omitted -->, December 17, 2022.</p>\n<blockquote>\n<p>The Kremlin’s imperial war has made its own culture and language a common enemy for people across its former empire.</p>\n</blockquote>\n<p><!-- raw HTML omitted -->&ldquo;The Skill Involved in Zelensky&rsquo;s Congressional Address&rdquo;<!-- raw HTML omitted --> by James Fallows, <!-- raw HTML omitted -->Breaking the News<!-- raw HTML omitted -->, December 23, 2022.</p>\n<blockquote>\n<p>The words of the speech were ‘left brain,’ with careful writerly eloquence. The in-person performance was ‘right brain,’ with emotional power beyond the words. The combination was remarkable.</p>\n</blockquote>\n<p><!-- raw HTML omitted -->&ldquo;Special Issue: Weaponizing History in the Russo-Ukrainian War<!-- raw HTML omitted -->,&rdquo; edited by Beatrice de Graaf and Lien Verpoest, <!-- raw HTML omitted -->Journal of Applied History<!-- raw HTML omitted -->, December 2022.</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
-				"content_text": "Here are some worthwhile articles related to Russia's invasion of Ukraine. No paywalls – all links lead to freely available texts.\n\n<a href=\"https://www.todaystotalitarianism.com/under-cover-of-war\">Under Cover of War: The Kremlin's Fascist Project</a>\" by Nancy Ries, <em>Today's Totalitarianism</em>, August 2022.\n\n> The war is a profound turning point, ending any pretense of “soft” authoritarianism with its modicum of space for resistance. The Kremlin’s fascist project may not succeed in the end, but it is crucial to see its effects within Russia as a fundamental component of the 2022 attack on Ukraine…. The Kremlin structures its war-making machine in ways that deliberately produce atrocity…. [And on TV, there is] a \"pedagogy\" of exterminist consciousness and practice, a key tool of the fascist project unfolding within and beyond Russia.\n\n<a href=\"https://www.theguardian.com/commentisfree/2022/dec/17/ukraine-greatest-threat-russian-world-vladimir-putin\" rel=\"nofollow\">In Ukraine, I saw the greatest threat to the Russian world isn’t the west – it’s Putin\"</a> by Timothy Garton Ash, <em>The Guardian</em>, December 17, 2022.\n\n> The Kremlin’s imperial war has made its own culture and language a common enemy for people across its former empire.\n\n<a href=\"https://fallows.substack.com/p/the-skill-involved-in-zelenskys-congressional\">\"The Skill Involved in Zelensky's Congressional Address\"</a> by James Fallows, <em>Breaking the News</em>, December 23, 2022.\n\n> The words of the speech were ‘left brain,’ with careful writerly eloquence. The in-person performance was ‘right brain,’ with emotional power beyond the words. The combination was remarkable.\n\n\n<a href=\"https://brill.com/view/journals/joah/4/1-2/joah.4.issue-1-2.xml\">\"Special Issue: Weaponizing History in the Russo-Ukrainian War</a>,\" edited by Beatrice de Graaf and Lien Verpoest, <em>Journal of Applied History</em>, December 2022.\n\n<hr>\n\n<div class=\"flex-container\">\n\t<div class=\"flex-two-column\">\n\t\t<img src=\"https://eu.uploads.micro.blog/166262/2024/rashism.jpeg\" alt=\"Drawing in black, white, and red. Child in center with broken pieces of their former life around them, Russian rockets sticking tail-first out of the ground, each marked with a big Z and a rashist message. Captions: 'Stolen Childhood' and 'Stop Rashism'\"/>\n\t</div>\n\t<div class=\"flex-two-column\">\n<p>Art by <a href=\"https://www.instagram.com/p/CfSC7LdIOBA/\">@neivanmade</a> on Instagram. The term \"rashism\" is what Ukrainians call Russian fascism.</p>\n\t</div>\n</div>\n",
-				"date_published": "2023-01-06T03:27:26-04:00",
+				"content_text": "Here are some worthwhile articles related to Russia's invasion of Ukraine. No paywalls – all links lead to freely available texts.\n\n<a href=\"https://www.todaystotalitarianism.com/under-cover-of-war\">Under Cover of War: The Kremlin's Fascist Project</a>\" by Nancy Ries, <em>Today's Totalitarianism</em>, August 2022.\n\n> The war is a profound turning point, ending any pretense of “soft” authoritarianism with its modicum of space for resistance. The Kremlin’s fascist project may not succeed in the end, but it is crucial to see its effects within Russia as a fundamental component of the 2022 attack on Ukraine…. The Kremlin structures its war-making machine in ways that deliberately produce atrocity…. [And on TV, there is] a \"pedagogy\" of exterminist consciousness and practice, a key tool of the fascist project unfolding within and beyond Russia.\n\n<a href=\"https://www.theguardian.com/commentisfree/2022/dec/17/ukraine-greatest-threat-russian-world-vladimir-putin\" rel=\"nofollow\">In Ukraine, I saw the greatest threat to the Russian world isn’t the west – it’s Putin\"</a> by Timothy Garton Ash, <em>The Guardian</em>, December 17, 2022.\n\n> The Kremlin’s imperial war has made its own culture and language a common enemy for people across its former empire.\n\n<a href=\"https://fallows.substack.com/p/the-skill-involved-in-zelenskys-congressional\">\"The Skill Involved in Zelensky's Congressional Address\"</a> by James Fallows, <em>Breaking the News</em>, December 23, 2022.\n\n> The words of the speech were ‘left brain,’ with careful writerly eloquence. The in-person performance was ‘right brain,’ with emotional power beyond the words. The combination was remarkable.\n\n\n<a href=\"https://brill.com/view/journals/joah/4/1-2/joah.4.issue-1-2.xml\">\"Special Issue: Weaponizing History in the Russo-Ukrainian War</a>,\" edited by Beatrice de Graaf and Lien Verpoest, <em>Journal of Applied History</em>, December 2022.\n\n<hr>\n\n<div class=\"flex-container\">\n\t<div class=\"flex-two-column\">\n\t\t<img src=\"https://eu.uploads.micro.blog/166262/2024/rashism.jpeg\" alt=\"Drawing in black, white, and red. Child in center with broken pieces of their former life around them, Russian rockets sticking tail-first out of the ground, each marked with a big Z and a rashist message. Captions: 'Stolen Childhood' and 'Stop Rashism'\">\n\t</div>\n\t<div class=\"flex-two-column\">\n<p>Art by <a href=\"https://www.instagram.com/p/CfSC7LdIOBA/\">@neivanmade</a> on Instagram. The term \"rashism\" is what Ukrainians call Russian fascism.</p>\n\t</div>\n</div>\n",
+				"date_published": "2023-01-06T04:27:00-04:00",
 				"url": "https://markstoneman.com/2023/01/06/links-russoukrainian-war.html",
-				"tags": ["WarAndSociety","Authoritarianism"]
+				"tags": ["WarAndSociety","Authoritarianism","Russia","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2023/01/01/peace-and-war.html",
@@ -7378,13 +7405,13 @@
 				"tags": ["SocialMedia"]
 			},
 			{
-				"id": "http://mrstoneman.micro.blog/2022/11/23/death-wish-for.html",
+				"id": "http://mrstoneman.micro.blog/2022/11/23/death-wish-for-their-soldiers.html",
 				"title": "Death Wish for Their Soldiers",
 				"content_html": "<p>I can&rsquo;t shake these lines from Stasik&rsquo;s <!-- raw HTML omitted -->&ldquo;Lullaby for the Enemy&rdquo;<!-- raw HTML omitted --> about Ukraine&rsquo;s Donbas:</p>\n<blockquote>\n<p>You wanted this land<br>\nNow mix with it<br>\nYou are my land now<br>\nSleep, sleep, sleep . . .</p>\n</blockquote>\n<p>I&rsquo;m guessing that &ldquo;earth&rdquo; would be another translation option.</p>\n",
 				"content_text": "I can't shake these lines from Stasik's <a href=\"https://youtu.be/40WD9RDAMVc\" title=\"YouTube link\">\"Lullaby for the Enemy\"</a> about Ukraine's Donbas: \n\n\n> You wanted this land  \n> Now mix with it   \n> You are my land now  \n> Sleep, sleep, sleep . . .\n\n\nI'm guessing that \"earth\" would be another translation option. \n",
-				"date_published": "2022-11-23T03:49:40-04:00",
-				"url": "https://markstoneman.com/2022/11/23/death-wish-for.html",
-				"tags": ["WarAndSociety","Music"]
+				"date_published": "2022-11-23T04:49:00-04:00",
+				"url": "https://markstoneman.com/2022/11/23/death-wish-for-their-soldiers.html",
+				"tags": ["WarAndSociety","Music","Ukraine"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2022/10/27/brute-force.html",
@@ -7420,7 +7447,7 @@
 				"content_text": "Perhaps Putin's phrase \"special military operation\" should be seen as something more insidious than a euphemism for war. At the very least, it is consistent with Russia's genocidal aims and practices in Ukraine.\n\nIf we take the Clausewitzian metaphor of war as a duel somewhat literally, the Russian invasion of Ukraine becomes a struggle between two equals, two entities with the same dignity, the same right to exist. After all, duels have traditionally been fought between two parties capable of giving satisfaction for a perceived injury by one to the other's honor. An officer could duel another officer, but not a sergeant, a lowly conscript, or a civilian occupying a more modest social position.\n\nBy calling its invasion a \"special military operation,\" Russia denies Ukraine's worthiness and sovereignty. It casts Ukraine and Ukrainians as other, fundamentally inferior, or devoid of honor, so to speak. Rejecting Ukrainian statehood outright, the term “special military operation” facilitates what the talking heads in Russia discuss openly on state TV: genocide, the elimination of Ukrainian culture, ethnicity, and language.\n\nAt the same time, the term \"special military operation\" renders Ukrainian resistance illegitimate in Russian eyes. Thus, Russia brands the soldiers who defended Mariupol to the end \"terrorists.\" And its leaders become apoplectic when Ukraine dares to fire on targets inside Russia and Russian-occupied Crimea.\n\nGiven the logic of Russia’s rhetoric and violence, the problem with \"special military operation\" becomes one not only of euphemism hiding war from Russians. The euphemism also creates space for, even favors, genocidal rhetoric and policy.\n",
 				"date_published": "2022-08-11T17:37:32-04:00",
 				"url": "https://markstoneman.com/2022/08/11/more-than-a.html",
-				"tags": ["WarAndSociety","Atrocities","LanguageMatters","HonorAndDignity"]
+				"tags": ["WarAndSociety","Atrocities","LanguageMatters","HonorAndDignity","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2022/07/17/justitia-again.html",
@@ -7537,7 +7564,7 @@
 				"content_text": "![A peasant woman dressed in red, appears like a giantess in comparison to the terrified Austrians coming over the hill. She is merry, healthy color in her face, and a soldier scewered on her pitchfork.](https://eu.uploads.micro.blog/166262/2024/peasant-womans-pitchfork.jpg)\n\n\"An Austrian went to Radziwill and came right on to a peasant woman's pitchfork,\" Russian print by Kazimir Severinovich Malevich, 1914--15, [New York Public Library Digital Collections](https://digitalcollections.nypl.org/items/d7101160-d1a4-0133-3d43-00505686a51c). The library has digitized [five more prints](https://digitalcollections.nypl.org/collections/six-patriotic-posters-for-the-first-world-war/) in this series.\n",
 				"date_published": "2021-04-19T02:17:21-04:00",
 				"url": "https://markstoneman.com/2021/04/19/russian-antiaustrian-war.html",
-				"tags": ["WarAndSociety","GenderAndSexuality","Propaganda","Prints"]
+				"tags": ["WarAndSociety","GenderAndSexuality","Propaganda","Prints","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2021/04/17/getting-the-news.html",
@@ -9259,13 +9286,13 @@
 				"tags": ["Autobiographical","Teaching"]
 			},
 			{
-				"id": "http://mrstoneman.micro.blog/2008/11/11/ninety-years-ago.html",
+				"id": "http://mrstoneman.micro.blog/2008/11/12/ninety-years-ago.html",
 				"title": "Ninety Years Ago",
 				"content_html": "<p>Today is Veterans Day in the United States. Today also marks the ninetieth anniversary of the end of the Great War, in which 9 to 10 million soldiers died. To make that more comprehensible, try 1,303 German soldiers per day on average. By way of comparison, Americans lost 123 soldiers daily on average during the Second World War.<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup> The numbers are even more startling when all casualties&mdash;killed and wounded&mdash;are considered for the First World War: 12.4% of the prewar male population in the United Kingdom, 16.1% for France, 19.3% for Germany, 25.2% for Austria-Hungary, and 6.9% for Russia. <sup id=\"fnref:2\"><a href=\"#fn:2\" class=\"footnote-ref\" role=\"doc-noteref\">2</a></sup> If it sounds like Russia got off easy by comparison, remember that this war touched off the Bolshevik Revolution, which brought civil war, famine, and Stalin.</p>\n<section class=\"footnotes\" role=\"doc-endnotes\">\n<hr>\n<ol>\n<li id=\"fn:1\" role=\"doc-endnote\">\n<p>Stéphane Audoin-Rouzeau and Annette Becker, <em>14-18: Understanding the Great War</em>, trans. Catherine Temerson (New York: Hill and Wang, 2002), 21-22.&#160;<a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n<li id=\"fn:2\" role=\"doc-endnote\">\n<p>Roger Chickering, <em>Imperial Germany and the Great War, 1914-1918</em> (Cambridge, GB: Cambridge UP, 1998), 195.&#160;<a href=\"#fnref:2\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n</ol>\n</section>\n",
 				"content_text": "Today is Veterans Day in the United States. Today also marks the ninetieth anniversary of the end of the Great War, in which 9 to 10 million soldiers died. To make that more comprehensible, try 1,303 German soldiers per day on average. By way of comparison, Americans lost 123 soldiers daily on average during the Second World War.[^1] The numbers are even more startling when all casualties---killed and wounded---are considered for the First World War: 12.4% of the prewar male population in the United Kingdom, 16.1% for France, 19.3% for Germany, 25.2% for Austria-Hungary, and 6.9% for Russia. [^2] If it sounds like Russia got off easy by comparison, remember that this war touched off the Bolshevik Revolution, which brought civil war, famine, and Stalin.\n\n[^1]: Stéphane Audoin-Rouzeau and Annette Becker, _14-18: Understanding the Great War_, trans. Catherine Temerson (New York: Hill and Wang, 2002), 21-22.  \n\n[^2]: Roger Chickering, _Imperial Germany and the Great War, 1914-1918_ (Cambridge, GB: Cambridge UP, 1998), 195.\n",
-				"date_published": "2008-11-11T23:29:00-04:00",
-				"url": "https://markstoneman.com/2008/11/11/ninety-years-ago.html",
-				"tags": ["WarAndSociety"]
+				"date_published": "2008-11-12T00:29:00-04:00",
+				"url": "https://markstoneman.com/2008/11/12/ninety-years-ago.html",
+				"tags": ["WarAndSociety","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2008/11/09/is-the-rheotorical.html",
@@ -9346,7 +9373,7 @@
 				"content_text": "At the beginning of the week I suggested that Russia might have learned a lesson from the American invasion of Iraq.[^1] One lesson that Russia clearly did not learn was the importance of world opinion. The Bush administration paid a high price for thumbing its nose at allies and friends who opposed the invasion. It did not believe in [soft power](https://web.archive.org/web/20080503230522/http://yaleglobal.yale.edu/display.article?id=7059), but its significant diminution was real nonetheless. Russia’s actions will cost it dearly if it continues to allow its armored vehicles to [rumble around Georgia](https://web.archive.org/web/20081209071041/http://www.nytimes.com/2008/08/16/world/europe/16armored.html), far away from South Ossetia. Remember that breakaway province? Wasn’t defending it Russia’s casus belli? Sometimes states have to ignore international opinion, but it is important to balance whatever one hopes thereby to gain against what one is going to lose. Russia has more to lose because of its pugnacious behavior than it thinks. It might believe that its interests lie in observing a [\"jail house yard\"](https://web.archive.org/web/20081005230327/http://www.rightcommentary.com/2008/08/15/why-georgia-matters/) code of behavior, and following this model might net it some short-term gains; however, in the long run it will lose more than it can gain. Naked force is a poor substitute for hearts and minds. It is an even worse substitute if those hearts and minds stand behind an opposing force. Hubris is a dangerous thing, Mr. Putin. That’s the real lesson of Iraq.\n\n[^1]: The post I reference here has gone missing. – MRS, 11/3/2024\n",
 				"date_published": "2008-08-16T22:42:00-04:00",
 				"url": "https://markstoneman.com/2008/08/16/what-russia-should.html",
-				"tags": ["WarAndSociety","InternationalRelations"]
+				"tags": ["WarAndSociety","InternationalRelations","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2008/08/15/in-brief-georgia.html",
@@ -9355,7 +9382,7 @@
 				"content_text": "<p class=\"callout\">\nThis post is better viewed on the <a href=\"https://web.archive.org/web/20080922205825/http://markstoneman.wordpress.com/2008/08/15/in-brief-georgia-and-russia-again/\">Wayback Machine</a> because of all the links and some discussion.\n</p>\n",
 				"date_published": "2008-08-15T22:52:22-04:00",
 				"url": "https://markstoneman.com/2008/08/15/in-brief-georgia.html",
-				"tags": ["WarAndSociety","InternationalRelations"]
+				"tags": ["WarAndSociety","InternationalRelations","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2008/08/11/mccains-ethnically-charged.html",
@@ -9796,7 +9823,7 @@
 				"content_text": "History can be used to justify all manner of circumstances in the present. Want to justify an authoritarian regime in Russia? Referring to Russia's present conditions can help, but even more effective can be skillful tradition-building that shows Russia's long line of great authoritarian rulers. And what better place to start than with history teachers in the schools?\n\n<!--more-->\n\n_The New York Times_ published <a href=\"http://www.nytimes.com/2007/08/12/weekinreview/12kramer.html?ex=1344657600&en=27185b016a9c24c7&ei=5124&partner=permalink&exprod=permalink\">a remarkable article</a> yesterday about a new history guide for high school teachers in Russia. After a brief introduction, it offers verbatim excerpts on Stalin, who comes away smelling like roses, despite his massive purges.\n\n> Stalin followed Peter the Great’s logic: demand the impossible from the people in order to get the maximum possible. . . . The result of Stalin’s purges was a new class of managers capable of solving the task of modernization in conditions of shortages of resources, loyal to the supreme power and immaculate from the point of view of executive discipline. . . . \n> \n> Thus, just like Chancellor Bismarck who united German lands into a single state by “iron and blood,” Stalin was reinforcing his state by cruelty and mercilessness.\n\nIt is quite an intellectual feat to bring Stalin into line with both Peter the Great and Otto von Bismarck. Indeed, such relativism reveals something about the Kremlin's self-image these days. It would be helpful to see the rest of the guide before drawing broader conclusions. Still, does not the following statement recall some of Putin's own criticisms of democracy in the United States in recent years?\n\n> Political and historical studies show that when they come under similarly serious threats, even “soft” and “flexible” political systems, as a rule, turn more rigid and limit individual rights, as happened in the United States after September 11, 2001.\n\nYes, history textbooks matter.\n",
 				"date_published": "2007-08-13T00:00:40-04:00",
 				"url": "https://markstoneman.com/2007/08/13/good-old-stalin.html",
-				"tags": ["PastAndPresent","Propaganda","Authoritarianism"]
+				"tags": ["PastAndPresent","Propaganda","Authoritarianism","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2007/07/26/stereoptic-views-of.html",
