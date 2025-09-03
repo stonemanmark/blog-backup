@@ -24,6 +24,262 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://markstoneman.com/2025/09/02/shared-notes-updated-css-for.html">Shared Notes: Updated CSS for Display Grids</a></h1>
+		
+
+		<a href="https://markstoneman.com/2025/09/02/shared-notes-updated-css-for.html" class="u-url"><time class="dt-published" datetime="2025-09-02 01:06:27 -0400">Sep 2, 2025</time></a>
+
+		<div class="e-content">
+			 <p>See <a href="/2025/08/31/shared-notes-image-galleries-revisited.html">previous post</a> for context.</p>
+<pre tabindex="0"><code>/* Use the first class inside all of your div tags for grids, followed by a space and then whichever one of the other grid classes applies. */
+
+.grid {
+	display: grid;
+	gap: 1rem; 
+	align-items: center;
+} 
+
+/* two- and three-column grids, respectively, with each item one column wide  */ 
+
+.grid--2 {
+	  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* a two-column grid, the left column is twice as wide as the right */ 
+
+.grid--2--wide {
+  grid-template-columns: 2fr 1fr;
+}
+@media (max-width: 800px) {
+	.grid.responsive {
+		grid-template-columns: 1fr;
+		align-items: start;
+	}
+}
+
+/* to add a stack of images in one grid that can sit next to a single, taller image in the neighboring grid and use the same gap width */
+
+.stack {
+	display: grid;
+	gap: 1rem;
+}
+
+</code></pre><p>I used a combination of grid, grid&ndash;2, and stack to handle my images in <a href="">On the Metro</a>. This grid CSS is more powerful than I thought.</p>
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://markstoneman.com/2025/08/31/shared-notes-image-galleries-revisited.html">Shared Notes: Image Galleries revisited</a></h1>
+		
+
+		<a href="https://markstoneman.com/2025/08/31/shared-notes-image-galleries-revisited.html" class="u-url"><time class="dt-published" datetime="2025-08-31 19:20:08 -0400">Aug 31, 2025</time></a>
+
+		<div class="e-content">
+			 <p>The <a href="https://markstoneman.com/2024/06/12/small-image-galleries.html">flex boxes</a> I learned to make before the pandemic are no longer necessary, I&rsquo;ve learned. Instead, there are new grid layout options for CSS, which, after some back-and-forth with GPT-5 mini on DuckDuckGo, I&rsquo;ve decided to use. This will be gradual, as I review posts and layouts while trying variations.</p>
+<p>Reference guides:</p>
+<ul>
+<li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grid Layout Guide</a> by Chris House, CSS-Tricks, Aug. 21, 2025</li>
+<li><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid Layout Module</a>, W3Schools</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout">CSS Grid Layout</a> by MDN for more detailed reference needs</li>
+</ul>
+<p>Below is a comparison of the CSS and HTML for a three by three grid that will turn into a single column on small screens.</p>
+<h3 id="new-css">New CSS</h3>
+<pre tabindex="0"><code>.grid {
+	display: grid;
+	gap: 1rem;
+}
+.grid--3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 800px) {
+	.grid.responsive {
+		grid-template-columns: 1fr;
+	}
+}
+</code></pre><h3 id="new-html">New HTML</h3>
+<pre tabindex="0"><code>&lt;div class=&quot;grid grid--3&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+</code></pre><h3 id="old-css">Old CSS</h3>
+<pre tabindex="0"><code>.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-three-column {
+    flex: 33%;
+    padding: 5px;
+}
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+</code></pre><h3 id="old-html">Old HTML</h3>
+<pre tabindex="0"><code>&lt;div class=&quot;flex-container&quot;&gt;
+&lt;div class=&quot;flex-three-column&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;flex-two-column&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;flex-two-column&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+	&lt;img src=&quot;&quot; class=&quot;cols&quot; alt=&quot;&quot; width=&quot;100%&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://markstoneman.com/2025/08/30/cookie-baking-lists-from-my.html">Cookie Baking Lists from My Grandmother</a></h1>
+		
+
+		<a href="https://markstoneman.com/2025/08/30/cookie-baking-lists-from-my.html" class="u-url"><time class="dt-published" datetime="2025-08-30 13:52:26 -0400">Aug 30, 2025</time></a>
+
+		<div class="e-content">
+			 <p>While sorting through a jumble of things my mother has been saving, I ran across a box of index cards (3&quot; x 5&quot;) and small pieces of notepaper that her mother had used for cookie recipes in her later years. I had seen these in her kitchen back in the day, but I took a fresh look and found that she had also used the box for record-keeping.</p>
+<p>A card with the heading &ldquo;Total cookies by year&rdquo; captures her output between 1977 and 1985. A second card has a line drawn down the middle with one entry (top-left) for her Christmas cookie ingredient costs in 1981 and another (top-right) for her mince pie filling	costs the same year. The way she formatted this data suggests she had intended to repeat these calculations in subsequent years.</p>
+<!-- raw HTML omitted -->
+<p>There are also some lists of the kinds of Christmas cookies she baked in a given year, including their number and approximate size.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>When I was a kid, Grandma used to tell us how many of each kind we could have, whenever she set out a fresh plate of Christmas cookies. I had a vague idea of the scale of her operation, for I had helped occasionally, or at least cleaned out some bowls with a spatula and my tongue. This accounting, on the other hand, surprised me. Not Mom, though. She chuckled and said sure, cookies had been serious business for Grandma.</p>
+<p>The seasonal goodies were not just consumed in the home but also went out in parcels to family and friends in other parts of the country. Mom still has early childhood memories linked to rationing in World War Two. Her father, a history and social studies teacher, would not allow her mother to turn to the black market to maintain her usual levels of Christmastime baking. [Correction: Mom reports that during her childhood, most of the cookie packages were delivered in person.]</p>
+<p>The apparent decline in numbers over the years covered in the notes that have survived probably relates to her age, but also to the number of kids still at home. (In these times she had her own place, which was attached to ours. Hers was the right side of the red house shown at the bottom of <a href="https://markstoneman.com/2022/07/15/the-old-house.html">this post</a>). I imagine the mortality of people to whom she sent Christmas cards and packages also played a role because she had been the youngest of six children. I certainly remember her exchanging fewer cards over time, though not for lack of effort.</p>
+<p>If these cards seem trivial to some, they tell the story of a family role she had learned earlier in life. She lost her father as a child and her mother in adolescence, so she probably learned a good deal from the women in her husband&rsquo;s farming family in Illinois. Doing this accounting at her kitchen table in New Hampshire probably conjured up memories not only of her daughter&rsquo;s large family, who she had joined in 1970, but also earlier memories from her long life of love and loss, laughs and worries. (She was widowed already in the mid-1950s.)</p>
+<p>Her old notes&mdash;and the visible chocolate stain on the card with the annual totals&mdash;bring me back to my youth, even if I was overseas for several of the Christmases listed here. Did she mail me any cookies when I was in the army? I can&rsquo;t remember, though I recall the care packages of oatmeal cookies she sent while I was an undergraduate student at Dartmouth College. I think at least one batch of oatmeal cookies made its way to Germany via my APO (Army Post Office) address. They travelled well.</p>
+<p>One gets rid of a lot of paper in one&rsquo;s life. That this little box of Grandma&rsquo;s cookie baking notes has survived some twenty-two years since her passing says something about their importance in Mom&rsquo;s memory too. So I will honor them, keep them. Whether my son and granddaughter do the same will be up to them. In any case, my son and his great-grandmother (&ldquo;Oma&rdquo;) were lucky enough to have each other in their lives until he was some twelve years old.</p>
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://markstoneman.com/2025/08/29/recommended-podcast-lists.html">Recommended Podcast: &#39;Lists!!!&#39;</a></h1>
+		
+
+		<a href="https://markstoneman.com/2025/08/29/recommended-podcast-lists.html" class="u-url"><time class="dt-published" datetime="2025-08-29 17:25:31 -0400">Aug 29, 2025</time></a>
+
+		<div class="e-content">
+			 <p>I heard a great podcast about lists on my drive back from DC the other week.</p>
+<!-- raw HTML omitted -->
+<p>This isn&rsquo;t a how-to episode but rather an eclectic exploration of lists in modern life.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://markstoneman.com/2025/08/28/the-sky-outside-a-supermarket.html" class="u-url"><time class="dt-published" datetime="2025-08-28 22:06:59 -0400">Aug 28, 2025</time></a>
+
+		<div class="e-content">
+			 <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://markstoneman.com/2025/08/27/today-jason-heppler-shared-this.html" class="u-url"><time class="dt-published" datetime="2025-08-27 15:50:21 -0400">Aug 27, 2025</time></a>
+
+		<div class="e-content">
+			 <p>Today, <a href="https://writing.jasonheppler.org/2025/08/27/we-guarantee-that-crazed-man/">Jason Heppler</a> shared this quote from a prescient piece by Garry Wills titled &ldquo;Our Moloch&rdquo;:</p>
+<blockquote>
+<p>We guarantee that crazed man after crazed man will have a flood of killing power readily supplied him. We have to make that offering, out of devotion to our Moloch, our god. The gun is our Moloch. We sacrifice children to him daily.</p>
+</blockquote>
+<p>Source:  <a href="https://archive.ph/3dvbA"><em>The New York Review of Books</em>, Dec. 15, 2012</a>.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://markstoneman.com/2025/08/21/northbound-on-i-njny-border.html" class="u-url"><time class="dt-published" datetime="2025-08-21 18:48:33 -0400">Aug 21, 2025</time></a>
+
+		<div class="e-content">
+			 <p>Northbound on I95, NJ–NY border: The winds from faraway Hurricane Erin feel kinda good as I drink my espresso.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://markstoneman.com/2025/08/21/operator-starsky-on-youtube-today.html" class="u-url"><time class="dt-published" datetime="2025-08-21 14:35:25 -0400">Aug 21, 2025</time></a>
+
+		<div class="e-content">
+			 <p>Operator Starsky on YouTube today: &ldquo;<a href="https://youtu.be/b6RboHrxQ3Q">Can Putin Be Trusted? Broken Promises, Ukraine &amp; the Ceasefire Question</a>.&rdquo; (14 min.)</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://markstoneman.com/2025/08/21/former-national-guard-vice-chief.html" class="u-url"><time class="dt-published" datetime="2025-08-21 01:18:39 -0400">Aug 21, 2025</time></a>
+
+		<div class="e-content">
+			 <blockquote>
+<p>Former National Guard Vice Chief Major General Randy E. Manner says deploying the Guard to D.C. will ruin how the average American views the military.</p>
+<p><!-- raw HTML omitted -->&ndash; <a href="https://bsky.app/profile/npr.org/post/3lwu6fm2zt625">@NPR.org</a><!-- raw HTML omitted --></p>
+</blockquote>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://markstoneman.com/2025/08/20/the-isws-report-yesterday-underlines.html" class="u-url"><time class="dt-published" datetime="2025-08-20 12:59:13 -0400">Aug 20, 2025</time></a>
+
+		<div class="e-content">
+			 <p>The <a href="https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-august-19-2025">ISW&rsquo;s report</a> yesterday underlines that Russia&rsquo;s ultimate aim in Ukraine is to control the entire country politically. Everything else&mdash;from mass murder, kidnapping, land grabs, and war crimes to the erasure of Ukrainian language and culture wherever possible&mdash;is meant to serve that goal.</p>
+<p>The Russia problem is not going away anytime soon.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://markstoneman.com/2025/08/20/russia-is-turning-occupied-ukraine.html" class="u-url"><time class="dt-published" datetime="2025-08-20 12:17:36 -0400">Aug 20, 2025</time></a>
+
+		<div class="e-content">
+			 <p><a href="https://kyivindependent.com/russia-is-turning-occupied-ukraine-into-a-giant-military-base/">&ldquo;Russia is turning occupied Ukraine into a giant military base&rdquo;</a> reports <em>The Kyiv Independent</em> today.</p>
+<blockquote>
+<p>From new launchpads for deep-strike drones in Donetsk to barracks built in former Black Sea resorts, occupation means that much of Ukraine &ldquo;is already a Russian military base today.&rdquo;</p>
+</blockquote>
+<p>Russia is a terrorist state.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 
 		<a href="https://markstoneman.com/2025/08/18/i-missed-this-new-york.html" class="u-url"><time class="dt-published" datetime="2025-08-18 12:00:54 -0400">Aug 18, 2025</time></a>
 
@@ -3121,7 +3377,7 @@
 <blockquote>
 <p><strong>[4]</strong> Late at night. <a href="https://www.loc.gov/pictures/item/2018673622/">Sewing tapes on gloves</a>. The boy helps. Family of five sleep in room where the work is done.</p>
 </blockquote>
-<p>These photos are part of the <a href="https://www.loc.gov/pictures/collection/nclc/">National Child Labor Committee Collection</a> held by the Library of Congress.</p>
+<p>These photos and captions are part of the <a href="https://www.loc.gov/pictures/collection/nclc/">National Child Labor Committee Collection</a> held by the Library of Congress.</p>
 
 		</div>
 	  </div>
@@ -3314,10 +3570,10 @@
 	
 	  <div class="h-entry">
 		
-			<h1><a href="https://markstoneman.com/2025/03/03/fay-hubbard-year-old-suffragette.html">Two Suffragettes</a></h1>
+			<h1><a href="https://markstoneman.com/2025/03/03/two-suffragettes.html">Two Suffragettes</a></h1>
 		
 
-		<a href="https://markstoneman.com/2025/03/03/fay-hubbard-year-old-suffragette.html" class="u-url"><time class="dt-published" datetime="2025-03-03 19:32:26 -0400">Mar 3, 2025</time></a>
+		<a href="https://markstoneman.com/2025/03/03/two-suffragettes.html" class="u-url"><time class="dt-published" datetime="2025-03-03 20:32:00 -0400">Mar 3, 2025</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -3955,10 +4211,15 @@
 		<a href="https://markstoneman.com/2025/02/19/when-youre-famous-they-let.html" class="u-url"><time class="dt-published" datetime="2025-02-19 16:13:25 -0400">Feb 19, 2025</time></a>
 
 		<div class="e-content">
-			 <p>&ldquo;When you&rsquo;re famous, they let you grab &lsquo;em by the pussy,&rdquo; bragged a choad from Queens. But in 2020–21 we didn&rsquo;t let him. He lost the election and his coup too.</p>
+			 <p>&ldquo;When you&rsquo;re famous, they let you grab &lsquo;em by the pussy,&rdquo; bragged an orange choad from Queens.</p>
+<p>In 2020–21 we didn&rsquo;t let him. He lost the election and his coup too.</p>
+<p>But he made a comeback.</p>
 <p>Now the butthurt swine is fucking the entire country. He&rsquo;s letting Musk and Putin have a go too.</p>
-<p>&ldquo;When you&rsquo;re famous, they let you do it. If they don&rsquo;t, you must do it anyway. You must say it&rsquo;s all their fault because they didn&rsquo;t negotiate, I mean, submit.&rdquo;</p>
-<p>&ldquo;Now stop complaining, Republican senators. Say Daddy&rsquo;s name like you mean it! You, too, Ukraine. You know you want it!&rdquo;</p>
+<p>I imagine his infamous &ldquo;grab &lsquo;em by the pussy&rdquo; line anew:</p>
+<blockquote>
+<p>When you&rsquo;re famous, they let you do it. If they don&rsquo;t, you must do it anyway. You must say it&rsquo;s all their fault because they didn&rsquo;t negotiate, I mean, submit.</p>
+<p>Now stop complaining, Republican senators. Say Daddy&rsquo;s name like you mean it! You, too, Ukraine. You know you want it!&rsquo;</p>
+</blockquote>
 
 		</div>
 	  </div>
@@ -3982,9 +4243,10 @@
 		<a href="https://markstoneman.com/2025/02/18/a-bit-of-war-history.html" class="u-url"><time class="dt-published" datetime="2025-02-18 21:01:31 -0400">Feb 18, 2025</time></a>
 
 		<div class="e-content">
-			 <!-- raw HTML omitted -->
-<p>The word &ldquo;contraband&rdquo; referred to an enslaved person who had escaped. Given that the term usually indicated illegally imported or exported goods, its dehumanizing quality in the context of someone who has escaped bondage is palpable. Here, however, it stands in contrast to the painting, which shows a man, not a chattel or a caricature.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<p>The other two paintings see the same figure transformed into a soldier and a veteran. Both of these images underlined the figure&rsquo;s manhood. With time, in fact, military service came to be associated with masculinity and citizenship in an age of people&rsquo;s wars fought in North America and Europe.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+			 <p>These three paintings of one man are titled &ldquo;The Contraband,&rdquo; &ldquo;The Recruit,&rdquo; and &ldquo;The Veteran.&rdquo;</p>
+<!-- raw HTML omitted -->
+<p>The word &ldquo;contraband&rdquo; referred to an enslaved person who had escaped. Given that the term usually indicated illegally imported or exported goods, its dehumanizing quality in the context of someone who has escaped bondage is palpable. Here, however, it stands in contrast to the painting, which shows a man, not a chattel or a caricature.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
+The other two paintings see the same figure transformed into a soldier and a veteran. Both of these images underlined the figure&rsquo;s manhood. With time, in fact, military service came to be associated with masculinity and citizenship in an age of people&rsquo;s wars fought in North America and Europe.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>From this point of view, the paintings represent a message not only of self-emancipation through military service but of modern masculine citizenship shortly before the nineteenth amendment was ratified. In the West, this image of manhood and military service reached its high point in World Wars One and Two.</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
@@ -4045,7 +4307,6 @@
 		<div class="e-content">
 			 <p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <!-- raw HTML omitted -->
-<p>Intersections: three photos of <a href="https://en.wikipedia.org/wiki/Ernestine_Eckstein">Ernestine Eckstein</a> in a 1965 picket line outside the White House protesting Federal discrimination against gay people in civil and military service and their obtaining security clearances. Her sign reads, &ldquo;DENIAL OF EQUALITY OF OPPORTUNITY IS IMMORAL.&rdquo; Eckstein was a Black woman, whereas most of the other picketers appear to have been white men. Another lesbian activist, white, is visible in one photo: <a href="https://markstoneman.com/2025/01/29/so-much-joy-in-this.html">Barbara Gittings</a>. The photographer was Gitting&rsquo;s white partner, Kay Tobin.</p>
 <p>Photos via the Barbara Gittings and Kay Tobin Lahusen Gay History Papers and Photographs Collection, NYPL Digital Collections, images <a href="https://digitalcollections.nypl.org/items/510d47e3-b65a-a3d9-e040-e00a18064a99">1605765</a>, <a href="https://digitalcollections.nypl.org/items/510d47e3-b659-a3d9-e040-e00a18064a99">1605764</a>, and <a href="https://digitalcollections.nypl.org/items/510d47e3-b65b-a3d9-e040-e00a18064a99">1605766</a></p>
 
 		</div>
@@ -6116,8 +6377,7 @@ or you&rsquo;ll have to go.</p>
 		<a href="https://markstoneman.com/2024/12/14/this-evening-i.html" class="u-url"><time class="dt-published" datetime="2024-12-15 00:30:00 -0400">Dec 15, 2024</time></a>
 
 		<div class="e-content">
-			 <p>This evening I watched &ldquo;Blonde Venus,&rdquo; dir. Joseph Starnberg (Paramount, 1932). <!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+			 <!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -6461,10 +6721,10 @@ for the people to trample, shred, and burn.</p>
 	
 	  <div class="h-entry">
 		
-			<h1><a href="https://markstoneman.com/2024/11/30/reading-notes-last.html">Reading Notes:  &#39;Last Call at the Hotel Imperial&#39; by Deborah Cohen</a></h1>
+			<h1><a href="https://markstoneman.com/2024/11/30/reading-notes-last-call-at.html">Reading Notes:  &#39;Last Call at the Hotel Imperial&#39; by Deborah Cohen</a></h1>
 		
 
-		<a href="https://markstoneman.com/2024/11/30/reading-notes-last.html" class="u-url"><time class="dt-published" datetime="2024-11-30 20:51:01 -0400">Nov 30, 2024</time></a>
+		<a href="https://markstoneman.com/2024/11/30/reading-notes-last-call-at.html" class="u-url"><time class="dt-published" datetime="2024-11-30 22:51:00 -0400">Nov 30, 2024</time></a>
 
 		<div class="e-content">
 			 <p>I finished reading <em><a href="https://micro.blog/books/9780525511199">Last Call at the Hotel Imperial: The Reporters Who Took On a World at War</a></em> (Random House 2022) by Deborah Cohen. At times I got impatient because it was as much about the journalists' private and inner lives as their reporting, but I realized that this was the point and decided not to skip over those sections. Cohen&rsquo;s protagonists were people with experiences and viewpoints relevant to their work and our understanding of it. As journalists, they had been taught &ldquo;impartiality&rdquo; (resembling bothsidism today) but the dictatorships, wars, and atrocities they witnessed demanded a viewpoint, even if their editors disagreed. It was for these viewpoints that I had <a href="https://markstoneman.com/2024/10/24/am-thinking-deborah.html">begun reading</a> the book in the first place.</p>
@@ -6472,7 +6732,6 @@ for the people to trample, shred, and burn.</p>
 <p>Cohen&rsquo;s focus on these individuals and their significant others, especially Frances Fineman Gunther, hints at the relevance of the individual in a few other ways besides context and viewpoint. First, there is the question of private lives in situations where public affairs tend to crowd everything private out. Next, there is the question of the role of individual agency in history. This issue concerned Cohen&rsquo;s protagonists, who met many of the leading political figures of the day. It was also relevant to the issue of the masses and the extent to which circumstances or individual characteristics <a href="https://markstoneman.com/2024/11/22/who-goes-nazi.html">made them into Nazis</a>, for example. Finally, there is the question of the reporters' own impacts.</p>
 <p>Cohen notes in the prologue that the image of the United States embodied by the large number of American journalists overseas was at odds with the old isolationist stereotype. Clearly there was an appetite for information about the world. Moreover, the travels by ship and plane of her protagonists points to the many economic, professional, and personal entanglements of the United States with the rest of the world despite the strength of nationalisms and protectionist tariff regimes. Cohen&rsquo;s book takes us across Europe, including to fascist Italy, the Spanish Civil War, as well as Weimar and Nazi Germany, to whose murderous intentions they were by no means blind. We also see Ethiopia at the moment of Mussolini&rsquo;s invasion, Palestine, Egypt, the USSR, pre- and postcolonial India, and civil-war China, not to mention the U.S. Jim Crow South.</p>
 <p>The book is long, probably too long to teach undergraduates, unless one assigned specific sections, but it is accessibly written, affordably priced, and has received favorable reviews outside the academy, including in <em>The New Yorker</em>, <em>The Wall Street Journal</em>, and the <em>Chicago Tribune</em>. Readers should be prepared to look up names and descriptive vocabulary they might not know, which is easy enough with today&rsquo;s mobile phones.</p>
-
 		</div>
 	  </div>
 	
@@ -6485,6 +6744,8 @@ for the people to trample, shred, and burn.</p>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -6546,6 +6807,8 @@ for the people to trample, shred, and burn.</p>
 
 		<div class="e-content">
 			 <p>We had our first proper snow of the season here in Mt. Washington Valley today&mdash;heavy and wet, but beautiful.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
 
 		</div>
@@ -7105,6 +7368,7 @@ for the people to trample, shred, and burn.</p>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
+<p>Whitaker Woods: Winter is coming.</p>
 
 		</div>
 	  </div>
@@ -8056,6 +8320,8 @@ NO KNOUTS [OR] DUNGEONS.</p>
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://markstoneman.com/2024/10/31/the-bright-colors.html">Moss</a></h1>
+		
 
 		<a href="https://markstoneman.com/2024/10/31/the-bright-colors.html" class="u-url"><time class="dt-published" datetime="2024-10-31 15:46:31 -0400">Oct 31, 2024</time></a>
 
@@ -8442,6 +8708,7 @@ NO KNOUTS [OR] DUNGEONS.</p>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
+<p>Managed to get out today, if just for a short walk to Diana&rsquo;s Baths.</p>
 
 		</div>
 	  </div>
@@ -8667,6 +8934,7 @@ NO KNOUTS [OR] DUNGEONS.</p>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
+<p>Was back at Diana&rsquo;s Baths today.</p>
 
 		</div>
 	  </div>
@@ -8874,6 +9142,8 @@ NO KNOUTS [OR] DUNGEONS.</p>
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://markstoneman.com/2024/09/23/a-few-more.html">Pudding Pond</a></h1>
+		
 
 		<a href="https://markstoneman.com/2024/09/23/a-few-more.html" class="u-url"><time class="dt-published" datetime="2024-09-23 00:46:37 -0400">Sep 23, 2024</time></a>
 
@@ -8902,6 +9172,7 @@ NO KNOUTS [OR] DUNGEONS.</p>
 		<div class="e-content">
 			 <p>A German hashtag phenomenon I ran across on Mastodon and Bluesky recently is #FotoVorschlag (photo suggestion). The idea is to post one&rsquo;s own photo based on the day&rsquo;s keyword from <a href="https://photog.social/@FotoVorschlag">@FotoVorschlag@photog.social</a> or <a href="https://bsky.app/profile/fotovorschlag.bsky.social">@fotovorschlag.bsky.social</a>. Today&rsquo;s was &ldquo;Bach,&rdquo; which is not only the name of a composer but also German for &ldquo;brook&rdquo; or &ldquo;stream.&rdquo; I took the first photo here near Diana&rsquo;s Baths in North Conway and Bartlett, NH, on May 22, 2023. It shows a trail that had been turned into a stream by the rains, which cleared the earth, leaves, and pine needles from the granite.</p>
 <!-- raw HTML omitted -->
+<p>I took the second photo this afternoon near Pudding Pond in North Conway. The marshy areas near this spot are apparently beaver stomping grounds, as you can see from all the gnawing they did on this tree.</p>
 
 		</div>
 	  </div>
@@ -9102,6 +9373,12 @@ NO KNOUTS [OR] DUNGEONS.</p>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
+<h4 id="learn-more">Learn More</h4>
+<ul>
+<li>Follow-up remarks: <!-- raw HTML omitted -->Revisiting Image of Two Back Sailors Browsing Books<!-- raw HTML omitted --> (Sept. 7, 2024)</li>
+<li>Related post: <!-- raw HTML omitted -->Reading about Black Librarians and Knowledge Formation<!-- raw HTML omitted --> (June 19, 2024)</li>
+</ul>
+<!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -9185,7 +9462,7 @@ NO KNOUTS [OR] DUNGEONS.</p>
 <p>Besides the four posters that follow this text, I include a photograph of an alley behind a row of houses with tiny back yards in Baltimore. If you look closely at this image from the Farm Security Administration, you can see a WPA poster attached to an open door in the bottom left-hand corner. It is captioned &ldquo;Stop accidents before they stop you.&rdquo; The building itself appears to be part of a factory of some kind because only a door and a single big wall with windows is visible, visually distinct from the opposite side of the alley, where all the little houses are.</p>
 <p>These posters remind me of the ongoing importance of government for writing, publicizing, and enforcing workplace safety regulations. They connect past concerns about workplace conditions to countless reports of workplace injuries and sickness in our own time. They also link to family stories past and present, whether handed down or forgotten, whether taught or ignored in schools, workplaces, and union gatherings.</p>
 <p>My grandmother&rsquo;s father was killed in an avoidable industrial accident in 1917 when she was six years old. The lathe he operated in a Cleveland factory had no safety guard, and then his luck ran out. He left behind six children and their mother, the oldest of them able to work. The sudden loss of this man represented a trauma that no one talked about in my childhood, and I only learned the barebones details from my mother this past year.</p>
-<p>I often wonder if and how such trauma is passed down in other families, and why its causes are silenced or not. My mind goes there because I imagine that millions of Americans—from across the political spectrum—come from families with such experiences, even if these were not handed down from the past. And I wonder what, if anything, knowledge about these many pasts might do to change their attitudes today.</p>
+<p>I often wonder if and how such trauma is passed down in other families, and why its causes are silenced or not. My mind goes there because I imagine that millions of Americans—from across the political spectrum—come from families with such experiences, even if these were not handed down from the past. And I wonder what, if any, knowledge about these many pasts might do to change their attitudes today.</p>
 <p>This thought ties in with the employers and politicians who fight government regulations and workers' collective bargaining. They strive to steal workers' freedom and dignity, all in the name of their own freedom. Part of this effort benefits from or fosters processes of families and communities forgetting or diminishing the significance of the workplace struggles and traumas in their own pasts.</p>
 <p>Fortunately, good governance and organized labor seem to be making a comeback.</p>
 <!-- raw HTML omitted -->
@@ -10888,11 +11165,6 @@ img.cols  {
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -11524,10 +11796,10 @@ of our society’s frailty.<br>
 	
 	  <div class="h-entry">
 		
-			<h1><a href="https://markstoneman.com/2020/02/14/happening-here.html">Happening Here</a></h1>
+			<h1><a href="https://markstoneman.com/2020/02/15/happening-here.html">Happening Here</a></h1>
 		
 
-		<a href="https://markstoneman.com/2020/02/14/happening-here.html" class="u-url"><time class="dt-published" datetime="2020-02-14 23:00:11 -0400">Feb 14, 2020</time></a>
+		<a href="https://markstoneman.com/2020/02/15/happening-here.html" class="u-url"><time class="dt-published" datetime="2020-02-15 00:00:00 -0400">Feb 15, 2020</time></a>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
@@ -11650,13 +11922,6 @@ of our society’s frailty.<br>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -11759,6 +12024,7 @@ of our society’s frailty.<br>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -12344,9 +12610,6 @@ of our society’s frailty.<br>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -12430,10 +12693,6 @@ of our society’s frailty.<br>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -12583,9 +12842,6 @@ of our society’s frailty.<br>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -15162,7 +15418,6 @@ U S A</p>
 
 		<div class="e-content">
 			 <!-- raw HTML omitted -->
-<p>Meet Wilhelm Groener, an unassuming Swabian of modest social provenance who rose to the number two position in the Imperial German army by the end of the First World War. Here he is in about 1920, soon after his retirement from the army in the young Weimar Republic.</p>
 <p>Groener, the subject of my dissertation, informed Kaiser Wilhelm II in November 1918 that the army would not follow him back to Prussia to fight a civil war to quash the revolution. Confronted with this reality, Wilhelm II abdicated and fled to the Netherlands.</p>
 <p>By rights Groener&rsquo;s boss, Chief of the General Staff Field Marshal Paul von Hindenburg, should have delivered the bad news, but he was a Prussian officer and nobleman, imbued in the traditions of military service to his supreme war lord, the Prussian king and German emperor. Hindenburg did not have the nerve.</p>
 <p>Groener was present at the death of another German regime too. He served as minister of defense from 1928 to 1932. Near the end of this tenure he was also acting minister of the interior in the Brüning cabinet. In this capacity he pushed to outlaw Hitler&rsquo;s brown-shirts, the S.A., which gave right-wing extremists in the army a chance to withdraw their support of the defense minister and prevail upon President Hindenburg to withdraw his confidence from Groener, who then resigned. Soon the rest of the cabinet did too, and Hitler came to power less than a year later.</p>
