@@ -24,11 +24,17 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://markstoneman.com/2025/10/12/shared-notes-protonmail-and-smtp.html">Protonmail and SMTP</a></h1>
+		
 
-		<a href="https://markstoneman.com/2025/10/11/testing-a-draftsapp-action.html" class="u-url"><time class="dt-published" datetime="2025-10-11 23:33:30 -0400">Oct 11, 2025</time></a>
+		<a href="https://markstoneman.com/2025/10/12/shared-notes-protonmail-and-smtp.html" class="u-url"><time class="dt-published" datetime="2025-10-12 17:05:10 -0400">Oct 12, 2025</time></a>
 
 		<div class="e-content">
-			 <p>Testing a Drafts.app action</p>
+			 <p>The Drafts.app <code>mailto:</code> action doesn&rsquo;t play well with Protonmail.app in iOS and iPadOS, and I can&rsquo;t find any information about a URL scheme specific to it.</p>
+<p>I can set the default email address client to Mail.app, which would work for sending messages from Drafts, but not from one of my Protonmail addresses.</p>
+<p>That was a problem until I remembered that Protonmail lets me send messages from <a href="https://proton.me/support/smtp-submission" rel="nofollow">third-party apps using SMTP</a> for a specific email address with a unique app passcode. Proton presents this as a solution for third-party business apps, but it works with Mail.</p>
+<p>Now I&rsquo;ve got Mail set as the default email client, but only for sending messages with SMTP. To make this work, I had to include an IMAP setting for receiving emails, too. I used an account that forwards to Proton so there is nothing to receive.</p>
+<p>Now I can compose in Drafts, when I want, and send from a Protonmail address via SMTP in Mail. If I click a <code>mailto:</code> link, it will open the Mail app, which is okay for sending. Otherwise, I can use Protonmail as my undeclared default email app on my phone and tablet because it picks up everything I do in Mail with SMTP.</p>
 
 		</div>
 	  </div>
@@ -708,10 +714,11 @@ Snapshot of the foliage at sunset in our condo's parking lot, Sept. 29, 2025.
 			 <p>I added two new books to the rotation of things I read to my granddaughter via FaceTime and screen sharing. Nowadays, her screen is in London instead of on Cape Cod. I&rsquo;m glad we&rsquo;d already developed the habit before she moved. We do it less frequently because of the time difference, but we can easily jump right into a book whenever the opportunity arises.</p>
 <p>The first book is <em>The Spark in You</em> by Andrea Pippins (Random House Studio, 2024). It&rsquo;s about a girl in Brazil, but it is told in the second person, just as the title suggests. I loved talking about the spark in my granddaughter this way while she could imagine herself in the colorful images of a girl preparing for carnival and then attending it. The language is poetic, matching the beauty of the illustrations. It is not the kind of book one just reads, though, because the illustrations are rich in detail and the words more sparse. My granddaughter found lots of details to delight in and talk about.</p>
 <div class="grid grid--2">
-<a href="https://markstoneman.com/uploads/2025/the-spark-in-you.jpg"><img src="https://eu.uploads.micro.blog/166262/2025/the-spark-in-you-m.jpg" width="100%" alt="Colorful book cover of 'The Spark in You'. The girl is black, wearing pink glasses and a pink top. There are sparks and stars on her and in the background, and there are carnival decorations."></a>
-<a href="https://markstoneman.com/uploads/2025/cupcake-jones-and-the-missing-tutu.jpg"><img src="https://eu.uploads.micro.blog/166262/2025/cupcake-jones-and-the-missing-tutu-m.jpg" width="100%" alt="Book cover of Princess Cupcake Jones and the Missing Tutu"></a>
+<a href="https://markstoneman.com/uploads/2025/the-spark-in-you.jpg"><img src="uploads/2025/the-spark-in-you-m.jpg" width="100%" alt="Colorful book cover of 'The Spark in You'. The girl is black, wearing pink glasses and a pink top. There are sparks and stars on her and in the background, and there are carnival decorations."></a>
+<a href="https://markstoneman.com/uploads/2025/cupcake-jones-and-the-missing-tutu.jpg"><img src="uploads/2025/cupcake-jones-and-the-missing-tutu-m.jpg" width="100%" alt="Book cover of Princess Cupcake Jones and the Missing Tutu"></a>
 </div>
 <p>The second book is <em>Princess Cupcake Jones and the Missing Tutu</em> by Ylleya Fields, illustrated by Michael LaDuca (Belle Publishing, 2013). When my granddaughter heard this title, she observed that it sounds like a mystery. In this case, the protagonist cannot find the one piece of clothing that she always insists on wearing. As she looks for it, she begins finding other missing things in odd places. This tale is less sparing with words, offering rhymes on every page.</p>
+
 		</div>
 	  </div>
 	
@@ -1083,7 +1090,7 @@ Snapshot of the foliage at sunset in our condo's parking lot, Sept. 29, 2025.
 <p>The avatar had changed its size, lost its border, become square, and moved to a different part of the header. I don&rsquo;t know if this happened because I added <a href="https://microformats.io/">microformat</a> classes to my HTML or if the problem lay elsewhere. In any case, here is the revised version of <code>layouts/partials/microhook-profile-photo.html</code> with classes set for my <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Microformats">h-card</a>. These classes contain semantic information about what a given thing is, whereas the normal CSS classes style what we post.</p>
 <pre tabindex="0"><code>&lt;a class=&quot;u-url u-uid&quot; href=&quot;/&quot;&gt;
 	&lt;div class=&quot;avatar-container&quot;&gt;
-   		&lt;img class=&quot;profile_photo u-photo&quot; src=&quot;https://markstoneman.com/uploads/2025/cant-happen-here-avatar.jpg&quot; alt=&quot;Mark Stoneman's Avatar&quot;&gt;
+   		&lt;img class=&quot;profile_photo u-photo&quot; src=&quot;https://eu.uploads.micro.blog/166262/2025/cant-happen-here-avatar.jpg&quot; alt=&quot;Mark Stoneman's Avatar&quot;&gt;
 	&lt;/div&gt;
 &lt;/a&gt;
 </code></pre><p>It seems my original round avatar was working because <a href="/2025/08/14/shared-notes-additional-tiny-theme.html#avatar-and-header">my setup</a> just assumed something that is in most Micro.blog set-ups. The avatars are round and have a specified size. My HTML had specified the avatar size, but apparently that was no longer working. My CSS now specifies the size and roundness explicitly. See the lines <code>border-radius: 50%; width: 120px; height: 120px;</code> near the bottom of the following declaration block:</p>
