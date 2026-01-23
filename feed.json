@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://mrstoneman.micro.blog/2026/01/23/mundane-tasks-can-also-entail.html",
+				
+				"content_html": "<!-- raw HTML omitted -->\n<p>Mundane tasks can also entail bits of magic. Here&rsquo;s the laundromat I use when our washing machine is out of commission. North Conway, NH, Jan. 17, 2026.</p>\n",
+				"content_text": "<img src=\"uploads/2026/laundromat.jpg\" width=\"100%\" alt=\"Part of a white, one-story building with a laundromat inside, viewed at night with fresh snow on the ground and white holiday lights in a tree in front of the building.\">\n\nMundane tasks can also entail bits of magic. Here's the laundromat I use when our washing machine is out of commission. North Conway, NH, Jan. 17, 2026.\n",
+				"date_published": "2026-01-23T17:02:28-05:00",
+				"url": "https://markstoneman.com/2026/01/23/mundane-tasks-can-also-entail.html",
+				"tags": ["MyPhotos","NH"]
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2026/01/21/might-europes-clear-no-to.html",
 				
 				"content_html": "<p>Might Europe&rsquo;s clear &ldquo;No&rdquo; to Trump&rsquo;s Greenland ambitions become the check on his rogue imperial presidency that so many U.S. institutions have been unable to manifest? Probably not, but I sure hope they stand their ground. Meanwhile, Mark Carney&rsquo;s <a href=\"https://www.cbc.ca/news/politics/mark-carney-speech-davos-rules-based-order-9.7053350\">inspiring speech</a> in Davos about the Canadian response to Trump&rsquo;s weaponization of global economic integration offers a solid model for states that wish to meet the Trumpian threat head on.</p>\n",
@@ -71,7 +80,7 @@
 				"id": "http://mrstoneman.micro.blog/2026/01/01/echo-lake-north-conway-nh.html",
 				
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<img src=\"https://eu.uploads.micro.blog/166262/2026/de21454615.jpg\" alt=\"Small frozen, snow-covered lake. In foreground a sign: 'No Lifeguard on Duty'\">\n<p>Echo Lake, North Conway, NH, on Dec. 28, 2025</p>\n",
+				"content_text": "<img src=\"uploads/2026/de21454615.jpg\" alt=\"Small frozen, snow-covered lake. In foreground a sign: 'No Lifeguard on Duty'\">\n<p>Echo Lake, North Conway, NH, on Dec. 28, 2025</p>\n",
 				"date_published": "2026-01-01T14:21:23-05:00",
 				"url": "https://markstoneman.com/2026/01/01/echo-lake-north-conway-nh.html",
 				"tags": ["MyPhotos","NH"]
