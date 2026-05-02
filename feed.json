@@ -7,6 +7,33 @@
 	"items": [
 		
 			{
+				"id": "http://mrstoneman.micro.blog/2026/05/01/the-invasion-blurs-the-boundaries.html",
+				
+				"content_html": "<blockquote>\n<p>The invasion blurs the boundaries between historical eras. Now you see the horrors of the Second World War and Stalin’s purges in a completely different way.</p>\n</blockquote>\n<p>&ndash; Oleksandr Mykhed, <em>The Language of War</em> (Allen Lane, 2024), &ldquo;+. ++&rdquo;.</p>\n",
+				"content_text": "> The invasion blurs the boundaries between historical eras. Now you see the horrors of the Second World War and Stalin’s purges in a completely different way.\n\n-- Oleksandr Mykhed, _The Language of War_ (Allen Lane, 2024), \"+. ++\".\n",
+				"date_published": "2026-05-01T16:32:52-04:00",
+				"url": "https://markstoneman.com/2026/05/01/the-invasion-blurs-the-boundaries.html",
+				"tags": ["WarAndSociety","HistoricalThinking","LanguageMatters","Ukraine"]
+			},
+			{
+				"id": "http://mrstoneman.micro.blog/2026/05/01/when-i-see-the-destruction.html",
+				
+				"content_html": "<blockquote>\n<p>When I see the destruction and the consequences of the occupation, I still naively think every time: ‘It shouldn’t be like this.’ Every time it feels that Russian shells hit the building of reality itself and cracks run along its fragile walls, and the world now lives according to the cruel logic of a terrible dream, from which it is impossible to wake up.</p>\n</blockquote>\n<p>&ndash; Oleksandr Mykhed, <em>The Language of War</em> (Allen Lane, 2024), &ldquo;Explosion of a Sewing Machine and an Umbrella.&rdquo;</p>\n",
+				"content_text": "> When I see the destruction and the consequences of the occupation, I still naively think every time: ‘It shouldn’t be like this.’ Every time it feels that Russian shells hit the building of reality itself and cracks run along its fragile walls, and the world now lives according to the cruel logic of a terrible dream, from which it is impossible to wake up.\n\n-- Oleksandr Mykhed, _The Language of War_ (Allen Lane, 2024), \"Explosion of a Sewing Machine and an Umbrella.\"\n\n",
+				"date_published": "2026-05-01T15:11:29-04:00",
+				"url": "https://markstoneman.com/2026/05/01/when-i-see-the-destruction.html",
+				"tags": ["WarAndSociety","Ukraine"]
+			},
+			{
+				"id": "http://mrstoneman.micro.blog/2026/05/01/violence-is-not-confidence-and.html",
+				
+				"content_html": "<blockquote>\n<p>Violence is not confidence, and terror is not mastery.</p>\n</blockquote>\n<p>&ndash; Timothy Snyder, <em>Bloodlands: Europe between Hitler and Stalin</em> (Random House, 2010), chap. 6.</p>\n",
+				"content_text": "> Violence is not confidence, and terror is not mastery.\n\n-- Timothy Snyder, _Bloodlands: Europe between Hitler and Stalin_ (Random House, 2010), chap. 6.\n",
+				"date_published": "2026-05-01T14:23:29-04:00",
+				"url": "https://markstoneman.com/2026/05/01/violence-is-not-confidence-and.html",
+				"tags": ["WarAndSociety","Atrocities"]
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2026/03/28/seen-at-the-no-kings.html",
 				
 				"content_html": "<p>Seen at the No Kings protest today:</p>\n<blockquote>\n<p>IMPEACH THIS FAUX-KING MORON!</p>\n</blockquote>\n",
@@ -26,8 +53,8 @@
 			{
 				"id": "http://mrstoneman.micro.blog/2026/03/20/the-spring-sky-is-full.html",
 				
-				"content_html": "<p>The spring sky is full of snow.</p>\n",
-				"content_text": "The spring sky is full of snow.\n",
+				"content_html": "<p>The spring sky is full of snow.</p>\n<p>※ Crossposted to <!-- raw HTML omitted -->Stoneman&rsquo;s Corner<!-- raw HTML omitted --></p>\n",
+				"content_text": "The spring sky is full of snow.\n\n※ Crossposted to <a href=\"https://stoneman.page/2026/05/02/newsletter-fragile-masculinity.html#snow\" class=\"u-syndication\">Stoneman's Corner</a>\n",
 				"date_published": "2026-03-20T18:58:23-04:00",
 				"url": "https://markstoneman.com/2026/03/20/the-spring-sky-is-full.html"
 			},
