@@ -7,10 +7,18 @@
 	"items": [
 		
 			{
+				"id": "http://mrstoneman.micro.blog/2026/05/29/i-finished-reading-omar-el.html",
+				
+				"content_html": "<p>I finished reading Omar El Akkad&rsquo;s post-apocalyptic novel <em>American War</em> (Vintage Books, 2017) this week. Rather than write about its brilliance, I&rsquo;ll quote from the narrator&rsquo;s portentous prologue.</p>\n<blockquote>\n<p>My favorite postcards are from the 2030s and 2040s, the last decades before the planet turned on the country and the country turned on itself. They featured pictures of the great ocean beaches before rising waters took them; images of the Southwest before it turned to embers; photographs of the Midwestern plains, endless and empty under bluest sky, before the Inland Exodus filled them with the coastal displaced. A visual reminder of America as it existed in the first half of the twenty-first century: soaring, roaring, oblivious.</p>\n</blockquote>\n",
+				"content_text": "I finished reading Omar El Akkad's post-apocalyptic novel _American War_ (Vintage Books, 2017) this week. Rather than write about its brilliance, I'll quote from the narrator's portentous prologue.\n\n> My favorite postcards are from the 2030s and 2040s, the last decades before the planet turned on the country and the country turned on itself. They featured pictures of the great ocean beaches before rising waters took them; images of the Southwest before it turned to embers; photographs of the Midwestern plains, endless and empty under bluest sky, before the Inland Exodus filled them with the coastal displaced. A visual reminder of America as it existed in the first half of the twenty-first century: soaring, roaring, oblivious.\n",
+				"date_published": "2026-05-29T01:21:01-04:00",
+				"url": "https://markstoneman.com/2026/05/29/i-finished-reading-omar-el.html"
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2026/05/27/when-they-ask-me-what.html",
 				
-				"content_html": "<blockquote>\n<p>&ldquo;When they ask me what war is, I&rsquo;ll answer without hesitation: it&rsquo;s names,&rdquo; wrote Maksym &ldquo;Dali&rdquo; Kryvtsov, a Ukrainian poet and soldier killed on Jan. 7, 2024, at the age of 33.</p>\n<p>Daria Kolomiec, &ldquo;<a href=\"https://kyivindependent.com/killing-ukrainian-artists-is-russias-century-old-tradition/\">Killing Ukrainian artists is Russia&rsquo;s century-old tradition</a>,&rdquo; <em>The Kyiv Independent</em>, May 22, 2026.</p>\n</blockquote>\n",
-				"content_text": "> \"When they ask me what war is, I'll answer without hesitation: it's names,\" wrote Maksym \"Dali\" Kryvtsov, a Ukrainian poet and soldier killed on Jan. 7, 2024, at the age of 33.  \n>   \n> Daria Kolomiec, \"[Killing Ukrainian artists is Russia's century-old tradition](https://kyivindependent.com/killing-ukrainian-artists-is-russias-century-old-tradition/),\" _The Kyiv Independent_, May 22, 2026.\n",
+				"content_html": "<blockquote>\n<p>&ldquo;When they ask me what war is, I&rsquo;ll answer without hesitation: it&rsquo;s names,&rdquo; wrote Maksym &ldquo;Dali&rdquo; Kryvtsov, a Ukrainian poet and soldier killed on Jan. 7, 2024, at the age of 33.</p>\n<p>&ndash; Daria Kolomiec, &ldquo;<a href=\"https://kyivindependent.com/killing-ukrainian-artists-is-russias-century-old-tradition/\">Killing Ukrainian artists is Russia&rsquo;s century-old tradition</a>,&rdquo; <em>The Kyiv Independent</em>, May 22, 2026.</p>\n</blockquote>\n",
+				"content_text": "> \"When they ask me what war is, I'll answer without hesitation: it's names,\" wrote Maksym \"Dali\" Kryvtsov, a Ukrainian poet and soldier killed on Jan. 7, 2024, at the age of 33.  \n>   \n> -- Daria Kolomiec, \"[Killing Ukrainian artists is Russia's century-old tradition](https://kyivindependent.com/killing-ukrainian-artists-is-russias-century-old-tradition/),\" _The Kyiv Independent_, May 22, 2026.\n",
 				"date_published": "2026-05-27T10:44:17-04:00",
 				"url": "https://markstoneman.com/2026/05/27/when-they-ask-me-what.html",
 				"tags": ["WarAndSociety","Ukraine"]
@@ -46,7 +54,7 @@
 				"id": "http://mrstoneman.micro.blog/2026/05/19/grandmother-and-granddaughter-on-may.html",
 				
 				"content_html": "<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n<p>Grandmother and granddaughter on May 1, 2026 &ndash; photo by Anke Stoneman</p>\n",
-				"content_text": "<a href=\"markstoneman.com/uploads/2026/shoes-and-flowers.jpg\"><img src=\"uploads/2026/shoes-and-flowers-m.jpg\" width=\"100%\" alt=\"Two pair of shoes worn by humans laying in the grass, one pair from an adult, the other from a small child, each shoe is decorated with a flower.\"></a>\n\nGrandmother and granddaughter on May 1, 2026 -- photo by Anke Stoneman\n",
+				"content_text": "<a href=\"markstoneman.com/uploads/2026/shoes-and-flowers.jpg\"><img src=\"https://eu.uploads.micro.blog/166262/2026/shoes-and-flowers-m.jpg\" width=\"100%\" alt=\"Two pair of shoes worn by humans laying in the grass, one pair from an adult, the other from a small child, each shoe is decorated with a flower.\"></a>\n\nGrandmother and granddaughter on May 1, 2026 -- photo by Anke Stoneman\n",
 				"date_published": "2026-05-19T21:39:46-04:00",
 				"url": "https://markstoneman.com/2026/05/19/grandmother-and-granddaughter-on-may.html",
 				"tags": ["Personal"]
