@@ -7,12 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://mrstoneman.micro.blog/2026/06/24/my-first-impression-was-its.html",
+				
+				"content_html": "<p><a href=\"https://kyivindependent.com/my-first-impression-was-its-hell-belarusian-prison-memoir-brings-attention-back-to-lukashenkos-repression/\">&quot;&lsquo;My first impression was it&rsquo;s hell&rsquo; — Belarusian prison memoir brings attention back to Lukashenko&rsquo;s repressions&quot;</a> by Kate Tsurkan for the Kyiv Independent, June 24, 2026.</p>\n",
+				"content_text": "\n\n[\"'My first impression was it's hell' — Belarusian prison memoir brings attention back to Lukashenko's repressions\"](https://kyivindependent.com/my-first-impression-was-its-hell-belarusian-prison-memoir-brings-attention-back-to-lukashenkos-repression/) by Kate Tsurkan for the Kyiv Independent, June 24, 2026.\n",
+				"date_published": "2026-06-24T17:42:17-04:00",
+				"url": "https://markstoneman.com/2026/06/24/my-first-impression-was-its.html",
+				"tags": ["Books","Authoritarianism"]
+			},
+			{
+				"id": "http://mrstoneman.micro.blog/2026/06/21/at-this-point-in-history.html",
+				
+				"content_html": "<blockquote>\n<p>At this point in history, 1952 A.D., our lives and freedom depend largely upon the skill and imagination and courage of our managers and engineers, and I hope that God will help them to help us all stay alive and free.</p>\n<p><!-- raw HTML omitted -->&ndash; Kurt Vonnegut, <em>Player Piano</em> (1952), forward.<!-- raw HTML omitted --></p>\n</blockquote>\n",
+				"content_text": "> At this point in history, 1952 A.D., our lives and freedom depend largely upon the skill and imagination and courage of our managers and engineers, and I hope that God will help them to help us all stay alive and free.\n> \n> <cite>-- Kurt Vonnegut, _Player Piano_ (1952), forward.</cite>\n",
+				"date_published": "2026-06-21T03:23:25-04:00",
+				"url": "https://markstoneman.com/2026/06/21/at-this-point-in-history.html"
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2026/06/20/loaded-them-up-like-convicts.html",
 				
-				"content_html": "<p>&ldquo;&lsquo;Loaded them up like convicts&rsquo;: The wife of a man seized in a massive Penza enlistment raid on how he was sent to war against his will.&rdquo; <a href=\"https://en.zona.media/article/2026/06/19/penza_raid\">en.zona.media/article/2&hellip;</a>\n#RussoUkrainianWar #RussiaIsATerroristState #PressGangs</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "\"'Loaded them up like convicts': The wife of a man seized in a massive Penza enlistment raid on how he was sent to war against his will.\" [en.zona.media/article/2...](https://en.zona.media/article/2026/06/19/penza_raid)\n#RussoUkrainianWar #RussiaIsATerroristState #PressGangs\n\n<img src=\"uploads/2026/291c00bb1d.png\" width=\"600\" height=\"360\" alt=\"Text Shot: “The cops, together with the enlistment office,” are driving around towns in minibuses, “stopping everyone and taking them away,” people warn one another on social media.\">\n",
+				"content_html": "<p><a href=\"https://en.zona.media/article/2026/06/19/penza_raid\">&quot;&lsquo;Loaded them up like convicts&rsquo;: The wife of a man seized in a massive Penza enlistment raid on how he was sent to war against his will.&quot;</a> by Alla Konstantinova for Mediazona, June 19, 2026</p>\n<blockquote>\n<p>&ldquo;The cops, together with the enlistment office,&rdquo; are driving around towns in minibuses, &ldquo;stopping everyone and taking them away,&rdquo; people warn one another on social media.</p>\n</blockquote>\n<p><!-- raw HTML omitted -->#RussoUkrainianWar #RussiaIsATerroristState #PressGangs<!-- raw HTML omitted --></p>\n",
+				"content_text": "[\"'Loaded them up like convicts': The wife of a man seized in a massive Penza enlistment raid on how he was sent to war against his will.\"](https://en.zona.media/article/2026/06/19/penza_raid) by Alla Konstantinova for Mediazona, June 19, 2026\n\n> \"The cops, together with the enlistment office,\" are driving around towns in minibuses, \"stopping everyone and taking them away,\" people warn one another on social media.\n\n<small>#RussoUkrainianWar #RussiaIsATerroristState #PressGangs</small>\n",
 				"date_published": "2026-06-20T19:29:54-04:00",
-				"url": "https://markstoneman.com/2026/06/20/loaded-them-up-like-convicts.html"
+				"url": "https://markstoneman.com/2026/06/20/loaded-them-up-like-convicts.html",
+				"tags": ["WarAndSociety","Russia"]
 			},
 			{
 				"id": "http://mrstoneman.micro.blog/2026/06/17/a-civilization-confident-in-its.html",
