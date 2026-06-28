@@ -7,10 +7,19 @@
 	"items": [
 		
 			{
+				"id": "http://mrstoneman.micro.blog/2026/06/27/i-just-enjoyed-watching-a.html",
+				
+				"content_html": "<p>I just enjoyed watching a U.S. propaganda feature film from World War II that I don&rsquo;t remember seeing before, &ldquo;China&rdquo; (Paramount, 1942), starring Loretta Young, Alan Ladd, and William Bendix.</p>\n",
+				"content_text": "I just enjoyed watching a U.S. propaganda feature film from World War II that I don't remember seeing before, \"China\" (Paramount, 1942), starring Loretta Young, Alan Ladd, and William Bendix. \n",
+				"date_published": "2026-06-27T20:08:10-04:00",
+				"url": "https://markstoneman.com/2026/06/27/i-just-enjoyed-watching-a.html",
+				"tags": ["Movies"]
+			},
+			{
 				"id": "http://mrstoneman.micro.blog/2026/06/24/my-first-impression-was-its.html",
 				
-				"content_html": "<p><a href=\"https://kyivindependent.com/my-first-impression-was-its-hell-belarusian-prison-memoir-brings-attention-back-to-lukashenkos-repression/\">&quot;&lsquo;My first impression was it&rsquo;s hell&rsquo; — Belarusian prison memoir brings attention back to Lukashenko&rsquo;s repressions&quot;</a> by Kate Tsurkan for the Kyiv Independent, June 24, 2026.</p>\n",
-				"content_text": "\n\n[\"'My first impression was it's hell' — Belarusian prison memoir brings attention back to Lukashenko's repressions\"](https://kyivindependent.com/my-first-impression-was-its-hell-belarusian-prison-memoir-brings-attention-back-to-lukashenkos-repression/) by Kate Tsurkan for the Kyiv Independent, June 24, 2026.\n",
+				"content_html": "<p><a href=\"https://kyivindependent.com/my-first-impression-was-its-hell-belarusian-prison-memoir-brings-attention-back-to-lukashenkos-repression/\">&quot;&lsquo;My first impression was it&rsquo;s hell&rsquo; — Belarusian prison memoir brings attention back to Lukashenko&rsquo;s repressions&quot;</a> by Kate Tsurkan for <em>The Kyiv Independent</em>, June 24, 2026.</p>\n",
+				"content_text": "\n\n[\"'My first impression was it's hell' — Belarusian prison memoir brings attention back to Lukashenko's repressions\"](https://kyivindependent.com/my-first-impression-was-its-hell-belarusian-prison-memoir-brings-attention-back-to-lukashenkos-repression/) by Kate Tsurkan for _The Kyiv Independent_, June 24, 2026.\n",
 				"date_published": "2026-06-24T17:42:17-04:00",
 				"url": "https://markstoneman.com/2026/06/24/my-first-impression-was-its.html",
 				"tags": ["Books","Authoritarianism"]
